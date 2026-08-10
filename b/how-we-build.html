@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How We Build — VerdeLand Home Builders</title>
+<meta name="description" content="Our standards and materials, what buyers can select, and the builder's limited warranty.">
+<link rel="stylesheet" href="../assets/css/site-b.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Placeholder content, fictional example homes, no real photography. Not for publication.
+</div>
+<div class="dir-flag">
+  DIRECTION B &mdash; design brief interpretation &nbsp;·&nbsp;
+  <a href="../compare.html">compare with Direction A</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M3 17 L16 5 L29 17 L29 28 L19.5 28 L19.5 20 L12.5 20 L12.5 28 L3 28 Z" fill="#2F5138"/>
+        <path d="M16 5 L29 17" stroke="#A85F36" stroke-width="2.2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders &middot; Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html">Available Homes</a>
+      <a href="#work">Our Work</a>
+      <a href="how-we-build.html" aria-current="page">How We Build</a>
+      <a href="#about">About</a>
+      <a href="#sell">Sell Your Property</a>
+    </nav>
+    <a class="btn btn--primary header-cta" href="#contact">Ask about a home</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section section--tight">
+    <div class="wrap wrap--narrow">
+      <p class="eyebrow">How we build</p>
+      <h1>How we build.</h1>
+      <p class="lead" style="color:var(--ink-soft);margin-top:var(--s-5)">
+        This page is about our standards and materials, and about what you can choose on a
+        home we&rsquo;re already building. It is not a custom-build process &mdash; we build
+        houses and sell them finished.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--paper" style="padding-top:0">
+    <div class="wrap" style="padding-top:var(--s-9)">
+      <div class="section-head"><h2>Standards</h2>
+        <p>Replace each block with a named specification, product, or method. Nothing here
+           should survive as an adjective.</p></div>
+      <div class="grid grid--2">
+        <div class="panel"><h3>Structure</h3><p>[Framing standard, engineered lumber, sheathing, connection details.]</p></div>
+        <div class="panel"><h3>Envelope</h3><p>[Insulation type and R-value, air sealing approach, window brand and glazing, roofing system.]</p></div>
+        <div class="panel"><h3>Systems</h3><p>[HVAC type and efficiency, electrical capacity, plumbing.]</p></div>
+        <div class="panel"><h3>Finish</h3><p>[Trim standard, cabinetry, tile, hardware &mdash; and which are standard versus optional.]</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="featured" style="align-items:start">
+        <div>
+          <div class="section-head"><h2>What you can choose</h2>
+            <p>Buyers select finishes on homes we&rsquo;re building. That is not the same as a
+               custom build, and we&rsquo;d rather be clear about the difference.</p></div>
+          <p style="color:var(--ink-soft)" class="measure">
+            On a recent home the buyer selected just over $70,000 of finish upgrades &mdash;
+            a Wolf range, panel-integrated Sub-Zero refrigeration, a microwave built into the
+            cabinetry, and stained hardwood throughout.
+          </p>
+          <p style="color:var(--ink-faint);font-size:var(--fs-small);margin-top:var(--s-4)" class="measure">
+            <em>[Placeholder: needs verification before publishing &mdash; docs/08 claims 10&ndash;12.]</em>
+          </p>
+        </div>
+        <div class="fact-panel">
+          <h3>Standard and optional</h3>
+          <table class="spec-table" style="margin-top:var(--s-4)">
+            <thead><tr><th scope="col">Item</th><th scope="col">Spec</th><th scope="col">&nbsp;</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Range</th><td>Wolf</td><td>Standard</td></tr>
+              <tr><th scope="row">Refrigeration</th><td>Sub-Zero</td><td>Standard</td></tr>
+              <tr><th scope="row">Microwave</th><td>Cabinet-integrated</td><td>Optional</td></tr>
+              <tr><th scope="row">Flooring</th><td>Stained hardwood</td><td>Standard</td></tr>
+              <tr><th scope="row">Cabinetry</th><td>Simply White</td><td>Standard</td></tr>
+            </tbody>
+          </table>
+          <p class="caption">Listed per home. Brands are never claimed site-wide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <div class="featured" style="align-items:start">
+        <div>
+          <div class="section-head"><h2>What you&rsquo;re covered for</h2></div>
+          <p style="color:var(--ink-soft)" class="measure">
+            Homes we build are sold with a written builder&rsquo;s limited warranty: workmanship,
+            materials and design for the first year; plumbing, electrical and HVAC for two;
+            major structural elements for six.
+          </p>
+          <p style="color:var(--ink-soft);margin-top:var(--s-4)" class="measure">
+            Worth comparing to buying an older house, where whatever goes wrong after closing
+            is yours.
+          </p>
+          <p style="color:var(--ink-soft);margin-top:var(--s-4)" class="measure">
+            Coverage has limits and exclusions. The executed warranty for each home governs,
+            and we&rsquo;ll give you the full document to read with your attorney.
+          </p>
+        </div>
+        <div class="fact-panel">
+          <h3>Coverage at a glance</h3>
+          <ul class="fact-rows">
+            <li><span class="k">1 year</span><span class="v">Workmanship, materials, design</span></li>
+            <li><span class="k">2 years</span><span class="v">Plumbing, electrical, HVAC</span></li>
+            <li><span class="k">6 years</span><span class="v">Major structural</span></li>
+          </ul>
+          <p class="caption">Summary only. Limits and exclusions apply.
+             [Counsel approval required &mdash; docs/16.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap wrap--narrow" style="text-align:center">
+      <h2>Questions about how we build?</h2>
+      <p style="color:var(--ink-soft);margin-top:var(--s-4)">
+        Call <a href="tel:+15168076127"><strong>(516) 807-6127</strong></a>.
+      </p>
+      <p style="margin-top:var(--s-6)"><a class="btn btn--primary" href="index.html#contact">Get in touch</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M3 17 L16 5 L29 17 L29 28 L19.5 28 L19.5 20 L12.5 20 L12.5 28 L3 28 Z" fill="#FFFFFF"/>
+            <path d="M16 5 L29 17" stroke="#A85F36" stroke-width="2.2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders &middot; Long Island</small></span>
+        </a>
+        <p>New single-family homes on Long Island. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#DDE5DA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#DDE5DA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Available Homes</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="how-we-build.html">How We Build</a></li>
+          <li><a href="#sell">Sell Your Property</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers &mdash; docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;&middot;&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var h = document.getElementById('header');
+    this.setAttribute('aria-expanded', h.classList.toggle('is-open'));
+  });
+</script>
+
+</body>
+</html>

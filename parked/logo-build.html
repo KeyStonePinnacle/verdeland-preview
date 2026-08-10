@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parked preview — the logo that builds itself | VerdeLand</title>
+<!--
+  PARKED PREVIEW — the split-house logo as a draw-on-scroll graphic
+  =================================================================
+  The owner asked for the new logo to also exist as the "line that builds"
+  scroll graphic. This page is the working preview: scroll, and the framing
+  half draws itself stroke by stroke, the clay seam rises, then the finished
+  half fades in — the logo literally builds the way a house does.
+
+  NOT on any live page. The owner decides where (or whether) it goes; the
+  D-029 rule of one pinned scene per page applies when it lands. Same
+  mechanic as parked/build-scene.html: sticky pin, reverse scroll un-builds,
+  reduced-motion and no-JS visitors get the finished mark in normal flow.
+-->
+<style>
+  :root { --forest: #22392C; --clay: #A8552F; --cream: #FBF8F3; --sand: #E4DACA; }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: system-ui, sans-serif; background: var(--cream); color: #1A1D19; }
+  .note { background: #16261D; color: var(--sand); font-size: 14px; text-align: center; padding: 8px 16px; }
+  .spacer { padding: 12vh 24px; text-align: center; color: #4A5048; }
+  .pin-wrap { height: 260vh; }
+  .scene { position: sticky; top: 0; min-height: 100vh; display: flex;
+    align-items: center; justify-content: center; flex-direction: column; gap: 32px; }
+  .scene h1 { font-family: ui-serif, Georgia, serif; font-weight: 600; font-size: clamp(1.6rem, 3.5vw, 2.4rem); color: var(--forest); }
+  #logo-svg { width: min(72vw, 560px); height: auto; overflow: visible; }
+  #logo-svg [data-range] path { stroke: var(--forest); fill: none; }
+  #logo-svg .seam path { stroke: var(--clay); }
+  .caption { font-size: 14px; color: #5A6156; }
+  @media (prefers-reduced-motion: reduce) { .pin-wrap { height: auto; } }
+</style>
+</head>
+<body>
+
+<p class="note"><strong>Parked preview.</strong> Not wired into any live page — scroll to see the logo build.</p>
+<div class="spacer"><p>Scroll down &darr;</p></div>
+
+<div class="pin-wrap" id="pin">
+  <div class="scene">
+    <h1>Built, not bought.</h1>
+    <svg id="logo-svg" viewBox="0 0 168 112" xmlns="http://www.w3.org/2000/svg" aria-label="VerdeLand logo drawing itself">
+      <!-- stage 1: the framing draws -->
+      <g data-range="0,0.42">
+        <path pathLength="1" d="M80 14 L10 65" stroke-width="6"/>
+        <path pathLength="1" d="M78 24 L22 65" stroke-width="5"/>
+        <path pathLength="1" d="M16 66 V100" stroke-width="6"/>
+        <path pathLength="1" d="M34 56 V100" stroke-width="5"/>
+        <path pathLength="1" d="M52 43 V100" stroke-width="5"/>
+        <path pathLength="1" d="M70 30 V100" stroke-width="5"/>
+        <path pathLength="1" d="M16 74 H34" stroke-width="5"/>
+        <path pathLength="1" d="M34 58 L52 96" stroke-width="5"/>
+        <path pathLength="1" d="M52 96 L70 46" stroke-width="5"/>
+        <path pathLength="1" d="M8 101 H84" stroke-width="6"/>
+      </g>
+      <!-- stage 2: the clay seam rises -->
+      <g data-range="0.38,0.58" class="seam">
+        <path pathLength="1" d="M84 104 V12" stroke-width="8"/>
+      </g>
+      <g data-fade="0.54,0.62">
+        <rect x="77" y="5" width="14" height="7" fill="var(--clay)"/>
+      </g>
+      <!-- stage 3: the finished house appears -->
+      <g data-fade="0.6,0.92">
+        <g fill="var(--forest)">
+          <polygon points="88,12 160,67 156,72 88,20"/>
+          <polygon points="88,25 154,76 154,104 88,104"/>
+          <rect x="126" y="20" width="13" height="30"/>
+          <rect x="123" y="16" width="19" height="5"/>
+          <rect x="88" y="98" width="72" height="6"/>
+        </g>
+        <g stroke="rgba(251,248,243,0.14)" stroke-width="1.4" fill="none">
+          <path d="M88 42 H108"/>
+          <path d="M88 52 H121"/>
+          <path d="M88 62 H134"/>
+          <path d="M88 72 H147"/>
+          <path d="M88 82 H154"/>
+          <path d="M88 92 H154"/>
+        </g>
+        <rect x="104" y="64" width="30" height="28" fill="var(--cream)"/>
+        <g fill="var(--forest)">
+          <rect x="107" y="67" width="10.5" height="9.5"/>
+          <rect x="120.5" y="67" width="10.5" height="9.5"/>
+          <rect x="107" y="79.5" width="10.5" height="9.5"/>
+          <rect x="120.5" y="79.5" width="10.5" height="9.5"/>
+        </g>
+        <rect x="100" y="92" width="38" height="4" fill="var(--cream)"/>
+      </g>
+    </svg>
+    <p class="caption">Framing &middot; Seam &middot; Finish &mdash; the logo goes up the way a house does.</p>
+  </div>
+</div>
+
+<div class="spacer"><p>&hellip;and scrolling back up takes it down again.</p></div>
+
+<script>
+  // Same mechanic as parked/build-scene.html: scroll progress inside the pin
+  // maps each group's window to stroke-dashoffset (draw) or opacity (fade).
+  (function () {
+    var pin = document.getElementById('pin');
+    var svg = document.getElementById('logo-svg');
+    var strokes = [], fades = [];
+    [].slice.call(svg.querySelectorAll('[data-range]')).forEach(function (g) {
+      var r = g.getAttribute('data-range').split(',').map(Number);
+      [].slice.call(g.querySelectorAll('path')).forEach(function (el) {
+        strokes.push({ el: el, s: r[0], e: r[1] });
+      });
+    });
+    [].slice.call(svg.querySelectorAll('[data-fade]')).forEach(function (g) {
+      var r = g.getAttribute('data-fade').split(',').map(Number);
+      fades.push({ el: g, s: r[0], e: r[1] });
+    });
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    strokes.forEach(function (p) { p.el.style.strokeDasharray = '1'; });
+    function frame() {
+      var r = pin.getBoundingClientRect();
+      var total = r.height - window.innerHeight;
+      var t = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
+      strokes.forEach(function (p) {
+        var k = Math.min(1, Math.max(0, (t - p.s) / (p.e - p.s)));
+        p.el.style.strokeDashoffset = String(1 - k);
+      });
+      fades.forEach(function (f) {
+        var k = Math.min(1, Math.max(0, (t - f.s) / (f.e - f.s)));
+        f.el.style.opacity = String(k);
+      });
+    }
+    document.addEventListener('scroll', frame, { passive: true });
+    frame();
+  })();
+</script>
+</body>
+</html>

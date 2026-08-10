@@ -1,0 +1,946 @@
+{
+  "1053-mahopac": {
+    "address": "1053 Mahopac",
+    "count": 17,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "images": [
+      {
+        "file": "01_Great_Room_Front_Entry_Marketing_Rendering_V1.jpg",
+        "kb": 353
+      },
+      {
+        "file": "02_Great_Room_Reverse_Marketing_Rendering_V1.jpg",
+        "kb": 313
+      },
+      {
+        "file": "03_Great_Room_Interior_Connection_Marketing_Rendering_V1.jpg",
+        "kb": 316
+      },
+      {
+        "file": "04_Small_Bedroom_Office_Marketing_Rendering_V1.jpg",
+        "kb": 215
+      },
+      {
+        "file": "05_Dining_Family_Reverse_Marketing_Rendering_V1.jpg",
+        "kb": 325
+      },
+      {
+        "file": "06_Dining_Family_Slider_Marketing_Rendering_V1.jpg",
+        "kb": 323
+      },
+      {
+        "file": "07_Kitchen_Open_Plan_Marketing_Rendering_V1.jpg",
+        "kb": 335
+      },
+      {
+        "file": "08_Kitchen_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 292
+      },
+      {
+        "file": "09_Kitchen_U_View_Marketing_Rendering_V1.jpg",
+        "kb": 298
+      },
+      {
+        "file": "10_Bedroom_One_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 276
+      },
+      {
+        "file": "11_Bedroom_One_Closet_View_Marketing_Rendering_V1.jpg",
+        "kb": 260
+      },
+      {
+        "file": "12_Long_Full_Bath_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 273
+      },
+      {
+        "file": "13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1.jpg",
+        "kb": 290
+      },
+      {
+        "file": "14_Larger_Bedroom_Door_View_Marketing_Rendering_V1.jpg",
+        "kb": 294
+      },
+      {
+        "file": "15_Laundry_Hall_Marketing_Rendering_V1.jpg",
+        "kb": 298
+      },
+      {
+        "file": "16_Second_Full_Bath_Marketing_Rendering_V1.jpg",
+        "kb": 316
+      },
+      {
+        "file": "Front-of-House-.jpg",
+        "kb": 438,
+        "note": "Owner-designated lead exterior for 1053 Mahopac. Source file resided in the 1063 Mahopac folder on the drive (\"Front-of-House-.jpg\") \u2014 cross-filed; owner attribution 2026-08-02."
+      }
+    ],
+    "town": "West Hempstead",
+    "zip": "11552",
+    "town_source": "Owner, 2026-08-02",
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "1063-mahopac": {
+    "address": "1063 Mahopac",
+    "count": 19,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20. NOTE: this folder contained the 1053 lead exterior (cross-filed) \u2014 sanity-check remaining files for other cross-address strays.",
+    "images": [
+      {
+        "file": "01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 592
+      },
+      {
+        "file": "02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 238
+      },
+      {
+        "file": "03_G001_DSC_5286_DSC_5290_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 205
+      },
+      {
+        "file": "04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 232
+      },
+      {
+        "file": "05_G003_DSC_5296_DSC_5300_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 234
+      },
+      {
+        "file": "06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 237
+      },
+      {
+        "file": "07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 225
+      },
+      {
+        "file": "08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 231
+      },
+      {
+        "file": "09_G011_DSC_5336_DSC_5340_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 200
+      },
+      {
+        "file": "10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 229
+      },
+      {
+        "file": "11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 165
+      },
+      {
+        "file": "12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 249
+      },
+      {
+        "file": "13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 187
+      },
+      {
+        "file": "14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 178
+      },
+      {
+        "file": "15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 189
+      },
+      {
+        "file": "16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 190
+      },
+      {
+        "file": "17_G042_DSC_5441_DSC_5445_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 226
+      },
+      {
+        "file": "18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 189
+      },
+      {
+        "file": "19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 469
+      }
+    ],
+    "town": "West Hempstead",
+    "zip": "11552",
+    "town_source": "Owner, 2026-08-02",
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "121-east-fulton-avenue": {
+    "address": "121 East Fulton Avenue",
+    "count": 15,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "images": [
+      {
+        "file": "G001_DSC_3703-DSC_3707_HDR_Marketing_Rendering.jpg",
+        "kb": 286
+      },
+      {
+        "file": "G002_DSC_3708-DSC_3712_HDR_Marketing_Rendering.jpg",
+        "kb": 300
+      },
+      {
+        "file": "G005_DSC_3723-DSC_3727_HDR_Marketing_Rendering.jpg",
+        "kb": 305
+      },
+      {
+        "file": "G006_DSC_3728-DSC_3732_HDR_Marketing_Rendering.jpg",
+        "kb": 275
+      },
+      {
+        "file": "G008_DSC_3738-DSC_3742_HDR_Marketing_Rendering.jpg",
+        "kb": 247
+      },
+      {
+        "file": "G009_DSC_3743-DSC_3747_HDR_Marketing_Rendering.jpg",
+        "kb": 433
+      },
+      {
+        "file": "G014_DSC_3768-DSC_3772_HDR_Marketing_Rendering.jpg",
+        "kb": 271
+      },
+      {
+        "file": "G025_DSC_3801-DSC_3807_HDR_Marketing_Rendering.jpg",
+        "kb": 259
+      },
+      {
+        "file": "G043_DSC_3863-DSC_3867_HDR_Marketing_Rendering.jpg",
+        "kb": 246
+      },
+      {
+        "file": "G046_DSC_3875-DSC_3877_HDR_Marketing_Rendering.jpg",
+        "kb": 213
+      },
+      {
+        "file": "G049_DSC_3883-DSC_3887_HDR_Marketing_Rendering.jpg",
+        "kb": 241
+      },
+      {
+        "file": "G052_DSC_3903-DSC_3907_HDR_Marketing_Rendering.jpg",
+        "kb": 216
+      },
+      {
+        "file": "G054_DSC_3913-DSC_3917_HDR_Marketing_Rendering.jpg",
+        "kb": 353
+      },
+      {
+        "file": "G058_DSC_3929-DSC_3931_HDR_Marketing_Rendering.jpg",
+        "kb": 229
+      },
+      {
+        "file": "G079_DSC_3998-DSC_4002_HDR_Marketing_Rendering.jpg",
+        "kb": 618
+      }
+    ],
+    "town": "Roosevelt",
+    "zip": "11575",
+    "town_source": "Owner, 2026-08-02",
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "1316-r-street": {
+    "address": "1316 R Street",
+    "count": 6,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "images": [
+      {
+        "file": "01_Exterior_Wide_Marketing_Rendering_V2.jpg",
+        "kb": 493
+      },
+      {
+        "file": "02_Exterior_Front_Marketing_Rendering_V2.jpg",
+        "kb": 380
+      },
+      {
+        "file": "03_Kitchen_Sliding_Door_Wide_Marketing_Rendering_V2.jpg",
+        "kb": 239
+      },
+      {
+        "file": "04_Kitchen_Sliding_Door_Alternate_Marketing_Rendering_V2.jpg",
+        "kb": 276
+      },
+      {
+        "file": "05_Open_Layout_Kitchen_Wide_Marketing_Rendering_V2.jpg",
+        "kb": 260
+      },
+      {
+        "file": "06_Open_Layout_Kitchen_Alternate_Marketing_Rendering_V2.jpg",
+        "kb": 243
+      }
+    ],
+    "town": "Elmont",
+    "zip": "11003",
+    "town_source": "Owner, 2026-08-02",
+    "status": "available",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "1320-r-street": {
+    "address": "1320 R Street",
+    "count": 34,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20. 2026-08-03: gallery switched to the real progress set; the earlier \"Final Listing Pictures\" interior set is DISPUTED (byte-identical to the 837 folder, Q-26) and is no longer used on any page.",
+    "images": [
+      {
+        "file": "01_Kitchen_Wide_Rendering.jpg",
+        "kb": 264
+      },
+      {
+        "file": "02_Kitchen_Island_Rendering.jpg",
+        "kb": 284
+      },
+      {
+        "file": "03_Kitchen_Range_Rendering.jpg",
+        "kb": 283
+      },
+      {
+        "file": "04_Living_Room_Rendering.jpg",
+        "kb": 199
+      },
+      {
+        "file": "05_Living_Room_Alternate_Rendering.jpg",
+        "kb": 210
+      },
+      {
+        "file": "06_Dining_Open_Layout_Rendering.jpg",
+        "kb": 226
+      },
+      {
+        "file": "07_Main_Staircase_Rendering.jpg",
+        "kb": 262
+      },
+      {
+        "file": "08_Upper_Staircase_Rendering.jpg",
+        "kb": 245
+      },
+      {
+        "file": "09_Primary_Bath_Wide_Rendering.jpg",
+        "kb": 298
+      },
+      {
+        "file": "10_Primary_Bath_Shower_Rendering.jpg",
+        "kb": 284
+      },
+      {
+        "file": "11_Primary_Bath_Vanity_Rendering.jpg",
+        "kb": 239
+      },
+      {
+        "file": "15_Powder_Room_One_Rendering.jpg",
+        "kb": 267
+      },
+      {
+        "file": "16_Powder_Room_Two_Rendering_V2.jpg",
+        "kb": 259
+      },
+      {
+        "file": "17_Unfinished_Basement_Wide_Rendering.jpg",
+        "kb": 550
+      },
+      {
+        "file": "18_Unfinished_Basement_Alternate_Rendering.jpg",
+        "kb": 535
+      },
+      {
+        "file": "19_HVAC_Water_Heater_Furnace_Wide_Rendering.jpg",
+        "kb": 503
+      },
+      {
+        "file": "20_Water_Heater_Furnace_Mechanical_Close_Rendering.jpg",
+        "kb": 518
+      },
+      {
+        "file": "21_Bedroom_One_Rendering_V2.jpg",
+        "kb": 207
+      },
+      {
+        "file": "22_Bedroom_Two_Rendering_V2.jpg",
+        "kb": 211
+      },
+      {
+        "file": "23_Large_Bedroom_Rendering_V2.jpg",
+        "kb": 243
+      },
+      {
+        "file": "24_Hall_Bathroom_Rendering_V2.jpg",
+        "kb": 303
+      },
+      {
+        "file": "25_Foyer_Staircase_Rendering_V2.jpg",
+        "kb": 277
+      },
+      {
+        "file": "26_Staircase_Downview_Rendering_V2.jpg",
+        "kb": 252
+      },
+      {
+        "file": "27_Upper_Landing_Wide_Rendering_V2.jpg",
+        "kb": 310
+      },
+      {
+        "file": "28_Upper_Landing_Alternate_Rendering_V2.jpg",
+        "kb": 294
+      },
+      {
+        "file": "29_Laundry_Room_Rendering_V2.jpg",
+        "kb": 253
+      },
+      {
+        "file": "30_Walk_In_Closet_Rendering_V2.jpg",
+        "kb": 205
+      },
+      {
+        "file": "31_Tray_Ceiling_Bedroom_Rendering_V2.jpg",
+        "kb": 224
+      },
+      {
+        "file": "32_Garage_Rendering_V2.jpg",
+        "kb": 195
+      },
+      {
+        "file": "33_Kitchen_Backyard_View_Rendering_V2.jpg",
+        "kb": 308
+      },
+      {
+        "file": "34_Kitchen_Island_View_Rendering_V2.jpg",
+        "kb": 255
+      },
+      {
+        "file": "35_Exterior_Front_Hero_Marketing_Rendering_V2.jpg",
+        "kb": 530
+      },
+      {
+        "file": "36_Exterior_Front_Left_Corner_Marketing_Rendering_V2.jpg",
+        "kb": 589
+      },
+      {
+        "file": "36_Exterior_Front_Right_Driveway_Marketing_Rendering_V2.jpg",
+        "kb": 476
+      }
+    ],
+    "town": "Elmont",
+    "zip": "11003",
+    "town_source": "Owner, 2026-08-02",
+    "status": "available",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner",
+    "progress_set": {
+      "count": 42,
+      "ingested": "2026-08-03",
+      "source": "Owner Downloads folder \"1320 R St Elmont\" \u2014 construction-progress documentation, July 2026",
+      "notes": "Mixed real photography: exteriors with construction fencing (corner of R St & Meacham Ave per street signs), finished areas (foyer, primary bath), drywall-stage rooms, unfinished basement. Includes a Keystone Pinnacle-branded conceptual basement floor plan sheet (cross-brand; held off pages pending owner call)."
+    }
+  },
+  "176-hillsboro-avenue": {
+    "address": "176 Hillsboro Avenue",
+    "count": 40,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "images": [
+      {
+        "file": "01_176_Hillsboro_Matching_Blue_Left_Green_Right_Three_Quarter_Marketing_Rendering_V9.jpg",
+        "kb": 504
+      },
+      {
+        "file": "01_G001_DSC_7351_DSC_7357_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 265
+      },
+      {
+        "file": "02_176_Hillsboro_Matching_Blue_Left_Green_Right_Centered_Marketing_Rendering_V9.jpg",
+        "kb": 398
+      },
+      {
+        "file": "02_G002_DSC_7358_DSC_7364_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 255
+      },
+      {
+        "file": "03_G003_DSC_7365_DSC_7371_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 278
+      },
+      {
+        "file": "04_G004_DSC_7372_DSC_7374_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 262
+      },
+      {
+        "file": "05_G005_DSC_7375_DSC_7379_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 271
+      },
+      {
+        "file": "06_G006_DSC_7380_DSC_7384_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 269
+      },
+      {
+        "file": "07_G007_DSC_7385_DSC_7391_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 257
+      },
+      {
+        "file": "08_G008_DSC_7392_DSC_7398_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 278
+      },
+      {
+        "file": "09_G009_DSC_7399_DSC_7405_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 279
+      },
+      {
+        "file": "10_G010_DSC_7406_DSC_7412_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 255
+      },
+      {
+        "file": "11_G011_DSC_7413_DSC_7419_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 199
+      },
+      {
+        "file": "12_G012_DSC_7420_DSC_7426_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 192
+      },
+      {
+        "file": "13_G013_DSC_7427_DSC_7433_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 203
+      },
+      {
+        "file": "14_G014_DSC_7434_DSC_7440_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 297
+      },
+      {
+        "file": "15_G015_DSC_7441_DSC_7447_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 209
+      },
+      {
+        "file": "16_G016_DSC_7448_DSC_7454_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 241
+      },
+      {
+        "file": "17_G017_DSC_7455_DSC_7461_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 241
+      },
+      {
+        "file": "18_G018_DSC_7462_DSC_7468_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 221
+      },
+      {
+        "file": "19_G019_DSC_7469_DSC_7475_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 225
+      },
+      {
+        "file": "20_G020_DSC_7476_DSC_7482_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 219
+      },
+      {
+        "file": "21_G021_DSC_7483_DSC_7489_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 222
+      },
+      {
+        "file": "22_G022_DSC_7490_DSC_7496_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 208
+      },
+      {
+        "file": "23_G023_DSC_7497_DSC_7503_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 193
+      },
+      {
+        "file": "24_G024_DSC_7504_DSC_7510_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 231
+      },
+      {
+        "file": "25_G025_DSC_7511_DSC_7517_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 215
+      },
+      {
+        "file": "26_G026_DSC_7518_DSC_7524_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 246
+      },
+      {
+        "file": "27_G027_DSC_7525_DSC_7531_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 214
+      },
+      {
+        "file": "28_G028_DSC_7532_DSC_7538_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 220
+      },
+      {
+        "file": "29_G029_DSC_7539_DSC_7545_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 225
+      },
+      {
+        "file": "30_G030_DSC_7546_DSC_7552_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 522
+      },
+      {
+        "file": "31_G031_DSC_7553_DSC_7559_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 523
+      },
+      {
+        "file": "32_G032_DSC_7560_DSC_7566_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 446
+      },
+      {
+        "file": "33_G033_DSC_7567_DSC_7573_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 550
+      },
+      {
+        "file": "34_G034_DSC_7574_DSC_7580_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 459
+      },
+      {
+        "file": "35_G035_DSC_7581_DSC_7587_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 416
+      },
+      {
+        "file": "36_G036_DSC_7588_DSC_7594_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 526
+      },
+      {
+        "file": "37_G037_DSC_7595_DSC_7601_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 534
+      },
+      {
+        "file": "38_G038_DSC_7602_DSC_7608_HDR_Marketing_Rendering_V3.jpg",
+        "kb": 458
+      }
+    ],
+    "town": "Elmont",
+    "zip": "11003",
+    "town_source": "Owner, 2026-08-02",
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "33-horace-avenue": {
+    "address": "33 Horace Avenue",
+    "count": 47,
+    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "images": [
+      {
+        "file": "01_G001_Exterior_Front_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 698
+      },
+      {
+        "file": "01_G011_Kitchen_Wide_Warm_Natural_Oak_Floor_Marketing_Rendering_V4.jpg",
+        "kb": 268
+      },
+      {
+        "file": "02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg",
+        "kb": 630
+      },
+      {
+        "file": "03_G003_Exterior_Driveway_Right_Marketing_Rendering_V3.jpg",
+        "kb": 699
+      },
+      {
+        "file": "04_G004_Exterior_Driveway_Angle_Marketing_Rendering_V3.jpg",
+        "kb": 709
+      },
+      {
+        "file": "05_G005_Exterior_Left_Corner_Marketing_Rendering_V3.jpg",
+        "kb": 643
+      },
+      {
+        "file": "06_G006_Exterior_Left_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 642
+      },
+      {
+        "file": "07_G007_Living_Room_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 205
+      },
+      {
+        "file": "08_G008_Living_Room_Front_View_Marketing_Rendering_V3.jpg",
+        "kb": 229
+      },
+      {
+        "file": "09_G009_Dining_Open_Layout_Marketing_Rendering_V3.jpg",
+        "kb": 209
+      },
+      {
+        "file": "10_G010_Living_Dining_Backyard_View_Marketing_Rendering_V3.jpg",
+        "kb": 284
+      },
+      {
+        "file": "11_G011_Kitchen_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 270
+      },
+      {
+        "file": "12_G012_Kitchen_Range_View_Marketing_Rendering_V3.jpg",
+        "kb": 243
+      },
+      {
+        "file": "13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3.jpg",
+        "kb": 221
+      },
+      {
+        "file": "14_G014_Kitchen_Refrigerator_View_Marketing_Rendering_V3.jpg",
+        "kb": 257
+      },
+      {
+        "file": "15_G015_Kitchen_Island_Range_View_Marketing_Rendering_V3.jpg",
+        "kb": 245
+      },
+      {
+        "file": "16_G016_Powder_Room_Marketing_Rendering_V3.jpg",
+        "kb": 260
+      },
+      {
+        "file": "17_G017_Garage_Marketing_Rendering_V3.jpg",
+        "kb": 229
+      },
+      {
+        "file": "18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3.jpg",
+        "kb": 331
+      },
+      {
+        "file": "19_G019_Main_Staircase_Up_Marketing_Rendering_V3.jpg",
+        "kb": 214
+      },
+      {
+        "file": "20_G020_Upper_Staircase_Landing_Marketing_Rendering_V3.jpg",
+        "kb": 208
+      },
+      {
+        "file": "21_G022_Staircase_Downview_Marketing_Rendering_V3.jpg",
+        "kb": 285
+      },
+      {
+        "file": "22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 219
+      },
+      {
+        "file": "23_G024_Bedroom_One_Door_View_Marketing_Rendering_V3.jpg",
+        "kb": 184
+      },
+      {
+        "file": "24_G025_Bedroom_One_Alternate_Marketing_Rendering_V3.jpg",
+        "kb": 218
+      },
+      {
+        "file": "25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 203
+      },
+      {
+        "file": "26_G027_Bedroom_Two_Door_View_Marketing_Rendering_V3.jpg",
+        "kb": 216
+      },
+      {
+        "file": "27_G028_Hall_Bath_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 274
+      },
+      {
+        "file": "28_G029_Hall_Bath_Vanity_Marketing_Rendering_V3.jpg",
+        "kb": 297
+      },
+      {
+        "file": "29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 263
+      },
+      {
+        "file": "30_G031_Primary_Bedroom_Door_View_Marketing_Rendering_V3.jpg",
+        "kb": 233
+      },
+      {
+        "file": "31_G032_Primary_Bedroom_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 226
+      },
+      {
+        "file": "32_G033_Primary_Bedroom_Alternate_Marketing_Rendering_V3.jpg",
+        "kb": 346
+      },
+      {
+        "file": "33_G034_Walk_In_Closet_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 234
+      },
+      {
+        "file": "34_G035_Walk_In_Closet_Portrait_Marketing_Rendering_V3.jpg",
+        "kb": 242
+      },
+      {
+        "file": "35_G036_Primary_Bath_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 339
+      },
+      {
+        "file": "36_G037_Primary_Bath_Vanity_Shower_Marketing_Rendering_V3.jpg",
+        "kb": 378
+      },
+      {
+        "file": "37_G038_Primary_Bath_Vanity_Marketing_Rendering_V3.jpg",
+        "kb": 316
+      },
+      {
+        "file": "38_G039_Primary_Bath_Shower_Marketing_Rendering_V3.jpg",
+        "kb": 355
+      },
+      {
+        "file": "39_G040_Laundry_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 279
+      },
+      {
+        "file": "40_G041_Laundry_Portrait_Marketing_Rendering_V3.jpg",
+        "kb": 291
+      },
+      {
+        "file": "41_G042_Laundry_Door_View_Marketing_Rendering_V3.jpg",
+        "kb": 208
+      },
+      {
+        "file": "42_G043_Bedroom_Three_Window_Marketing_Rendering_V3.jpg",
+        "kb": 208
+      },
+      {
+        "file": "43_G044_Bedroom_Three_Alternate_Marketing_Rendering_V3.jpg",
+        "kb": 205
+      },
+      {
+        "file": "44_G045_Unfinished_Basement_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 482
+      },
+      {
+        "file": "45_G046_Unfinished_Basement_Mechanical_View_Marketing_Rendering_V3.jpg",
+        "kb": 484
+      },
+      {
+        "file": "46_G047_Unfinished_Basement_Alternate_Marketing_Rendering_V3.jpg",
+        "kb": 487
+      }
+    ],
+    "town": "Roosevelt",
+    "zip": "11575",
+    "town_source": "Owner, 2026-08-02",
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner"
+  },
+  "837-cleveland-street": {
+    "address": "837 Cleveland Street",
+    "town": "West Hempstead",
+    "zip": "11552",
+    "count": 34,
+    "status": "completed",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner",
+    "provenance": "Full set attributed to 837 Cleveland by owner direction 2026-08-03 (Q-26 resolved): the finished-interior set formerly filed under 1320 R Street belongs to 837 \u2014 corroborated by 1320's July progress photos showing 1320 still at drywall while these interiors are complete. Exteriors 12/13/14 also 837. Matterport tour live. Lead: 14_Exterior_Front.",
+    "tour": "https://my.matterport.com/show/?m=e7w57ZXj3v2",
+    "tour_added": "2026-08-03",
+    "images": [
+      {
+        "file": "01_Kitchen_Wide_Rendering.jpg"
+      },
+      {
+        "file": "02_Kitchen_Island_Rendering.jpg"
+      },
+      {
+        "file": "03_Kitchen_Range_Rendering.jpg"
+      },
+      {
+        "file": "04_Living_Room_Rendering.jpg"
+      },
+      {
+        "file": "05_Living_Room_Alternate_Rendering.jpg"
+      },
+      {
+        "file": "06_Dining_Open_Layout_Rendering.jpg"
+      },
+      {
+        "file": "07_Main_Staircase_Rendering.jpg"
+      },
+      {
+        "file": "08_Upper_Staircase_Rendering.jpg"
+      },
+      {
+        "file": "09_Primary_Bath_Wide_Rendering.jpg"
+      },
+      {
+        "file": "10_Primary_Bath_Shower_Rendering.jpg"
+      },
+      {
+        "file": "11_Primary_Bath_Vanity_Rendering.jpg"
+      },
+      {
+        "file": "12_Exterior_Wide_Rendering.jpg"
+      },
+      {
+        "file": "13_Exterior_Corner_Rendering.jpg"
+      },
+      {
+        "file": "14_Exterior_Front_Rendering.jpg"
+      },
+      {
+        "file": "15_Powder_Room_One_Rendering.jpg"
+      },
+      {
+        "file": "16_Powder_Room_Two_Rendering_V2.jpg"
+      },
+      {
+        "file": "17_Unfinished_Basement_Wide_Rendering.jpg"
+      },
+      {
+        "file": "18_Unfinished_Basement_Alternate_Rendering.jpg"
+      },
+      {
+        "file": "19_HVAC_Water_Heater_Furnace_Wide_Rendering.jpg"
+      },
+      {
+        "file": "20_Water_Heater_Furnace_Mechanical_Close_Rendering.jpg"
+      },
+      {
+        "file": "21_Bedroom_One_Rendering_V2.jpg"
+      },
+      {
+        "file": "22_Bedroom_Two_Rendering_V2.jpg"
+      },
+      {
+        "file": "23_Large_Bedroom_Rendering_V2.jpg"
+      },
+      {
+        "file": "24_Hall_Bathroom_Rendering_V2.jpg"
+      },
+      {
+        "file": "25_Foyer_Staircase_Rendering_V2.jpg"
+      },
+      {
+        "file": "26_Staircase_Downview_Rendering_V2.jpg"
+      },
+      {
+        "file": "27_Upper_Landing_Wide_Rendering_V2.jpg"
+      },
+      {
+        "file": "28_Upper_Landing_Alternate_Rendering_V2.jpg"
+      },
+      {
+        "file": "29_Laundry_Room_Rendering_V2.jpg"
+      },
+      {
+        "file": "30_Walk_In_Closet_Rendering_V2.jpg"
+      },
+      {
+        "file": "31_Tray_Ceiling_Bedroom_Rendering_V2.jpg"
+      },
+      {
+        "file": "32_Garage_Rendering_V2.jpg"
+      },
+      {
+        "file": "33_Kitchen_Backyard_View_Rendering_V2.jpg"
+      },
+      {
+        "file": "34_Kitchen_Island_View_Rendering_V2.jpg"
+      }
+    ],
+    "lead": "14_Exterior_Front_Rendering.jpg (owner-designated, 2026-08-03)",
+    "video": {
+      "file": "assets/video/837-cleveland-street-tour.mp4",
+      "source": "/Users/keystone/Pictures/Snagit/2026-08-03_12-11-28.mp4",
+      "supplied": "2026-08-03",
+      "note": "Owner-supplied drone footage, 41s, re-encoded from 27MB to 12MB (H.264 CRF 24, faststart). Real footage, not a rendering."
+    },
+    "notes": []
+  },
+  "833-cleveland-street": {
+    "address": "833 Cleveland Street",
+    "town": "West Hempstead",
+    "zip": "11552",
+    "count": 0,
+    "status": "under-contract",
+    "status_verified_on": "2026-08-02",
+    "status_verified_by": "Owner",
+    "provenance": "No photo set delivered yet \u2014 docs/20"
+  }
+}

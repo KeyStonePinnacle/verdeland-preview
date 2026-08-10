@@ -1,0 +1,102 @@
+<!--
+  PARKED PATTERN — pinned scroll-build drawing (D-029)
+  ====================================================
+  Removed from home-detail and why-verdeland on 2026-08-03 at owner
+  direction; kept here because the owner may reuse the idea differently.
+
+  What it is: the page pins (position:sticky in a 240vh wrapper) while
+  scrolling draws an SVG house in construction order — foundation, framing,
+  roof, finish — then releases. Reverse scroll un-builds. Input is never
+  intercepted; reduced-motion and no-JS users get the finished drawing in
+  normal flow.
+
+  To reuse: paste the section into a page, paste the script before </body>,
+  done — the CSS is still live in assets/css/site-c.css (.build-pin,
+  .build-scene, .build-figure, #build-svg). One pinned scene per page
+  (D-029 rule). Swap the SVG paths to draw anything else in stages; each
+  <g data-range="start,end"> maps a stroke group to a scroll window.
+-->
+
+  <section class="section" data-section="build-scene" style="padding-top:0">
+    <div class="build-pin" id="build-pin">
+      <div class="build-scene">
+        <div class="wrap">
+          <div class="section-head" style="margin-bottom:var(--s-6)">
+            <p class="eyebrow">From the ground up</p>
+            <h2>How a VerdeLand home goes up.</h2>
+          </div>
+      <figure class="build-figure" aria-hidden="true">
+        <svg id="build-svg" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
+          <g data-range="0,0.3"><!-- foundation -->
+            <path pathLength="1" d="M60 268 H660"/>
+            <path pathLength="1" d="M100 268 V252 H620 V268"/>
+          </g>
+          <g data-range="0.22,0.55"><!-- framing -->
+            <path pathLength="1" d="M112 252 V150"/>
+            <path pathLength="1" d="M608 252 V150"/>
+            <path pathLength="1" d="M112 150 H608"/>
+            <path pathLength="1" d="M236 252 V150"/>
+            <path pathLength="1" d="M360 252 V150"/>
+            <path pathLength="1" d="M484 252 V150"/>
+          </g>
+          <g data-range="0.48,0.78"><!-- roof -->
+            <path pathLength="1" d="M96 150 L360 54 L624 150"/>
+            <path pathLength="1" d="M200 150 L360 92"/>
+            <path pathLength="1" d="M520 150 L360 92"/>
+            <path pathLength="1" class="clay" d="M480 98 V60 H524 V114"/>
+          </g>
+          <g data-range="0.72,1"><!-- finish -->
+            <path pathLength="1" class="clay" d="M330 252 V186 H390 V252"/>
+            <path pathLength="1" d="M150 200 H214 V236 H150 Z"/>
+            <path pathLength="1" d="M506 200 H570 V236 H506 Z"/>
+            <path pathLength="1" d="M182 200 V236 M150 218 H214"/>
+            <path pathLength="1" d="M538 200 V236 M506 218 H570"/>
+          </g>
+        </svg>
+        <figcaption class="caption" style="text-align:center">
+          Foundation &middot; Framing &middot; Roof &middot; Finish &mdash; the order every
+          VerdeLand home goes up. Scroll to build it.
+        </figcaption>
+      </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script>
+  // Pinned build scene (D-029, restored): sticky consumes scroll without
+  // touching input; reverse scroll un-builds; no JS or reduced motion means
+  // no pin and a complete drawing in normal flow.
+  (function () {
+    var pin = document.getElementById('build-pin');
+    var svg = document.getElementById('build-svg');
+    if (!pin || !svg) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var parts = [];
+    [].slice.call(svg.querySelectorAll('[data-range]')).forEach(function (g) {
+      var r = g.getAttribute('data-range').split(',').map(Number);
+      [].slice.call(g.querySelectorAll('path')).forEach(function (el) {
+        parts.push({ el: el, s: r[0], e: r[1] });
+      });
+    });
+    pin.classList.add('is-pinned');
+    svg.classList.add('is-armed');
+    var ticking = false;
+    function draw() {
+      ticking = false;
+      var r = pin.getBoundingClientRect();
+      var span = r.height - window.innerHeight;
+      var p = span > 0 ? Math.max(0, Math.min(1, -r.top / span)) : 1;
+      parts.forEach(function (q) {
+        var local = Math.max(0, Math.min(1, (p - q.s) / (q.e - q.s)));
+        q.el.style.strokeDashoffset = String(1 - local);
+      });
+    }
+    function onScroll() {
+      if (!ticking) { ticking = true; requestAnimationFrame(draw); }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    draw();
+  })();
+</script>

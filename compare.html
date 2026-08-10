@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VerdeLand — Directions A, B and C</title>
+<style>
+  :root{
+    --a:#22392C; --b:#2F5138; --accent:#A8552F;
+    --bg:#FBF8F3; --ink:#1A1D19; --soft:#4A5048; --line:#C9BBA4;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif: ui-serif, Georgia, "Iowan Old Style", serif;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.6}
+  header{border-bottom:1px solid var(--line);background:#fff}
+  .bar{max-width:1600px;margin:0 auto;padding:18px 24px;display:flex;gap:24px;
+       align-items:center;flex-wrap:wrap;justify-content:space-between}
+  h1{font-family:var(--serif);font-size:1.375rem;letter-spacing:-.02em}
+  h1 small{display:block;font-family:var(--font);font-size:.75rem;font-weight:400;
+           color:var(--soft);letter-spacing:0}
+  .controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  button, .lnk{font:inherit;font-size:.875rem;padding:9px 16px;border-radius:6px;
+    border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--ink);
+    text-decoration:none;min-height:42px;display:inline-flex;align-items:center;gap:6px}
+  button[aria-pressed="true"]{background:var(--a);border-color:var(--a);color:#fff}
+  button:focus-visible,.lnk:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+  .stage{max-width:1600px;margin:0 auto;padding:24px}
+  .panes{display:grid;gap:20px;grid-template-columns:1fr 1fr 1fr}
+  .panes.solo{grid-template-columns:1fr}
+  .panes.solo .pane[hidden]{display:none}
+  @media (max-width:1400px){.panes{grid-template-columns:1fr 1fr}}
+  @media (max-width:1100px){.panes{grid-template-columns:1fr}}
+
+  .pane{display:flex;flex-direction:column;min-width:0}
+  .pane h2{font-family:var(--serif);font-size:1rem;margin-bottom:8px;display:flex;
+           align-items:center;gap:10px;letter-spacing:-.01em}
+  .dot{width:11px;height:11px;border-radius:50%;flex:none}
+  .pane--a .dot{background:var(--a)}
+  .pane--b .dot{background:var(--b)}
+  .pane--c .dot{background:var(--accent)}
+  .pane h2 em{font-style:normal;font-weight:400;font-size:.8125rem;color:var(--soft)}
+  .frame-wrap{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;
+    box-shadow:0 2px 14px rgba(26,29,25,.06)}
+  iframe{display:block;width:100%;height:78vh;border:0;background:#fff}
+
+  .notes{max-width:1600px;margin:0 auto;padding:8px 24px 56px}
+  .notes h3{font-family:var(--serif);font-size:1.125rem;margin:28px 0 10px}
+  table{width:100%;border-collapse:collapse;font-size:.875rem;background:#fff;
+        border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#F1EDE4;font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .q{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);
+     border-radius:8px;padding:18px 20px;margin-top:16px}
+  .q ol{margin:10px 0 0 20px}
+  .q li{margin-bottom:7px}
+  p.lede{color:var(--soft);max-width:76ch;margin-top:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <h1>VerdeLand — direction comparison
+      <small>A: decision-log original (archived) · B: design brief · C: four-judge synthesis — <strong>adopted; live at the prototype root</strong></small></h1>
+    <div class="controls">
+      <button id="both" aria-pressed="true">Side by side</button>
+      <button id="onlyA" aria-pressed="false">A only</button>
+      <button id="onlyB" aria-pressed="false">B only</button>
+      <button id="onlyC" aria-pressed="false">C only</button>
+      <button id="mobile" aria-pressed="false">Mobile width</button>
+      <a class="lnk" href="a/index.html" target="_blank" rel="noopener">Open A ↗</a>
+      <a class="lnk" href="b/index.html" target="_blank" rel="noopener">Open B ↗</a>
+      <a class="lnk" href="c/index.html" target="_blank" rel="noopener">Open C ↗</a>
+    </div>
+  </div>
+</header>
+
+<div class="stage">
+  <div class="panes" id="panes">
+    <section class="pane pane--a" id="paneA">
+      <h2><span class="dot"></span> Direction A <em>— the original; archived in a/ after C was adopted</em></h2>
+      <div class="frame-wrap"><iframe id="fa" src="a/index.html" title="Direction A homepage" loading="lazy"></iframe></div>
+    </section>
+    <section class="pane pane--b" id="paneB">
+      <h2><span class="dot"></span> Direction B <em>— the supplied design brief, on the same content</em></h2>
+      <div class="frame-wrap"><iframe id="fb" src="b/index.html" title="Direction B homepage" loading="lazy"></iframe></div>
+    </section>
+    <section class="pane pane--c" id="paneC">
+      <h2><span class="dot"></span> Direction C <em>— best of both, per four judge reviews. Adopted as the main design</em></h2>
+      <div class="frame-wrap"><iframe id="fc" src="c/index.html" title="Direction C homepage" loading="lazy"></iframe></div>
+    </section>
+  </div>
+</div>
+
+<div class="notes">
+  <h3>What actually differs</h3>
+  <p class="lede">Content, copy, claims discipline, accessibility standards and the three
+    resolved strategic decisions are identical in both. Only these differ — so anything you
+    prefer is a design preference, not a content one.</p>
+
+  <table>
+    <thead><tr><th style="width:22%">&nbsp;</th><th>Direction A</th><th>Direction B</th></tr></thead>
+    <tbody>
+      <tr><th>Homepage shape</th>
+        <td>5 sections. Hero → 3 featured homes → proof → acquisition band → contact.</td>
+        <td>9 sections. Hero → proof strip → <em>one</em> featured home with fact panel → principles → project story → how we build → work → trust → acquisition → CTA.</td></tr>
+      <tr><th>Hero</th>
+        <td>Full-bleed image above, copy below. Image leads.</td>
+        <td>Copy beside image, both above the fold. Message leads.</td></tr>
+      <tr><th>Type scale</th>
+        <td>Hero caps at 56px.</td>
+        <td>Hero to 72px. Larger throughout.</td></tr>
+      <tr><th>Green</th>
+        <td><code>#22392C</code> — deeper, warmer.</td>
+        <td><code>#2F5138</code> — lighter, slightly cooler.</td></tr>
+      <tr><th>Secondary</th>
+        <td>Warm sand <code>#E4DACA</code>.</td>
+        <td>Soft green <code>#DDE5DA</code>.</td></tr>
+      <tr><th>Accent</th>
+        <td><code>#A8552F</code></td>
+        <td><code>#94512C</code> for text — the brief's <code>#A85F36</code> is 4.39:1 and fails AA at small sizes.</td></tr>
+      <tr><th>Featured homes</th>
+        <td>Three equal cards.</td>
+        <td>One dominant home + structured fact panel.</td></tr>
+      <tr><th>Project story</th>
+        <td>Not present.</td>
+        <td>Plan → build → finished, with the reasoning at each stage.</td></tr>
+      <tr><th>Density</th>
+        <td>Quieter. Fewer, larger moves.</td>
+        <td>More editorial. More sections, more facts per screen.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Both directions carry these — they aren't up for comparison</h3>
+  <table>
+    <tbody>
+      <tr><td>Sell Your Property retained (your decision, against the brief)</td></tr>
+      <tr><td>How We Build scoped to standards and finish selection, not a custom-build process</td></tr>
+      <tr><td>Tours route through the listing agent — no "Schedule a Tour" promise the site can't keep</td></tr>
+      <tr><td>Renderings labeled on the image; status badges carry text and a verified date</td></tr>
+      <tr><td>Every unverified figure marked as a placeholder</td></tr>
+      <tr><td>WCAG contrast checked by measurement, not by eye</td></tr>
+    </tbody>
+  </table>
+
+  <h3>How C was assembled</h3>
+  <p class="lede">Four agents judged A and B independently — buyer trust, visual craft,
+    structure &amp; conversion, and mobile at 390px. All four converged on the same shape:
+    <strong>A's skeleton and warmth wearing B's components and proof.</strong> Full verdicts
+    and the two conflict rulings are in docs/18.</p>
+  <table>
+    <thead><tr><th style="width:30%">In C</th><th>From</th><th>Judges' reason</th></tr></thead>
+    <tbody>
+      <tr><td>Palette, sand/cream/forest rhythm, radius</td><td>A</td><td>"Settled family firm"; B's cooler green-on-green reads wellness-brand</td></tr>
+      <tr><td>Copy-first hero, full-bleed image after, address caption</td><td>Merged</td><td>CTA in the first mobile screen (judge 4) + $1.3M product scale (judge 1)</td></tr>
+      <tr><td>Proof strip under hero, warranty included</td><td>B</td><td>"The homepage's most load-bearing 60 pixels" — 2×2 on phones, never 1-col</td></tr>
+      <tr><td>One dominant featured home + fact panel</td><td>B</td><td>"The single best component in either system"; suppressed at zero inventory</td></tr>
+      <tr><td>Three-card portfolio grid with feature lines</td><td>A + B</td><td>The constant that survives zero inventory, with B's narrative tier</td></tr>
+      <tr><td>Third-generation copy + owner photo, paired</td><td>A + B</td><td>"Each the strongest trust element on its page; together, the answer"</td></tr>
+      <tr><td>Forest acquisition band, position 6 of 7</td><td>A + B copy</td><td>A's sub-one-second audience split carrying B's builder-not-buyer copy</td></tr>
+      <tr><td>Phone-first close with two routed doors</td><td>Merged</td><td>Judge conflict, ruled for routing: the close must not re-mix the audiences</td></tr>
+      <tr><td>Header phone, no CTA button</td><td>A</td><td>Rejected B's button: "pressure-per-pixel-scrolled"; the number is the honest CTA</td></tr>
+      <tr><td>64px hero cap, 14px micro floor, accent fill/text split</td><td>Merged</td><td>Between A's 56 and B's 72; B's token craft on A's hues</td></tr>
+      <tr><td>Project story (plan→build→finished)</td><td>B, relocated</td><td>B's best content, moved one click deep — consideration proof, not routing</td></tr>
+    </tbody>
+  </table>
+
+  <div class="q">
+    <strong>What to judge, in order</strong>
+    <ol>
+      <li>In two seconds, which one tells you what this company does?</li>
+      <li>Which feels like a $1.3M house — and which feels like it's trying to?</li>
+      <li>B shows one home large; A shows three. Which would you rather land on?</li>
+      <li>B's project story explains a decision. Is that worth the extra scroll?</li>
+      <li>Which reads as a builder, and which as a marketing department?</li>
+      <li>Check both at mobile width — that's where most people will arrive.</li>
+    </ol>
+  </div>
+</div>
+
+<script>
+  var panes = document.getElementById('panes');
+  var P = { onlyA:document.getElementById('paneA'), onlyB:document.getElementById('paneB'),
+            onlyC:document.getElementById('paneC') };
+  var btns = { both:document.getElementById('both'), onlyA:document.getElementById('onlyA'),
+               onlyB:document.getElementById('onlyB'), onlyC:document.getElementById('onlyC') };
+
+  function setView(mode){
+    for (var pk in P) P[pk].hidden = (mode !== 'both' && mode !== pk);
+    panes.classList.toggle('solo', mode !== 'both');
+    for (var k in btns) btns[k].setAttribute('aria-pressed', String(k === mode));
+  }
+  for (var k in btns) (function(key){
+    btns[key].addEventListener('click', function(){ setView(key); });
+  })(k);
+
+  var mob = document.getElementById('mobile'), narrow = false;
+  mob.addEventListener('click', function(){
+    narrow = !narrow;
+    mob.setAttribute('aria-pressed', String(narrow));
+    [document.getElementById('fa'), document.getElementById('fb'), document.getElementById('fc')].forEach(function(f){
+      f.style.maxWidth = narrow ? '390px' : '';
+      f.style.margin = narrow ? '0 auto' : '';
+    });
+  });
+</script>
+
+</body>
+</html>

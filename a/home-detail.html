@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>118 Meacham Avenue, Elmont NY | VerdeLand Home Builders</title>
+<meta name="description" content="A five-bedroom single-family home built by VerdeLand on a residential street in Elmont, New York.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Fictional home. All figures are placeholders. Not for publication.
+</div>
+
+<div class="proto-banner" style="background:#4A5048">
+  DIRECTION A &mdash; archived for comparison &nbsp;&middot;&nbsp;
+  <a href="../compare.html" style="color:#FBF8F3">compare all three</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#22392C"/>
+        <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders · Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="homes.html" aria-current="page">Homes</a>
+      <a href="why-verdeland.html">Why VerdeLand</a>
+      <a href="sell-your-property.html">Sell Your Property</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="header-phone" href="tel:+15168076127">(516) 807-6127<span>Nassau &amp; Suffolk</span></a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================================================== gallery ===== -->
+  <section class="section section--tight" style="padding-bottom:0">
+    <div class="wrap wrap--wide">
+      <p style="font-size:var(--fs-small); color:var(--ink-soft); margin-bottom:var(--s-5)">
+        <a href="homes.html">Homes</a> &rarr; 118 Meacham Avenue
+      </p>
+      <div class="gallery">
+        <div class="ph ph--16x9"><p class="ph-label"><strong>1 · Exterior front, hero</strong>Golden hour or bright overcast. Landscaping in. The image the page is built around.</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>2 · Main living space</strong>Wide, natural light, lamps on for warmth</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>3 · Kitchen</strong>Highest-attention room. 16mm minimum — no wider.</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>4 · Kitchen detail</strong>Counter edge, hardware, tile — proves finish quality</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>5 · Primary bedroom</strong>Signs of life, not staging</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>6 · Primary bath</strong>Second-highest attention room</p></div>
+        <div class="ph ph--4x3"><p class="ph-label"><strong>7 · Rear exterior and yard</strong>Long Island buyers care intensely about lot use</p></div>
+      </div>
+      <p class="caption">
+        Photographs of the completed home. Every image carries a caption in production.
+        See docs/05 for the full shot list and technical requirements.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================ header + specs ==== -->
+  <section class="section">
+    <div class="wrap">
+      <div class="split" style="align-items:start">
+
+        <div>
+          <p style="display:flex; align-items:center; gap:var(--s-3); flex-wrap:wrap; margin-bottom:var(--s-4)">
+            <span class="badge badge--available">Available</span>
+            <span class="badge-date">Status confirmed 12 June 2026</span>
+          </p>
+          <h1>118 Meacham Avenue</h1>
+          <p class="lead" style="color:var(--ink-soft); margin-top:var(--s-2)">Elmont, New York</p>
+          <p style="font-family:var(--font-display); font-size:var(--fs-h2); color:var(--forest); margin-top:var(--s-5)">
+            $1,295,000
+          </p>
+
+          <!-- Narrative. Describes the property, never the buyer.
+               See docs/06 Fair Housing rules. -->
+          <div class="measure" style="margin-top:var(--s-7); color:var(--ink-soft); display:grid; gap:var(--s-4)">
+            <p>
+              This house sits on a 0.19-acre lot on a residential street in Elmont.
+              The main floor is laid out around a kitchen that opens to the family room,
+              with a separate dining room that can be closed off.
+            </p>
+            <p>
+              There's a mudroom off the garage with a bench and hooks, which is the kind
+              of thing that doesn't photograph well and matters every single day.
+            </p>
+            <p>
+              Upstairs: four bedrooms, including a primary with two closets and a bath with
+              a separate shower. The laundry is on the bedroom floor. The lower level is
+              finished with eight-foot ceilings and full-size windows.
+            </p>
+            <p>Completed in 2025.</p>
+          </div>
+        </div>
+
+        <!-- Broker-facing block: scannable, no prose. -->
+        <div>
+          <div class="note-panel" style="border-left-color:var(--forest)">
+            <h2>Specifications</h2>
+            <table class="spec-table" style="margin-top:var(--s-4)">
+              <tbody>
+                <tr><th scope="row">Bedrooms</th><td>5</td></tr>
+                <tr><th scope="row">Bathrooms</th><td>3 full, 1 half</td></tr>
+                <tr><th scope="row">Interior</th><td>3,180 sq ft</td></tr>
+                <tr><th scope="row">Lower level</th><td>Finished, 8&prime; ceilings</td></tr>
+                <tr><th scope="row">Lot</th><td>0.19 acres</td></tr>
+                <tr><th scope="row">Garage</th><td>2 car, attached</td></tr>
+                <tr><th scope="row">Year completed</th><td>2025</td></tr>
+                <tr><th scope="row">School district</th><td>[Placeholder district name]</td></tr>
+                <tr><th scope="row">Warranty</th><td>Builder's limited warranty &mdash; 1 / 2 / 6 years, terms apply</td></tr>
+                <tr><th scope="row">Taxes</th><td>[Placeholder] &mdash; as assessed [year], subject to change</td></tr>
+              </tbody>
+            </table>
+            <p style="font-size:var(--fs-micro); color:var(--ink-faint); margin-top:var(--s-4)">
+              Every figure above requires per-property verification before publication. See docs/08.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 3a. At this tier the finish spec is a primary selling asset, not a
+       footnote. Brands are listed PER HOME, and every line is marked standard
+       or optional -- see docs/03 and docs/08. -->
+  <section class="section section--paper" data-section="finishes">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Finishes</p>
+        <h2>What's in this house.</h2>
+        <p>Listed for this home specifically. Standard and optional items are marked.</p>
+      </div>
+      <table class="spec-table" style="max-width:760px">
+        <thead>
+          <tr><th scope="col">Item</th><th scope="col">Specification</th><th scope="col">&nbsp;</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Range</th><td>Wolf</td><td>Standard</td></tr>
+          <tr><th scope="row">Refrigeration</th><td>Sub-Zero, panel-integrated</td><td>Standard</td></tr>
+          <tr><th scope="row">Microwave</th><td>Built into the cabinetry</td><td>Optional</td></tr>
+          <tr><th scope="row">Flooring</th><td>Stained hardwood</td><td>Standard</td></tr>
+          <tr><th scope="row">Cabinetry &amp; trim</th><td>Simply White</td><td>Standard</td></tr>
+        </tbody>
+      </table>
+      <div class="note-panel" style="margin-top:var(--s-6); max-width:760px">
+        <h3>Choosing your own finishes</h3>
+        <p>
+          Buyers can select finishes on homes we're building. On a recent home we
+          completed just over $70,000 of buyer-selected upgrades.
+          [Placeholder: needs verification before publishing &mdash; see docs/08 claims 10&ndash;12.]
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================= inquiry ====== -->
+  <section class="section section--sand">
+    <div class="wrap">
+      <div class="split" style="align-items:start">
+        <div>
+          <p class="eyebrow">Ask about this home</p>
+          <h2>Questions about 118 Meacham Avenue?</h2>
+          <p style="margin-top:var(--s-4); color:var(--ink-soft)" class="measure">
+            Send a note and we'll get back to you within one business day. Or call
+            <a href="tel:+15168076127"><strong>(516) 807-6127</strong></a> and talk to us directly.
+          </p>
+          <p style="margin-top:var(--s-5)"><a class="link-arrow" href="why-verdeland.html">Who builds these homes &rarr;</a></p>
+        </div>
+
+        <!-- Four fields. The address rides along as a hidden field —
+             never ask someone to retype what the page already knows.
+             See docs/07. -->
+        <form class="form" onsubmit="return false">
+          <input type="hidden" name="property" value="118 Meacham Avenue, Elmont NY">
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Your name <span class="req">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="phone">Phone <span class="hint">(optional)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="q">Your question <span class="hint">(optional)</span></label>
+            <textarea id="q" name="q"></textarea>
+          </div>
+          <div class="honeypot" aria-hidden="true">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+          </div>
+          <p class="form-note">We answer within one business day. We don't share your details.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================= related ====== -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><h2>Other VerdeLand homes</h2></div>
+      <div class="grid grid--3">
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong></p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">9 Rockaway Parkway</h3>
+            <p class="card-place">Valley Stream, NY</p>
+            <p class="card-specs">5 bd &middot; 3.5 ba &middot; 3,400 sq ft</p>
+            <p class="card-meta">Completed 2023</p>
+          </div>
+        </a>
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong></p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">15 Bedell Street</h3>
+            <p class="card-place">Hempstead, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,700 sq ft</p>
+            <p class="card-meta">Completed 2019</p>
+          </div>
+        </a>
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--coming">Coming soon</span>
+            <div class="ph ph--4x3">
+              <p class="ph-label"><strong>Artist's rendering</strong></p>
+              <span class="rendering-label">Artist's rendering</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">41 Bayview Terrace</h3>
+            <p class="card-place">Island Park, NY</p>
+            <p class="card-specs">4 bd &middot; 3 ba &middot; 3,100 sq ft</p>
+            <p class="card-specs" style="color:var(--forest); font-weight:600">$1,175,000</p>
+            <p class="card-meta">Status confirmed 2 July 2026</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+            <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#FBF8F3"/>
+            <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders · Long Island</small></span>
+        </a>
+        <p>Single-family homes built for Long Island living. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#E4DACA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#E4DACA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="homes.html">Homes</a></li>
+          <li><a href="why-verdeland.html">Why VerdeLand</a></li>
+          <li><a href="sell-your-property.html">Sell Your Property</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers — see docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;·&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var header = document.getElementById('header');
+    var open = header.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>

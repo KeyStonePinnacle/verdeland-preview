@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Homes — New Construction on Long Island | VerdeLand</title>
+<meta name="description" content="Single-family homes built by VerdeLand across Long Island. Available homes, homes coming soon, and our completed portfolio.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Fictional example homes, placeholder content, no real photography. Not for publication.
+</div>
+
+<div class="proto-banner" style="background:#4A5048">
+  DIRECTION A &mdash; archived for comparison &nbsp;&middot;&nbsp;
+  <a href="../compare.html" style="color:#FBF8F3">compare all three</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#22392C"/>
+        <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders · Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="homes.html" aria-current="page">Homes</a>
+      <a href="why-verdeland.html">Why VerdeLand</a>
+      <a href="sell-your-property.html">Sell Your Property</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="header-phone" href="tel:+15168076127">(516) 807-6127<span>Nassau &amp; Suffolk</span></a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <p class="eyebrow">Our homes</p>
+      <h1>Every home we've built.</h1>
+      <p class="lead measure" style="margin-top:var(--s-4); color:var(--ink-soft)">
+        Available homes and homes coming soon are listed first, each with the date its
+        status was confirmed. Everything below that is completed work.
+      </p>
+
+      <!-- Default view is All, not Available. See D-004: an empty
+           "available only" default is the worst possible first impression,
+           and 25 years of completed homes is the actual strength. -->
+      <div class="filters" style="margin-top:var(--s-7)" role="group" aria-label="Filter homes">
+        <button class="filter" data-filter="all" aria-pressed="true">All homes</button>
+        <button class="filter" data-filter="available" aria-pressed="false">Available</button>
+        <button class="filter" data-filter="coming-soon" aria-pressed="false">Coming soon</button>
+        <button class="filter" data-filter="completed" aria-pressed="false">Completed</button>
+        <label class="vh" for="town">Town</label>
+        <select class="filter-town" id="town">
+          <option value="all">Any town</option>
+          <option>Elmont</option>
+          <option>Franklin Square</option>
+          <option>Hempstead</option>
+          <option>Island Park</option>
+          <option>Oceanside</option>
+          <option>Syosset</option>
+          <option>Uniondale</option>
+          <option>Valley Stream</option>
+          <option>West Hempstead</option>
+        </select>
+        <span class="filter-count" id="count" aria-live="polite">Showing 9 of 9 homes</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <h2 class="vh">All homes</h2>
+      <div class="grid grid--3">
+
+        <a class="card" data-status="available" data-town="Elmont" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--available">Available</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Hero shot, landscaping in</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">118 Meacham Avenue</h3>
+            <p class="card-place">Elmont, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,850 sq ft</p>
+            <p class="card-specs" style="color:var(--forest); font-weight:600">$1,295,000</p>
+            <p class="card-meta">Status confirmed 12 June 2026</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="coming-soon" data-town="Island Park" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--coming">Coming soon</span>
+            <div class="ph ph--4x3">
+              <p class="ph-label"><strong>Artist's rendering</strong>Front elevation, not yet built</p>
+              <span class="rendering-label">Artist's rendering</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">41 Bayview Terrace</h3>
+            <p class="card-place">Island Park, NY</p>
+            <p class="card-specs">4 bd &middot; 3 ba &middot; 3,100 sq ft</p>
+            <p class="card-specs" style="color:var(--forest); font-weight:600">$1,175,000</p>
+            <p class="card-meta">Status confirmed 2 July 2026</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="under-construction" data-town="West Hempstead" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--underway">Under construction</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Framing photograph</strong>Showing the bones signals confidence</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">76 Oakford Street</h3>
+            <p class="card-place">West Hempstead, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,600 sq ft</p>
+            <p class="card-meta">Framing underway · sale status not yet confirmed</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Valley Stream" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior three-quarter</strong>Massing and depth</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">9 Rockaway Parkway</h3>
+            <p class="card-place">Valley Stream, NY</p>
+            <p class="card-specs">5 bd &middot; 3.5 ba &middot; 3,400 sq ft</p>
+            <p class="card-meta">Completed 2023</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Franklin Square" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Bright overcast, true material color</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">233 Linden Street</h3>
+            <p class="card-place">Franklin Square, NY</p>
+            <p class="card-specs">4 bd &middot; 3 ba &middot; 2,980 sq ft</p>
+            <p class="card-meta">Completed 2021</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Hempstead" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Straight-on elevation</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">15 Bedell Street</h3>
+            <p class="card-place">Hempstead, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,700 sq ft</p>
+            <p class="card-meta">Completed 2019</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Oceanside" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>With street context</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">52 Harbor Road</h3>
+            <p class="card-place">Oceanside, NY</p>
+            <p class="card-specs">5 bd &middot; 3 ba &middot; 3,250 sq ft</p>
+            <p class="card-meta">Completed 2015</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Uniondale" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Archival photograph acceptable</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">90 Beech Place</h3>
+            <p class="card-place">Uniondale, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,450 sq ft</p>
+            <p class="card-meta">Completed 2009</p>
+          </div>
+        </a>
+
+        <a class="card" data-status="completed" data-town="Syosset" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Earliest work in the portfolio</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">30 Cedar Crest Road</h3>
+            <p class="card-place">Syosset, NY</p>
+            <p class="card-specs">3 bd &middot; 2 ba &middot; 2,100 sq ft</p>
+            <p class="card-meta">Completed 2004</p>
+          </div>
+        </a>
+
+      </div>
+
+
+      <!-- A-01, from docs/13. Adaptive message: the reason the result set is
+           empty changes what the most useful response is. -->
+      <div class="empty" id="empty" role="status">
+        <h2 id="empty-head">Nothing available this minute.</h2>
+        <p id="empty-body">We build a small number of houses a year, so there are stretches
+          with nothing on the market. Tell us the town and the size you're after and we'll
+          let you know when something's coming.</p>
+        <div class="empty-actions">
+          <a class="btn btn--primary" href="contact.html">Tell us what you're looking for</a>
+          <a class="link-arrow" href="#" data-reset>Show all homes &rarr;</a>
+        </div>
+        <div class="empty-recent">
+          <h3>Recently completed</h3>
+          <ul class="empty-recent-list">
+            <li><a href="home-detail.html"><strong>9 Rockaway Parkway</strong><span>Valley Stream &middot; 2023</span></a></li>
+            <li><a href="home-detail.html"><strong>233 Linden Street</strong><span>Franklin Square &middot; 2021</span></a></li>
+            <li><a href="home-detail.html"><strong>15 Bedell Street</strong><span>Hempstead &middot; 2019</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- The dated span is the argument. A grid running 2004 → 2026 answers
+           "will this builder still exist in five years" without any copy. -->
+      <p class="caption" style="margin-top:var(--s-6); text-align:center; font-size:var(--fs-small)">
+        Portfolio shown spans 2004 to 2026. Fictional examples in this prototype —
+        real entries must each be verifiable in deed or MLS records. See docs/08.
+      </p>
+    </div>
+  </section>
+
+  <!-- One restrained acquisition band, at the bottom only. Never mid-flow
+       for a buyer. See docs/02 cross-linking rules. -->
+  <section class="section section--tight section--forest">
+    <div class="wrap wrap--narrow" style="text-align:center">
+      <h2>Have a property that could become one of these?</h2>
+      <p style="margin-top:var(--s-4); color:var(--sand)">
+        We look at land, older homes, and estate properties across Long Island.
+        Reaching out doesn't commit you to anything.
+      </p>
+      <p style="margin-top:var(--s-6)">
+        <a class="btn btn--light" href="sell-your-property.html">Tell us about your property</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+            <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#FBF8F3"/>
+            <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders · Long Island</small></span>
+        </a>
+        <p>Single-family homes built for Long Island living. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#E4DACA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#E4DACA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="homes.html">Homes</a></li>
+          <li><a href="why-verdeland.html">Why VerdeLand</a></li>
+          <li><a href="sell-your-property.html">Sell Your Property</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers — see docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;·&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var header = document.getElementById('header');
+    var open = header.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+
+  // Filtering is real here so the empty state can actually be reached:
+  // pick "Available" plus a town other than Elmont. See docs/03, docs/13.
+  var cards  = [].slice.call(document.querySelectorAll('.card[data-status]'));
+  var chips  = [].slice.call(document.querySelectorAll('.filter'));
+  var town   = document.getElementById('town');
+  var count  = document.getElementById('count');
+  var empty  = document.getElementById('empty');
+  var head   = document.getElementById('empty-head');
+  var body   = document.getElementById('empty-body');
+  var status = 'all';
+
+  var COPY = {
+    status: {
+      head: 'Nothing available this minute.',
+      body: "We build a small number of houses a year, so there are stretches with nothing " +
+            "on the market. Tell us the town and the size you're after and we'll let you " +
+            "know when something's coming."
+    },
+    town: function (t) {
+      return { head: "We haven't built in " + t + " yet.",
+               body: "That doesn't mean we won't — we're always looking at property across " +
+                     "Long Island. Tell us what you're after in " + t + " and we'll let you know." };
+    },
+    both: function (t) {
+      return { head: "Nothing available in " + t + " right now.",
+               body: "Below is where we have been building. Tell us what you're looking for " +
+                     "and we'll get in touch when something fits." };
+    }
+  };
+
+  function apply() {
+    var t = town.value, shown = 0;
+    cards.forEach(function (c) {
+      var ok = (status === 'all' || c.dataset.status === status) &&
+               (t === 'all' || c.dataset.town === t);
+      c.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+
+    count.textContent = 'Showing ' + shown + ' of ' + cards.length + ' homes';
+
+    if (shown === 0) {
+      var c = (status !== 'all' && t !== 'all') ? COPY.both(t)
+            : (t !== 'all')                     ? COPY.town(t)
+            :                                     COPY.status;
+      head.textContent = c.head;
+      body.textContent = c.body;
+      empty.classList.add('is-shown');
+    } else {
+      empty.classList.remove('is-shown');
+    }
+  }
+
+  chips.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      chips.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+      btn.setAttribute('aria-pressed', 'true');
+      status = btn.dataset.filter;
+      apply();
+    });
+  });
+  town.addEventListener('change', apply);
+
+  document.querySelector('[data-reset]').addEventListener('click', function (e) {
+    e.preventDefault();
+    status = 'all'; town.value = 'all';
+    chips.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.filter === 'all'); });
+    apply();
+  });
+</script>
+
+</body>
+</html>

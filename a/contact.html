@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact VerdeLand Home Builders | Long Island</title>
+<meta name="description" content="Call or write to VerdeLand Home Builders about a specific home, buying generally, a property you own, or a broker inquiry.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Placeholder contact details. Not for publication.
+</div>
+
+<div class="proto-banner" style="background:#4A5048">
+  DIRECTION A &mdash; archived for comparison &nbsp;&middot;&nbsp;
+  <a href="../compare.html" style="color:#FBF8F3">compare all three</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#22392C"/>
+        <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders · Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="homes.html">Homes</a>
+      <a href="why-verdeland.html">Why VerdeLand</a>
+      <a href="sell-your-property.html">Sell Your Property</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="header-phone" href="tel:+15168076127">(516) 807-6127<span>Nassau &amp; Suffolk</span></a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section">
+    <div class="wrap">
+      <div class="wrap--narrow" style="padding:0; margin-inline:0">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in touch.</h1>
+        <p class="lead" style="margin-top:var(--s-4); color:var(--ink-soft)">
+          We answer within one business day.
+        </p>
+      </div>
+
+      <!-- Direct methods above the form. Someone who wants to call should
+           never have to scroll past a form to find the number. See docs/03. -->
+      <div class="grid grid--3" style="margin-top:var(--s-7)">
+        <div class="note-panel">
+          <h2>Call</h2>
+          <p><a href="tel:+15168076127" style="font-size:var(--fs-lead); font-weight:600">(516) 807-6127</a></p>
+          <p style="margin-top:var(--s-2); font-size:var(--fs-small)">[Placeholder hours]</p>
+        </div>
+        <div class="note-panel">
+          <h2>Email</h2>
+          <p><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></p>
+          <p style="margin-top:var(--s-2); font-size:var(--fs-small)">Monitored by a person, not an auto-responder.</p>
+        </div>
+        <div class="note-panel">
+          <h2>Office</h2>
+          <p>[Placeholder street address]<br>[Town], NY [ZIP]</p>
+          <p style="margin-top:var(--s-2); font-size:var(--fs-small)">Visits by appointment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper" style="padding-top:0">
+    <div class="wrap">
+      <div class="split" style="align-items:start; padding-top:var(--s-8)">
+        <form class="form" onsubmit="return false">
+          <!-- The topic selector routes the message and also tells the visitor
+               that their kind of question is expected. See docs/03. -->
+          <div class="field">
+            <label for="topic">What's this about? <span class="req">*</span></label>
+            <select id="topic" name="topic" required>
+              <option value="">Choose one</option>
+              <option>A specific home</option>
+              <option>Buying generally</option>
+              <option>I have a property</option>
+              <option>Broker inquiry</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="cname">Your name <span class="req">*</span></label>
+              <input id="cname" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cemail">Email <span class="req">*</span></label>
+              <input id="cemail" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cphone">Phone <span class="hint">(optional)</span></label>
+            <input id="cphone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="cmsg">Message <span class="hint">(optional)</span></label>
+            <textarea id="cmsg" name="message"></textarea>
+          </div>
+          <div class="honeypot" aria-hidden="true">
+            <label for="ccompany">Company</label>
+            <input id="ccompany" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+          </div>
+          <p class="form-note">
+            We answer within one business day. We don't share your details, and we don't
+            add you to a mailing list.
+          </p>
+        </form>
+
+        <div>
+          <!-- Static map image, not an embed. An embed costs real page weight and
+               sets third-party cookies for a feature almost nobody uses. D-015. -->
+          <div class="ph ph--4x3">
+            <p class="ph-label">
+              <strong>Static map image</strong>
+              Rendered once and served as a picture. Not an interactive embed —
+              see decision D-015.
+            </p>
+          </div>
+          <p class="caption">Office location. Visits by appointment.</p>
+
+          <div class="note-panel" style="margin-top:var(--s-6)">
+            <h3>Have a property instead?</h3>
+            <p>
+              If you own land or an older home you're thinking about, there's a page for
+              that with more detail on how it works.
+            </p>
+            <p style="margin-top:var(--s-4)">
+              <a class="link-arrow" href="sell-your-property.html">Sell your property &rarr;</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+            <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#FBF8F3"/>
+            <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders · Long Island</small></span>
+        </a>
+        <p>Single-family homes built for Long Island living. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#E4DACA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#E4DACA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="homes.html">Homes</a></li>
+          <li><a href="why-verdeland.html">Why VerdeLand</a></li>
+          <li><a href="sell-your-property.html">Sell Your Property</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers — see docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;·&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var header = document.getElementById('header');
+    var open = header.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>

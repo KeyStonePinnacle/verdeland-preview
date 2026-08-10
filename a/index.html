@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VerdeLand Home Builders — New Single-Family Homes on Long Island</title>
+<meta name="description" content="A family-owned Long Island builder of single-family homes since 2001. Explore our homes, see our record, or tell us about a property.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Placeholder content, fictional example homes, no real photography. Not for publication.
+</div>
+
+<div class="proto-banner" style="background:#4A5048">
+  DIRECTION A &mdash; archived for comparison &nbsp;&middot;&nbsp;
+  <a href="../compare.html" style="color:#FBF8F3">compare all three</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#22392C"/>
+        <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders · Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="homes.html">Homes</a>
+      <a href="why-verdeland.html">Why VerdeLand</a>
+      <a href="sell-your-property.html">Sell Your Property</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="header-phone" href="tel:+15168076127">(516) 807-6127<span>Nassau &amp; Suffolk</span></a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================================================== hero ===== -->
+  <section class="hero" data-section="hero">
+    <div class="ph ph--hero">
+      <p class="ph-label">
+        <strong>Hero photograph</strong>
+        Completed VerdeLand home, exterior front, golden hour or bright overcast,
+        landscaping in. Not a rendering. Not a construction site. See docs/05.
+      </p>
+    </div>
+    <div class="hero-copy">
+      <div class="wrap">
+        <h1>Single-family homes built for Long Island living.</h1>
+        <p class="lead">
+          A family-owned builder working on Long Island since 2001.
+          Explore our homes, look at our record, or tell us about a property.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="homes.html">View our homes</a>
+          <a class="link-arrow" href="why-verdeland.html">Our record &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ featured ====== -->
+  <section class="section section--paper" data-section="featured">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Our work</p>
+        <h2>Recent VerdeLand homes</h2>
+        <p>Every home we've built, with its status stated plainly.</p>
+      </div>
+
+      <div class="grid grid--3">
+
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--available">Available</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Two-story colonial, straight-on, mature plantings</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">118 Meacham Avenue</h3>
+            <p class="card-place">Elmont, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,850 sq ft</p>
+            <p class="card-specs" style="color:var(--forest); font-weight:600">$1,295,000</p>
+            <p class="card-meta">Status confirmed 12 June 2026</p>
+          </div>
+        </a>
+
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--coming">Coming soon</span>
+            <div class="ph ph--4x3">
+              <p class="ph-label"><strong>Artist's rendering</strong>Front elevation, home not yet completed</p>
+              <span class="rendering-label">Artist's rendering</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">41 Bayview Terrace</h3>
+            <p class="card-place">Island Park, NY</p>
+            <p class="card-specs">4 bd &middot; 3 ba &middot; 3,100 sq ft</p>
+            <p class="card-specs" style="color:var(--forest); font-weight:600">$1,175,000</p>
+            <p class="card-meta">Status confirmed 2 July 2026</p>
+          </div>
+        </a>
+
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior three-quarter</strong>Shows massing and depth</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">9 Rockaway Parkway</h3>
+            <p class="card-place">Valley Stream, NY</p>
+            <p class="card-specs">5 bd &middot; 3.5 ba &middot; 3,400 sq ft</p>
+            <p class="card-meta">Completed 2023</p>
+          </div>
+        </a>
+
+      </div>
+
+      <p style="margin-top:var(--s-7)"><a class="link-arrow" href="homes.html">See all homes &rarr;</a></p>
+    </div>
+  </section>
+
+  <!-- =================================================== proof ====== -->
+  <section class="section" data-section="proof">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Why VerdeLand</p>
+          <h2>Twenty-five years of single-family homes on Long Island.</h2>
+          <p style="margin-top:var(--s-5); color:var(--ink-soft)">
+            We're a family-owned builder. We've been putting up single-family houses
+            on Long Island since 2001, and the record is public — every home
+            in our portfolio can be verified in deed and MLS records.
+          </p>
+          <p style="margin-top:var(--s-4); color:var(--ink-soft)">
+            We build houses we'd want to live in: layouts that work for how families
+            actually move through a day, and finish work that holds up.
+          </p>
+          <p style="margin-top:var(--s-6)"><a class="link-arrow" href="why-verdeland.html">More about us &rarr;</a></p>
+        </div>
+        <div>
+          <div class="ph ph--3x2">
+            <p class="ph-label">
+              <strong>The owner, on site</strong>
+              Ordinary clothes, real job site, unposed. Highest-value single image
+              on the entire website. See docs/05.
+            </p>
+          </div>
+          <p class="caption">This photograph does more for trust than any paragraph of copy.</p>
+        </div>
+      </div>
+
+      <div class="proof-grid" style="margin-top:clamp(var(--s-8),8vw,var(--s-9))">
+        <div class="proof-item">
+          <p class="proof-num">2001</p>
+          <h3>Building since</h3>
+          <p>Single-family homes across Long Island. <em>[Owner attestation — needs verification]</em></p>
+        </div>
+        <div class="proof-item">
+          <p class="proof-num">[N]</p>
+          <h3>Homes completed</h3>
+          <p>Each one documented in public deed and MLS records. <em>[Needs verification]</em></p>
+        </div>
+        <div class="proof-item">
+          <p class="proof-num">[N]</p>
+          <h3>Long Island towns</h3>
+          <p>Built in, across both counties. <em>[Needs verification]</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================== acquisition ==== -->
+  <!-- The visually distinct band. See D-010 — this is the main thing to
+       evaluate: a buyer should read it as "not for me" in under a second,
+       an owner should read it as "for me" just as fast. -->
+  <section class="section section--forest" data-section="acquisition">
+    <div class="wrap">
+      <div class="split">
+        <div>
+          <p class="eyebrow">For property owners</p>
+          <h2>We buy property because we build on it.</h2>
+          <p style="margin-top:var(--s-5); color:var(--sand)">
+            Not to resell it &mdash; to put a new single-family home there. If you own land
+            or an older house on Long Island, we'd like to hear about it. Reaching out
+            doesn't commit you to anything.
+          </p>
+          <p style="margin-top:var(--s-6)">
+            <a class="btn btn--light" href="sell-your-property.html">Tell us about your property</a>
+          </p>
+        </div>
+        <div>
+          <ul class="plain-list" style="color:var(--sand)">
+            <li>Vacant land</li>
+            <li>Older single-family homes</li>
+            <li>Estate properties</li>
+            <li>Teardown opportunities</li>
+            <li>Oversized lots and possible subdivision sites</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================== contact cta ==== -->
+  <section class="section section--tight section--sand" data-section="contact-cta">
+    <div class="wrap wrap--narrow" style="text-align:center">
+      <h2>Questions about a home?</h2>
+      <p style="margin-top:var(--s-4); color:var(--ink-soft)">
+        Call us at <a href="tel:+15168076127"><strong>(516) 807-6127</strong></a> or send a note.
+        We answer within one business day.
+      </p>
+      <p style="margin-top:var(--s-6)"><a class="btn btn--primary" href="contact.html">Get in touch</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+            <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#FBF8F3"/>
+            <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders · Long Island</small></span>
+        </a>
+        <p>Single-family homes built for Long Island living. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#E4DACA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#E4DACA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="homes.html">Homes</a></li>
+          <li><a href="why-verdeland.html">Why VerdeLand</a></li>
+          <li><a href="sell-your-property.html">Sell Your Property</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers — see docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;·&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var header = document.getElementById('header');
+    var open = header.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>

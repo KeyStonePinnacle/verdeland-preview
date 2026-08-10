@@ -1,0 +1,25 @@
+{
+ "note": "AI-generated exterior variants of 1320 R Street (owner-supplied Hero Pics). PROTOTYPE-ONLY per D-033 second amendment \u2014 production use requires explicit owner+counsel sign-off.",
+ "files": {
+  "hero-1.jpg": {
+   "source": "generated-image (1).png",
+   "kb": 502
+  },
+  "hero-2.jpg": {
+   "source": "generated-image (2).png",
+   "kb": 461
+  },
+  "hero-3.jpg": {
+   "source": "generated-image.png",
+   "kb": 482
+  },
+  "hero-4.jpg": {
+   "source": "updated - generated-image (2).png",
+   "kb": 412
+  },
+  "hero-5.jpg": {
+   "source": "upscaled-from-703499.png",
+   "kb": 666
+  }
+ }
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sell Your Property — Land &amp; Homes | VerdeLand Home Builders</title>
+<meta name="description" content="We look at land, older homes, and estate properties on Long Island that could support a new single-family home. Reaching out doesn't commit you to anything.">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Placeholder content. Legal review required before this page is published — see docs/08 Q-09.
+</div>
+
+<div class="proto-banner" style="background:#4A5048">
+  DIRECTION A &mdash; archived for comparison &nbsp;&middot;&nbsp;
+  <a href="../compare.html" style="color:#FBF8F3">compare all three</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#22392C"/>
+        <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders · Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="homes.html">Homes</a>
+      <a href="why-verdeland.html">Why VerdeLand</a>
+      <a href="sell-your-property.html" aria-current="page">Sell Your Property</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="header-phone" href="tel:+15168076127">(516) 807-6127<span>Nassau &amp; Suffolk</span></a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================================================== the claim === -->
+  <!-- Rebuilt around builder-not-buyer (A-13). The previous version was
+       built on "we're the honest ones", which is a tone, not a
+       differentiator -- the best cash buyers are warm too. This is
+       structural: a wholesaler assigns, a flipper resells, VerdeLand builds.
+       See docs/15 Part 3a. -->
+  <section class="section">
+    <div class="wrap wrap--narrow">
+      <p class="eyebrow">For property owners</p>
+      <h1>We buy property because we build on it.</h1>
+      <p class="lead" style="margin-top:var(--s-5); color:var(--ink-soft)">
+        We're not investors, and we're not buying to resell. We build single-family
+        homes on Long Island &mdash; that's the whole business &mdash; and we're always
+        looking for land and older houses to build on.
+      </p>
+      <p style="margin-top:var(--s-4); color:var(--ink-soft)">
+        Everything we've bought has become a house. You can drive past them.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================================================== proof ===== -->
+  <!-- The portfolio doing double duty. For a buyer it sells a house; here it
+       is the entire argument. Placed immediately after the claim. -->
+  <section class="section section--paper">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The proof</p>
+        <h2>Houses we built on property someone sold us.</h2>
+        <p>Every one of these was land or an older home before we bought it.</p>
+      </div>
+      <div class="grid grid--3">
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Finished home on a lot VerdeLand acquired</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">9 Rockaway Parkway</h3>
+            <p class="card-place">Valley Stream, NY</p>
+            <p class="card-specs">5 bd &middot; 3.5 ba &middot; 3,400 sq ft</p>
+            <p class="card-meta">Completed 2025</p>
+          </div>
+        </a>
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Before/after pairing works well here</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">15 Bedell Street</h3>
+            <p class="card-place">Hempstead, NY</p>
+            <p class="card-specs">4 bd &middot; 2.5 ba &middot; 2,700 sq ft</p>
+            <p class="card-meta">Completed 2023</p>
+          </div>
+        </a>
+        <a class="card" href="home-detail.html">
+          <div class="card-media">
+            <span class="badge badge--completed">Completed</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong>Street context matters on this page</p></div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">233 Linden Street</h3>
+            <p class="card-place">Franklin Square, NY</p>
+            <p class="card-specs">4 bd &middot; 3 ba &middot; 2,980 sq ft</p>
+            <p class="card-meta">Completed 2024</p>
+          </div>
+        </a>
+      </div>
+      <p style="margin-top:var(--s-7)"><a class="link-arrow" href="homes.html">See everything we've built &rarr;</a></p>
+    </div>
+  </section>
+
+  <!-- =============================================== how we pay ==== -->
+  <!-- Second structural fact, same shape as builder-not-buyer: not a claim
+       about character, a claim about mechanics. Many "cash" buyers are backed
+       by hard-money lenders, which means underwriting and a deal that can fall
+       through. Stated affirmatively -- never as an accusation. See docs/08
+       claims 15-16. -->
+  <section class="section">
+    <div class="wrap wrap--narrow">
+      <p class="eyebrow">How the purchase works</p>
+      <h2>We buy with our own money.</h2>
+      <p style="margin-top:var(--s-5); color:var(--ink-soft)">
+        No lender. No underwriting. No financing contingency. Nothing about the sale
+        depends on a bank saying yes, and there's no third party who can change the
+        terms late or walk away.
+      </p>
+      <p style="margin-top:var(--s-4); color:var(--ink-soft)">
+        Plenty of buyers say &ldquo;cash.&rdquo; It's a fair thing to ask anyone to prove
+        &mdash; including us. Ask for proof of funds and we'll show you ours.
+      </p>
+      <p style="font-size:var(--fs-small); color:var(--ink-faint); margin-top:var(--s-5)" class="measure">
+        <em>[Placeholder: this must be true of every purchase before it is published.
+        See docs/08, claims 15&ndash;16.]</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================ what happens ====== -->
+  <!-- The emotional resolution for the estate seller. This is the section
+       that only a builder can write. -->
+  <section class="section section--forest">
+    <div class="wrap wrap--narrow">
+      <p class="eyebrow">What happens next</p>
+      <h2>What happens to your property.</h2>
+      <p style="margin-top:var(--s-5); color:var(--sand)">
+        If we buy it, we build on it. The existing house comes down, and a new
+        single-family home goes up in its place &mdash; the same kind of house you can
+        see in our portfolio.
+      </p>
+      <p style="margin-top:var(--s-4); color:var(--sand)">
+        For a lot of the people we talk to, that's the part that matters. If you're
+        selling a house your family lived in, it isn't being flipped or held. Someone
+        is going to live there.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================================================ what we look == -->
+  <section class="section">
+    <div class="wrap">
+      <div class="split" style="align-items:start">
+        <div>
+          <h2>What we look at</h2>
+          <ul class="plain-list" style="margin-top:var(--s-5)">
+            <li>Vacant land</li>
+            <li>Older single-family homes</li>
+            <li>Bungalows</li>
+            <li>Estate properties</li>
+            <li>Oversized lots</li>
+            <li>Homes past practical repair</li>
+          </ul>
+          <p style="margin-top:var(--s-5); color:var(--ink-soft)">
+            Every property is different. If you're not sure whether yours fits, write in
+            anyway &mdash; it costs you nothing to ask.
+          </p>
+          <p style="font-size:var(--fs-small); color:var(--ink-faint); margin-top:var(--s-4)" class="measure">
+            <em>[Placeholder: foreclosure and short-sale categories appear on the site
+            sign but are held off this page pending counsel &mdash; see docs/08, Q-14.]</em>
+          </p>
+        </div>
+        <div>
+          <div class="ph ph--3x2">
+            <p class="ph-label">
+              <strong>Long Island land</strong>
+              An overgrown lot, a tree line, an older house on a wide parcel.
+              Not a stock handshake. Not a bulldozer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== process ===== -->
+  <section class="section section--sand">
+    <div class="wrap wrap--narrow">
+      <h2>What happens when you write in</h2>
+      <div class="steps" style="margin-top:var(--s-7)">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <h3>You tell us about the property.</h3>
+            <p>Address, roughly what's there, and anything you think we should know.
+               A few sentences is plenty.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <h3>We look into it.</h3>
+            <p>We check the lot, the zoning, and what could be built there.
+               That usually takes a few days.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <h3>We come back to you honestly.</h3>
+            <p>If it's something we can build on, we'll say so and explain what a
+               conversation would look like. There's no financing to arrange on our
+               side, so what we agree is what closes. If it isn't something we can
+               use, we'll tell you that too, and why.</p>
+          </div>
+        </div>
+      </div>
+      <div class="note-panel" style="margin-top:var(--s-7)">
+        <h3>You'll be talking to the builder</h3>
+        <p>
+          VerdeLand is one person. Property messages come straight to me &mdash; not to a
+          salesperson, not to a call center. There's no obligation on either side, and
+          reaching out isn't an offer to buy or an agreement to sell.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================== limits ===== -->
+  <section class="section" data-section="limits">
+    <div class="wrap wrap--narrow">
+      <div class="note-panel">
+        <h2 style="font-size:var(--fs-h3); margin-bottom:var(--s-4)">What we can't promise</h2>
+        <p>
+          We can't promise that we'll buy your property, that it can be subdivided, that
+          it will get zoning approval, or that any particular development is possible on
+          it. Those things depend on the property's own conditions and on the
+          municipality, and nobody who tells you otherwise before looking is being
+          honest with you.
+        </p>
+        <p style="margin-top:var(--s-4)">
+          What we can promise is that we'll look carefully and tell you what we find.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================== form ===== -->
+  <section class="section section--paper" id="submit">
+    <div class="wrap">
+      <div class="split" style="align-items:start">
+        <div>
+          <h2>Tell us about your property</h2>
+          <p style="margin-top:var(--s-4); color:var(--ink-soft)" class="measure">
+            A few details are enough to start. If you'd rather not give the exact address
+            yet, a general location is fine.
+          </p>
+          <p style="margin-top:var(--s-5); color:var(--ink-soft)">
+            Prefer to talk? Call <a href="tel:+15168076127"><strong>(516) 807-6127</strong></a>.
+          </p>
+          <p style="margin-top:var(--s-6)"><a class="link-arrow" href="why-verdeland.html">Who we are &rarr;</a></p>
+        </div>
+
+        <form class="form" onsubmit="return false">
+          <div class="field-row">
+            <div class="field">
+              <label for="pname">Your name <span class="req">*</span></label>
+              <input id="pname" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="pemail">Email <span class="req">*</span></label>
+              <input id="pemail" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="pphone">Phone <span class="hint">(optional)</span></label>
+            <input id="pphone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="paddr">Property address or general location <span class="req">*</span></label>
+            <input id="paddr" name="address" type="text" autocomplete="street-address" required>
+            <span class="hint">A town or neighborhood is fine if you'd rather not be specific yet.</span>
+          </div>
+          <div class="field">
+            <label for="pmore">Tell us about it <span class="hint">(optional)</span></label>
+            <textarea id="pmore" name="more"></textarea>
+          </div>
+          <div class="honeypot" aria-hidden="true">
+            <label for="pcompany">Company</label>
+            <input id="pcompany" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <div>
+            <button class="btn btn--primary" type="submit">Send property details</button>
+          </div>
+          <p class="form-note">
+            Sending this isn't an offer to sell and doesn't commit you to anything.
+            It comes straight to the builder.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 30 30" aria-hidden="true">
+            <path d="M3 16 L15 5 L27 16 L27 27 L18 27 L18 19 L12 19 L12 27 L3 27 Z" fill="#FBF8F3"/>
+            <path d="M15 5 L27 16" stroke="#A8552F" stroke-width="2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders · Long Island</small></span>
+        </a>
+        <p>Single-family homes built for Long Island living. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#E4DACA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#E4DACA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="homes.html">Homes</a></li>
+          <li><a href="why-verdeland.html">Why VerdeLand</a></li>
+          <li><a href="sell-your-property.html">Sell Your Property</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers — see docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;·&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var header = document.getElementById('header');
+    var open = header.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>
+
+</body>
+</html>

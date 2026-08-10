@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock -- real access control comes with
+   production hosting. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VerdeLand Home Builders — New Homes on Long Island</title>
+<meta name="description" content="New single-family homes on Long Island. Available homes, completed work, and how we build.">
+<link rel="stylesheet" href="../assets/css/site-b.css">
+</head>
+<body>
+
+<div class="proto-banner">
+  <strong>Design prototype.</strong> Placeholder content, fictional example homes, no real photography. Not for publication.
+</div>
+<div class="dir-flag">
+  DIRECTION B &mdash; design brief interpretation &nbsp;·&nbsp;
+  <a href="../compare.html">compare with Direction A</a>
+</div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">
+      <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M3 17 L16 5 L29 17 L29 28 L19.5 28 L19.5 20 L12.5 20 L12.5 28 L3 28 Z" fill="#2F5138"/>
+        <path d="M16 5 L29 17" stroke="#A85F36" stroke-width="2.2" fill="none"/>
+      </svg>
+      <span>VerdeLand <small>Home Builders &middot; Long Island</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Available Homes</a>
+      <a href="#work">Our Work</a>
+      <a href="how-we-build.html">How We Build</a>
+      <a href="#about">About</a>
+      <a href="#sell">Sell Your Property</a>
+    </nav>
+    <a class="btn btn--primary header-cta" href="#contact">Ask about a home</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================================================== 1 HERO ===== -->
+  <!-- Brief §8.1: image beside copy, no scrim-over-photo, single message,
+       no carousel. -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">New homes on Long Island</p>
+        <h1>Thoughtfully built homes for modern Long Island living.</h1>
+        <p class="lead">
+          We build new single-family houses across Long Island &mdash; practical layouts,
+          considered details, and finish work you can inspect.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="#available">View available homes</a>
+          <a class="btn btn--secondary" href="#work">See our work</a>
+        </div>
+      </div>
+      <div>
+        <div class="ph ph--16x10">
+          <p class="ph-label"><strong>Hero photograph</strong>
+            Completed VerdeLand home, exterior front, golden hour or bright overcast,
+            landscaping in. Real project, not a rendering.</p>
+        </div>
+        <p class="hero-caption">118 Meacham Avenue, Elmont &mdash; completed 2026</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ 2 PROOF STRIP === -->
+  <!-- Brief §8.2. Omit entirely rather than invent figures. -->
+  <section class="proof-strip">
+    <div class="wrap proof-strip-inner">
+      <div class="proof-item"><strong>2001</strong><span>Building on Long Island since</span></div>
+      <div class="proof-item"><strong>[N]</strong><span>Homes completed</span></div>
+      <div class="proof-item"><strong>[N]</strong><span>Towns built in</span></div>
+      <div class="proof-item"><strong>1 / 2 / 6</strong><span>Year builder&rsquo;s warranty</span></div>
+    </div>
+  </section>
+
+  <!-- ============================================= 3 FEATURED HOME ==== -->
+  <section class="section" id="available">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Available now</p>
+        <h2>118 Meacham Avenue, Elmont</h2>
+      </div>
+      <div class="featured">
+        <div>
+          <div class="ph ph--16x10">
+            <p class="ph-label"><strong>Featured home, exterior</strong>
+              The single dominant image. Brief §8.3.</p>
+          </div>
+        </div>
+        <div class="fact-panel">
+          <p style="display:flex;align-items:center;gap:var(--s-3);flex-wrap:wrap">
+            <span class="badge badge--available">Available</span>
+            <span class="badge-date">Updated 12 June 2026</span>
+          </p>
+          <h3 style="margin-top:var(--s-5)">$1,295,000</h3>
+          <ul class="fact-rows">
+            <li><span class="k">Bedrooms</span><span class="v">5</span></li>
+            <li><span class="k">Bathrooms</span><span class="v">3 full, 1 half</span></li>
+            <li><span class="k">Interior</span><span class="v">3,180 sq ft</span></li>
+            <li><span class="k">Lot</span><span class="v">0.19 acres</span></li>
+            <li><span class="k">Type</span><span class="v">New construction</span></li>
+            <li><span class="k">Completed</span><span class="v">2026</span></li>
+          </ul>
+          <p style="color:var(--ink-soft);font-size:var(--fs-small);margin-top:var(--s-5)">
+            The kitchen opens to the family room, with a separate dining room that closes off.
+            A mudroom off the garage takes the daily traffic. Laundry sits on the bedroom floor.
+          </p>
+          <p style="margin-top:var(--s-6)">
+            <a class="btn btn--primary" href="#contact">Ask about this home</a>
+          </p>
+          <p class="caption">Showings are arranged through the listing agent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== 4 PRINCIPLES ====== -->
+  <section class="section section--paper">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Why VerdeLand</p>
+        <h2>Three things we build around.</h2>
+      </div>
+      <div class="grid grid--3">
+        <div class="principle">
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Proof image</strong>Mudroom, storage wall, or circulation detail</p></div>
+          <h3>Layouts designed around daily life</h3>
+          <p>Circulation, storage, and rooms that flex. The mudroom off the garage doesn&rsquo;t
+             photograph well and matters every single day.</p>
+        </div>
+        <div class="principle">
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Proof image</strong>Counter edge, hardware, tile &mdash; material detail</p></div>
+          <h3>Details chosen with purpose</h3>
+          <p>Wolf and Sub-Zero where it counts, and materials picked for how they wear rather
+             than how they photograph.</p>
+        </div>
+        <div class="principle">
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Proof image</strong>Framing, or builder on site</p></div>
+          <h3>One builder, start to finish</h3>
+          <p>Lots, plans, permits, site and finishes handled by the same person. Nobody
+             between you and whoever is responsible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ 5 PROJECT STORY ===== -->
+  <!-- B-01 from docs/17. The best available proof of how VerdeLand thinks,
+       and construction-stage photography is what competitors never show. -->
+  <section class="section section--soft">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">One project, three stages</p>
+        <h2>How a decision becomes a room.</h2>
+        <p>9 Rockaway Parkway, Valley Stream. The same corner of the house, from plan to finished.</p>
+      </div>
+      <div class="story">
+        <div class="stage">
+          <p class="stage-tag">Plan</p>
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Plan or elevation</strong>Marked up, not a clean CAD export</p></div>
+          <h3>Move the stair off the entry</h3>
+          <p>Putting the stair against the side wall frees the entry for a real coat closet
+             and a place to put things down.</p>
+        </div>
+        <div class="stage">
+          <p class="stage-tag">Build</p>
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Framing photograph</strong>Showing the bones signals confidence</p></div>
+          <h3>Framed with the opening carried</h3>
+          <p>The wider opening needs a carried header. Doing it in framing is cheap; doing it
+             later is not possible.</p>
+        </div>
+        <div class="stage">
+          <p class="stage-tag">Finished</p>
+          <div class="ph ph--4x3"><p class="ph-label"><strong>Finished room</strong>Same viewpoint as the framing shot</p></div>
+          <h3>An entry you can actually use</h3>
+          <p>Closet, bench, and a clear line into the kitchen without walking through the
+             living room.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== 6 HOW WE BUILD ==== -->
+  <!-- Scoped per the owner's decision: how VERDELAND builds -- standards,
+       materials, warranty, buyer finish selection. NOT a client-managed
+       project process; that would reopen custom building. -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How we build</p>
+        <h2>Specifics, not adjectives.</h2>
+        <p>&ldquo;Quality craftsmanship&rdquo; means nothing. Here is what we actually do.</p>
+      </div>
+      <div class="grid grid--2">
+        <div class="panel"><h3>Structure</h3><p>[Framing standard, engineered lumber, sheathing, connection details.]</p></div>
+        <div class="panel"><h3>Envelope</h3><p>[Insulation and R-value, air sealing, window brand and glazing, roofing.]</p></div>
+        <div class="panel"><h3>Finishes you choose</h3><p>Buyers select finishes on homes we&rsquo;re building. On a recent home that came to just over $70,000 of buyer-selected upgrades. [Needs verification &mdash; docs/08.]</p></div>
+        <div class="panel"><h3>What you&rsquo;re covered for</h3><p>A written builder&rsquo;s limited warranty &mdash; 1 year workmanship, 2 years systems, 6 years structural. Limits and exclusions apply; the executed warranty governs.</p></div>
+      </div>
+      <p style="margin-top:var(--s-7)"><a class="link-arrow" href="how-we-build.html">How we build, in full &rarr;</a></p>
+    </div>
+  </section>
+
+  <!-- =============================================== 7 SELECTED WORK == -->
+  <section class="section section--paper" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Our work</p>
+        <h2>Recent VerdeLand homes.</h2>
+        <p>Every home we&rsquo;ve built, with its status stated plainly.</p>
+      </div>
+      <div class="grid grid--3">
+        <a class="card" href="#">
+          <div class="card-media"><span class="badge badge--completed">Completed 2025</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong></p></div></div>
+          <div class="card-body">
+            <h3 class="card-title">9 Rockaway Parkway</h3>
+            <p class="card-place">Valley Stream, NY &middot; New construction</p>
+            <p class="card-feature">Stair moved off the entry to make room for real storage.</p>
+            <p class="card-meta">View project &rarr;</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card-media"><span class="badge badge--completed">Completed 2024</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Exterior front</strong></p></div></div>
+          <div class="card-body">
+            <h3 class="card-title">233 Linden Street</h3>
+            <p class="card-place">Franklin Square, NY &middot; New construction</p>
+            <p class="card-feature">First-floor flex room usable as office or guest room.</p>
+            <p class="card-meta">View project &rarr;</p>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card-media"><span class="badge badge--coming">Coming soon</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Artist&rsquo;s rendering</strong></p>
+              <span class="rendering-label">Artist&rsquo;s rendering</span></div></div>
+          <div class="card-body">
+            <h3 class="card-title">41 Bayview Terrace</h3>
+            <p class="card-place">Island Park, NY &middot; New construction</p>
+            <p class="card-feature">Raised construction with parking below.</p>
+            <p class="card-meta">Status confirmed 2 July 2026</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= 8 TRUST EVIDENCE === -->
+  <!-- Brief §8.8. Only verified items. The warranty is the strongest one
+       we actually have -- see docs/16. -->
+  <section class="section section--green" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Who builds these</p>
+        <h2>Third generation.</h2>
+        <p>My grandfather built houses. So did my father, for more than thirty years.
+           I started VerdeLand in 2001 and I&rsquo;ve been building here ever since.</p>
+      </div>
+      <div class="grid grid--3">
+        <div><h3>Documented record</h3>
+          <p style="color:var(--green-soft);font-size:var(--fs-small);margin-top:var(--s-3)">
+            Every home is in the public deed and MLS record. We&rsquo;ll point you to them.</p></div>
+        <div><h3>Written warranty</h3>
+          <p style="color:var(--green-soft);font-size:var(--fs-small);margin-top:var(--s-3)">
+            1 year workmanship, 2 years systems, 6 years structural. Limits apply.</p></div>
+        <div><h3>Labeled honestly</h3>
+          <p style="color:var(--green-soft);font-size:var(--fs-small);margin-top:var(--s-3)">
+            Renderings say so on the image. No home is called available until it is.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ SELL PROPERTY === -->
+  <!-- Retained against the brief, per the owner's decision. Builder-not-buyer,
+       and buying with own funds. See docs/17 conflict 1. -->
+  <section class="section section--soft" id="sell">
+    <div class="wrap">
+      <div class="featured" style="align-items:center">
+        <div>
+          <p class="eyebrow">For property owners</p>
+          <h2>We buy property because we build on it.</h2>
+          <p class="lead" style="color:var(--ink-soft);margin-top:var(--s-5)">
+            Not to resell it &mdash; to put a new single-family home there. We buy with our own
+            money: no lender, no underwriting, no financing contingency.
+          </p>
+          <p style="margin-top:var(--s-6)">
+            <a class="btn btn--primary" href="#contact">Tell us about your property</a>
+          </p>
+        </div>
+        <div>
+          <ul class="plain-list">
+            <li>Vacant land</li>
+            <li>Older single-family homes</li>
+            <li>Bungalows</li>
+            <li>Estate properties</li>
+            <li>Oversized lots</li>
+            <li>Homes past practical repair</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== 9 FINAL CTA === -->
+  <section class="section section--tight" id="contact">
+    <div class="wrap wrap--narrow" style="text-align:center">
+      <h2>Interested in an available home, or have a property?</h2>
+      <p style="color:var(--ink-soft);margin-top:var(--s-4)">
+        Call <a href="tel:+15168076127"><strong>(516) 807-6127</strong></a> or send a note.
+        Property messages come straight to the builder.
+      </p>
+      <p style="margin-top:var(--s-6);display:flex;gap:var(--s-4);justify-content:center;flex-wrap:wrap">
+        <a class="btn btn--primary" href="#">Ask about a home</a>
+        <a class="btn btn--secondary" href="#">Tell us about a property</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M3 17 L16 5 L29 17 L29 28 L19.5 28 L19.5 20 L12.5 20 L12.5 28 L3 28 Z" fill="#FFFFFF"/>
+            <path d="M16 5 L29 17" stroke="#A85F36" stroke-width="2.2" fill="none"/>
+          </svg>
+          <span>VerdeLand <small>Home Builders &middot; Long Island</small></span>
+        </a>
+        <p>New single-family homes on Long Island. Building here since 2001.</p>
+        <p class="eho">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2 12 L12 4 L22 12 L19 12 L19 20 L5 20 L5 12 Z" fill="none" stroke="#DDE5DA" stroke-width="1.5"/>
+            <path d="M8 14 h8 M8 17 h8" stroke="#DDE5DA" stroke-width="1.5"/>
+          </svg>
+          Equal Housing Opportunity
+        </p>
+      </div>
+      <div>
+        <h2 class="footer-head">Site</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Available Homes</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="how-we-build.html">How We Build</a></li>
+          <li><a href="#sell">Sell Your Property</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-head">Get in touch</h2>
+        <ul class="footer-links">
+          <li><a href="tel:+15168076127">(516) 807-6127</a></li>
+          <li><a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a></li>
+          <li>[Placeholder address]<br>Long Island, NY</li>
+          <li>[Placeholder hours]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Verdeland Homes, Inc. [Placeholder: registration numbers &mdash; docs/08 Q-07]</span>
+      <span><a href="#">Disclosures</a> &nbsp;&middot;&nbsp; <a href="#">Privacy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function () {
+    var h = document.getElementById('header');
+    this.setAttribute('aria-expanded', h.classList.toggle('is-open'));
+  });
+</script>
+
+</body>
+</html>
