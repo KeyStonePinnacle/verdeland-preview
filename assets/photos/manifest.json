@@ -609,205 +609,135 @@
     "status_verified_by": "Owner"
   },
   "33-horace-avenue": {
-    "address": "33 Horace Avenue",
-    "count": 47,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "address": "33 Horace Avenue, Roosevelt",
+    "count": 31,
+    "provenance": "Owner-supplied FINAL set, 2026-08-12 (replaces prior 47-image V3 draft set). Filenames self-identify as 'Marketing Rendering V3'; production method still UNCONFIRMED (photo / retouched / CGI / AI). Not labeled as renderings on-page because that claim may itself be false; publishing ungated is BLOCKED until the owner confirms per docs/08. Optimized to 1800px / q78.",
     "images": [
       {
-        "file": "01_G001_Exterior_Front_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 698
-      },
-      {
-        "file": "01_G011_Kitchen_Wide_Warm_Natural_Oak_Floor_Marketing_Rendering_V4.jpg",
-        "kb": 268
-      },
-      {
         "file": "02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg",
-        "kb": 630
+        "kb": 691
       },
       {
         "file": "03_G003_Exterior_Driveway_Right_Marketing_Rendering_V3.jpg",
-        "kb": 699
-      },
-      {
-        "file": "04_G004_Exterior_Driveway_Angle_Marketing_Rendering_V3.jpg",
-        "kb": 709
+        "kb": 772
       },
       {
         "file": "05_G005_Exterior_Left_Corner_Marketing_Rendering_V3.jpg",
-        "kb": 643
-      },
-      {
-        "file": "06_G006_Exterior_Left_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 642
+        "kb": 708
       },
       {
         "file": "07_G007_Living_Room_Window_View_Marketing_Rendering_V3.jpg",
-        "kb": 205
-      },
-      {
-        "file": "08_G008_Living_Room_Front_View_Marketing_Rendering_V3.jpg",
-        "kb": 229
+        "kb": 231
       },
       {
         "file": "09_G009_Dining_Open_Layout_Marketing_Rendering_V3.jpg",
-        "kb": 209
-      },
-      {
-        "file": "10_G010_Living_Dining_Backyard_View_Marketing_Rendering_V3.jpg",
-        "kb": 284
-      },
-      {
-        "file": "11_G011_Kitchen_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 270
-      },
-      {
-        "file": "12_G012_Kitchen_Range_View_Marketing_Rendering_V3.jpg",
-        "kb": 243
-      },
-      {
-        "file": "13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3.jpg",
-        "kb": 221
-      },
-      {
-        "file": "14_G014_Kitchen_Refrigerator_View_Marketing_Rendering_V3.jpg",
-        "kb": 257
-      },
-      {
-        "file": "15_G015_Kitchen_Island_Range_View_Marketing_Rendering_V3.jpg",
-        "kb": 245
-      },
-      {
-        "file": "16_G016_Powder_Room_Marketing_Rendering_V3.jpg",
-        "kb": 260
-      },
-      {
-        "file": "17_G017_Garage_Marketing_Rendering_V3.jpg",
-        "kb": 229
-      },
-      {
-        "file": "18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3.jpg",
-        "kb": 331
-      },
-      {
-        "file": "19_G019_Main_Staircase_Up_Marketing_Rendering_V3.jpg",
-        "kb": 214
-      },
-      {
-        "file": "20_G020_Upper_Staircase_Landing_Marketing_Rendering_V3.jpg",
-        "kb": 208
-      },
-      {
-        "file": "21_G022_Staircase_Downview_Marketing_Rendering_V3.jpg",
-        "kb": 285
-      },
-      {
-        "file": "22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3.jpg",
-        "kb": 219
-      },
-      {
-        "file": "23_G024_Bedroom_One_Door_View_Marketing_Rendering_V3.jpg",
-        "kb": 184
-      },
-      {
-        "file": "24_G025_Bedroom_One_Alternate_Marketing_Rendering_V3.jpg",
-        "kb": 218
-      },
-      {
-        "file": "25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3.jpg",
-        "kb": 203
-      },
-      {
-        "file": "26_G027_Bedroom_Two_Door_View_Marketing_Rendering_V3.jpg",
-        "kb": 216
-      },
-      {
-        "file": "27_G028_Hall_Bath_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 274
-      },
-      {
-        "file": "28_G029_Hall_Bath_Vanity_Marketing_Rendering_V3.jpg",
-        "kb": 297
-      },
-      {
-        "file": "29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 263
-      },
-      {
-        "file": "30_G031_Primary_Bedroom_Door_View_Marketing_Rendering_V3.jpg",
-        "kb": 233
-      },
-      {
-        "file": "31_G032_Primary_Bedroom_Window_View_Marketing_Rendering_V3.jpg",
-        "kb": 226
-      },
-      {
-        "file": "32_G033_Primary_Bedroom_Alternate_Marketing_Rendering_V3.jpg",
-        "kb": 346
-      },
-      {
-        "file": "33_G034_Walk_In_Closet_Wide_Marketing_Rendering_V3.jpg",
         "kb": 234
       },
       {
-        "file": "34_G035_Walk_In_Closet_Portrait_Marketing_Rendering_V3.jpg",
-        "kb": 242
-      },
-      {
-        "file": "35_G036_Primary_Bath_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 339
-      },
-      {
-        "file": "36_G037_Primary_Bath_Vanity_Shower_Marketing_Rendering_V3.jpg",
-        "kb": 378
-      },
-      {
-        "file": "37_G038_Primary_Bath_Vanity_Marketing_Rendering_V3.jpg",
+        "file": "10_G010_Living_Dining_Backyard_View_Marketing_Rendering_V3.jpg",
         "kb": 316
       },
       {
-        "file": "38_G039_Primary_Bath_Shower_Marketing_Rendering_V3.jpg",
-        "kb": 355
+        "file": "11_G011_Kitchen_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 299
       },
       {
-        "file": "39_G040_Laundry_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 279
+        "file": "12_G012_Kitchen_Range_View_Marketing_Rendering_V3.jpg",
+        "kb": 268
       },
       {
-        "file": "40_G041_Laundry_Portrait_Marketing_Rendering_V3.jpg",
-        "kb": 291
+        "file": "13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3.jpg",
+        "kb": 244
       },
       {
-        "file": "41_G042_Laundry_Door_View_Marketing_Rendering_V3.jpg",
-        "kb": 208
+        "file": "14_G014_Kitchen_Refrigerator_View_Marketing_Rendering_V3.jpg",
+        "kb": 284
       },
       {
-        "file": "42_G043_Bedroom_Three_Window_Marketing_Rendering_V3.jpg",
-        "kb": 208
+        "file": "16_G016_Powder_Room_Marketing_Rendering_V3.jpg",
+        "kb": 288
       },
       {
-        "file": "43_G044_Bedroom_Three_Alternate_Marketing_Rendering_V3.jpg",
+        "file": "18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3.jpg",
+        "kb": 367
+      },
+      {
+        "file": "19_G019_Main_Staircase_Up_Marketing_Rendering_V3.jpg",
+        "kb": 236
+      },
+      {
+        "file": "20_G020_Upper_Staircase_Landing_Marketing_Rendering_V3.jpg",
+        "kb": 231
+      },
+      {
+        "file": "21_G022_Staircase_Downview_Marketing_Rendering_V3.jpg",
+        "kb": 313
+      },
+      {
+        "file": "22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 244
+      },
+      {
+        "file": "23_G024_Bedroom_One_Door_View_Marketing_Rendering_V3.jpg",
         "kb": 205
       },
       {
+        "file": "24_G025_Bedroom_One_Alternate_Marketing_Rendering_V3.jpg",
+        "kb": 244
+      },
+      {
+        "file": "25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 226
+      },
+      {
+        "file": "27_G028_Hall_Bath_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 302
+      },
+      {
+        "file": "28_G029_Hall_Bath_Vanity_Marketing_Rendering_V3.jpg",
+        "kb": 328
+      },
+      {
+        "file": "29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 293
+      },
+      {
+        "file": "30_G031_Primary_Bedroom_Door_View_Marketing_Rendering_V3.jpg",
+        "kb": 261
+      },
+      {
+        "file": "31_G032_Primary_Bedroom_Window_View_Marketing_Rendering_V3.jpg",
+        "kb": 255
+      },
+      {
+        "file": "33_G034_Walk_In_Closet_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 258
+      },
+      {
+        "file": "35_G036_Primary_Bath_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 377
+      },
+      {
+        "file": "36_G037_Primary_Bath_Vanity_Shower_Marketing_Rendering_V3.jpg",
+        "kb": 418
+      },
+      {
+        "file": "39_G040_Laundry_Wide_Marketing_Rendering_V3.jpg",
+        "kb": 307
+      },
+      {
         "file": "44_G045_Unfinished_Basement_Wide_Marketing_Rendering_V3.jpg",
-        "kb": 482
+        "kb": 538
       },
       {
         "file": "45_G046_Unfinished_Basement_Mechanical_View_Marketing_Rendering_V3.jpg",
-        "kb": 484
+        "kb": 541
       },
       {
         "file": "46_G047_Unfinished_Basement_Alternate_Marketing_Rendering_V3.jpg",
-        "kb": 487
+        "kb": 542
       }
-    ],
-    "town": "Roosevelt",
-    "zip": "11575",
-    "town_source": "Owner, 2026-08-02",
-    "status": "completed",
-    "status_verified_on": "2026-08-02",
-    "status_verified_by": "Owner"
+    ]
   },
   "837-cleveland-street": {
     "address": "837 Cleveland Street",
