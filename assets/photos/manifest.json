@@ -172,76 +172,82 @@
   },
   "121-east-fulton-avenue": {
     "address": "121 East Fulton Avenue",
-    "count": 15,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "count": 18,
+    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera-file ranges in filenames; vendor's 'Marketing Rendering' label is branding). Final 18-image set incl. 3 floor plans (Basement / First Floor / Second Floor \u2014 if published, caption per docs/08: dimensions approximate and subject to change). Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
-        "file": "G001_DSC_3703-DSC_3707_HDR_Marketing_Rendering.jpg",
-        "kb": 286
+        "file": "01_G001_DSC_3703_DSC_3707_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 316
       },
       {
-        "file": "G002_DSC_3708-DSC_3712_HDR_Marketing_Rendering.jpg",
+        "file": "02_G002_DSC_3708_DSC_3712_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 330
+      },
+      {
+        "file": "03_G005_DSC_3723_DSC_3727_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 337
+      },
+      {
+        "file": "04_G006_DSC_3728_DSC_3732_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 302
+      },
+      {
+        "file": "05_G008_DSC_3738_DSC_3742_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 272
+      },
+      {
+        "file": "06_G009_DSC_3743_DSC_3747_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 507
+      },
+      {
+        "file": "07_G014_DSC_3768_DSC_3772_HDR_Marketing_Rendering_V1.jpg",
         "kb": 300
       },
       {
-        "file": "G005_DSC_3723-DSC_3727_HDR_Marketing_Rendering.jpg",
-        "kb": 305
+        "file": "08_G025_DSC_3801_DSC_3807_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 287
       },
       {
-        "file": "G006_DSC_3728-DSC_3732_HDR_Marketing_Rendering.jpg",
-        "kb": 275
+        "file": "09_G043_DSC_3863_DSC_3867_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 272
       },
       {
-        "file": "G008_DSC_3738-DSC_3742_HDR_Marketing_Rendering.jpg",
-        "kb": 247
+        "file": "10_G046_DSC_3875_DSC_3877_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 235
       },
       {
-        "file": "G009_DSC_3743-DSC_3747_HDR_Marketing_Rendering.jpg",
-        "kb": 433
+        "file": "11_G049_DSC_3883_DSC_3887_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 268
       },
       {
-        "file": "G014_DSC_3768-DSC_3772_HDR_Marketing_Rendering.jpg",
-        "kb": 271
+        "file": "12_G052_DSC_3903_DSC_3907_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 240
       },
       {
-        "file": "G025_DSC_3801-DSC_3807_HDR_Marketing_Rendering.jpg",
-        "kb": 259
+        "file": "13_G054_DSC_3913_DSC_3917_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 404
       },
       {
-        "file": "G043_DSC_3863-DSC_3867_HDR_Marketing_Rendering.jpg",
-        "kb": 246
+        "file": "14_G058_DSC_3929_DSC_3931_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 253
       },
       {
-        "file": "G046_DSC_3875-DSC_3877_HDR_Marketing_Rendering.jpg",
-        "kb": 213
+        "file": "15_G079_DSC_3998_DSC_4002_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 680
       },
       {
-        "file": "G049_DSC_3883-DSC_3887_HDR_Marketing_Rendering.jpg",
-        "kb": 241
+        "file": "Basement.jpg",
+        "kb": 223
       },
       {
-        "file": "G052_DSC_3903-DSC_3907_HDR_Marketing_Rendering.jpg",
-        "kb": 216
+        "file": "First Floor.jpg",
+        "kb": 231
       },
       {
-        "file": "G054_DSC_3913-DSC_3917_HDR_Marketing_Rendering.jpg",
-        "kb": 353
-      },
-      {
-        "file": "G058_DSC_3929-DSC_3931_HDR_Marketing_Rendering.jpg",
-        "kb": 229
-      },
-      {
-        "file": "G079_DSC_3998-DSC_4002_HDR_Marketing_Rendering.jpg",
-        "kb": 618
+        "file": "Second Floor.jpg",
+        "kb": 206
       }
-    ],
-    "town": "Roosevelt",
-    "zip": "11575",
-    "town_source": "Owner, 2026-08-02",
-    "status": "completed",
-    "status_verified_on": "2026-08-02",
-    "status_verified_by": "Owner"
+    ]
   },
   "1316-r-street": {
     "address": "1316 R Street",
