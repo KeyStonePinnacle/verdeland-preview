@@ -616,8 +616,8 @@
   },
   "33-horace-avenue": {
     "address": "33 Horace Avenue, Roosevelt",
-    "count": 31,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; vendor's 'Marketing Rendering' filename label is branding, not a media type). Cleared to ship without a rendering label. Final 31-image set, optimized 1800px/q78.",
+    "count": 34,
+    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; vendor's 'Marketing Rendering' filename label is branding, not a media type). Cleared to ship without a rendering label. Final 31-image set, optimized 1800px/q78. Floor plans (Basement/First/Second) added 2026-08-12, owner-supplied JPEGs.",
     "images": [
       {
         "file": "02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg",
@@ -742,6 +742,18 @@
       {
         "file": "46_G047_Unfinished_Basement_Alternate_Marketing_Rendering_V3.jpg",
         "kb": 542
+      },
+      {
+        "file": "Basement.jpg",
+        "kb": 323
+      },
+      {
+        "file": "First Floor.jpg",
+        "kb": 351
+      },
+      {
+        "file": "Second Floor.jpg",
+        "kb": 311
       }
     ]
   },
