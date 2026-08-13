@@ -32,7 +32,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Our Homes — New Construction on Long Island | VerdeLand</title>
 <meta name="description" content="Single-family homes built by VerdeLand across Long Island. Available homes, homes coming soon, and our completed portfolio.">
-<link rel="stylesheet" href="assets/css/site-c.css?v=22">
+<link rel="stylesheet" href="assets/css/site-c.css?v=23">
 </head>
 <body>
 
@@ -116,11 +116,8 @@
              record. Recorded SALES framing per register row 3 — never "homes
              built". Addresses + years only; no buyer names, ever. -->
         <aside class="odo" id="deed-odo" aria-label="Addresses from the recorded deed history">
-          <p class="odo-label">From the deed record</p>
-          <p class="odo-counter" aria-hidden="true"><span class="odo-no">&#8470;</span> <span class="odo-digits" data-odo-digits></span></p>
-          <p class="odo-address" data-odo-address></p>
-          <p class="odo-caption">Addresses from 130+ recorded VerdeLand sales
-            since 2001 &mdash; Nassau County Clerk deed record.</p>
+          <p class="odo-address"><span data-odo-address></span> <span class="odo-year" data-odo-year></span></p>
+          <p class="odo-caption">130+ recorded VerdeLand sales since 2001.</p>
         </aside>
       </div>
 
@@ -454,6 +451,6 @@
   window.ARRANGE_LISTS = [{ id: 'homes', list: '.grid.grid--3', item: '.card', keyAttr: 'title', label: 'Arrange homes', buttonHost: '.filters' }];
 </script>
 <script src="assets/js/edit-mode.js"></script>
-<script src="assets/js/deed-odometer.js"></script>
+<script src="assets/js/deed-odometer.js?v=2"></script>
 </body>
 </html>
