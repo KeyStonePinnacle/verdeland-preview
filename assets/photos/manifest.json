@@ -2,7 +2,7 @@
   "1053-mahopac": {
     "address": "1053 Mahopac Road, West Hempstead",
     "count": 32,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
+    "provenance": "PHOTOGRAPHS — owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
         "file": "01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2.jpg",
@@ -136,9 +136,17 @@
   },
   "1063-mahopac": {
     "address": "1063 Mahopac Road, West Hempstead",
-    "count": 35,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-13 (HDR/retouched). Interior-only set: NO exterior shot supplied \u2014 page and cards lead with the great room until one arrives. Incl. 3 floor plans. Two stray exec-*.png files excluded. 1800px/q78.",
+    "count": 37,
+    "provenance": "PHOTOGRAPHS — owner-confirmed 2026-08-13 (HDR/retouched). Two front-exterior photographs added 2026-08-13 at owner's instruction (owner-supplied PNGs, appear retouched; usual one-word provenance call pending); 00_Front_Exterior_1 is the hero/card image site-wide. Incl. 3 floor plans. Two stray exec-*.png files excluded. 1800px/q78.",
     "images": [
+      {
+        "file": "00_Front_Exterior_1.jpg",
+        "kb": 414
+      },
+      {
+        "file": "00_Front_Exterior_2.jpg",
+        "kb": 487
+      },
       {
         "file": "01_Great_Room_Front_Entry_Marketing_Rendering_V1.jpg",
         "kb": 388
@@ -284,7 +292,7 @@
   "121-east-fulton-avenue": {
     "address": "121 East Fulton Avenue",
     "count": 18,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera-file ranges in filenames; vendor's 'Marketing Rendering' label is branding). Final 18-image set incl. 3 floor plans (Basement / First Floor / Second Floor \u2014 if published, caption per docs/08: dimensions approximate and subject to change). Cleared to ship. Optimized 1800px/q78.",
+    "provenance": "PHOTOGRAPHS — owner-confirmed 2026-08-12 (HDR/retouched; DSC camera-file ranges in filenames; vendor's 'Marketing Rendering' label is branding). Final 18-image set incl. 3 floor plans (Basement / First Floor / Second Floor — if published, caption per docs/08: dimensions approximate and subject to change). Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
         "file": "01_G001_DSC_3703_DSC_3707_HDR_Marketing_Rendering_V1.jpg",
@@ -363,7 +371,7 @@
   "1316-r-street": {
     "address": "1316 R Street",
     "count": 6,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "provenance": "UNVERIFIED — vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
     "images": [
       {
         "file": "01_Exterior_Wide_Marketing_Rendering_V2.jpg",
@@ -400,7 +408,7 @@
   "1320-r-street": {
     "address": "1320 R Street",
     "count": 34,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20. 2026-08-03: gallery switched to the real progress set; the earlier \"Final Listing Pictures\" interior set is DISPUTED (byte-identical to the 837 folder, Q-26) and is no longer used on any page.",
+    "provenance": "UNVERIFIED — vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20. 2026-08-03: gallery switched to the real progress set; the earlier \"Final Listing Pictures\" interior set is DISPUTED (byte-identical to the 837 folder, Q-26) and is no longer used on any page.",
     "images": [
       {
         "file": "01_Kitchen_Wide_Rendering.jpg",
@@ -548,14 +556,14 @@
     "progress_set": {
       "count": 42,
       "ingested": "2026-08-03",
-      "source": "Owner Downloads folder \"1320 R St Elmont\" \u2014 construction-progress documentation, July 2026",
+      "source": "Owner Downloads folder \"1320 R St Elmont\" — construction-progress documentation, July 2026",
       "notes": "Mixed real photography: exteriors with construction fencing (corner of R St & Meacham Ave per street signs), finished areas (foyer, primary bath), drywall-stage rooms, unfinished basement. Includes a Keystone Pinnacle-branded conceptual basement floor plan sheet (cross-brand; held off pages pending owner call)."
     }
   },
   "176-hillsboro-avenue": {
     "address": "176 Hillsboro Avenue, Elmont",
     "count": 32,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
+    "provenance": "PHOTOGRAPHS — owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
         "file": "01_176_Hillsboro_Matching_Blue_Left_Green_Right_Three_Quarter_Marketing_Rendering_V9.jpg",
@@ -690,7 +698,7 @@
   "33-horace-avenue": {
     "address": "33 Horace Avenue, Roosevelt",
     "count": 34,
-    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; vendor's 'Marketing Rendering' filename label is branding, not a media type). Cleared to ship without a rendering label. Final 31-image set, optimized 1800px/q78. Floor plans (Basement/First/Second) added 2026-08-12, owner-supplied JPEGs.",
+    "provenance": "PHOTOGRAPHS — owner-confirmed 2026-08-12 (HDR/retouched; vendor's 'Marketing Rendering' filename label is branding, not a media type). Cleared to ship without a rendering label. Final 31-image set, optimized 1800px/q78. Floor plans (Basement/First/Second) added 2026-08-12, owner-supplied JPEGs.",
     "images": [
       {
         "file": "02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg",
@@ -838,7 +846,7 @@
     "status": "completed",
     "status_verified_on": "2026-08-02",
     "status_verified_by": "Owner",
-    "provenance": "Full set attributed to 837 Cleveland by owner direction 2026-08-03 (Q-26 resolved): the finished-interior set formerly filed under 1320 R Street belongs to 837 \u2014 corroborated by 1320's July progress photos showing 1320 still at drywall while these interiors are complete. Exteriors 12/13/14 also 837. Matterport tour live. Lead: 14_Exterior_Front.",
+    "provenance": "Full set attributed to 837 Cleveland by owner direction 2026-08-03 (Q-26 resolved): the finished-interior set formerly filed under 1320 R Street belongs to 837 — corroborated by 1320's July progress photos showing 1320 still at drywall while these interiors are complete. Exteriors 12/13/14 also 837. Matterport tour live. Lead: 14_Exterior_Front.",
     "tour": "https://my.matterport.com/show/?m=e7w57ZXj3v2",
     "tour_added": "2026-08-03",
     "images": [
@@ -962,6 +970,6 @@
     "status": "under-contract",
     "status_verified_on": "2026-08-02",
     "status_verified_by": "Owner",
-    "provenance": "No photo set delivered yet \u2014 docs/20"
+    "provenance": "No photo set delivered yet — docs/20"
   }
 }
