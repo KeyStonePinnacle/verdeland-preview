@@ -94,8 +94,10 @@
       <p class="eyebrow">Our homes</p>
       <h1>Every home we've built.</h1>
       <p class="lead measure" style="margin-top:var(--s-4); color:var(--ink-soft)">
-        Available homes and homes coming soon are listed first, each with the date its
-        status was confirmed. Everything below that is completed work.
+        Available homes are listed first, each with the date its status was
+        confirmed. Future projects are shown by county only &mdash; plans filed,
+        approvals pending &mdash; and get an address once approvals are in.
+        Everything below that is completed work.
       </p>
 
       <!-- Default view is All, not Available. See D-004: an empty
@@ -105,12 +107,8 @@
         <button class="filter" data-filter="all" aria-pressed="true">All homes</button>
         <button class="filter" data-filter="available" aria-pressed="false">Available</button>
         <button class="filter" data-filter="under-contract" aria-pressed="false">Under contract</button>
+        <button class="filter" data-filter="future" aria-pressed="false">Future projects</button>
         <button class="filter" data-filter="completed" aria-pressed="false">Sold</button>
-        <label class="vh" for="town">Town</label>
-        <select class="filter-town" id="town">
-          <option value="all">Any town</option>
-          <option>Elmont</option><option>Roosevelt</option><option>West Hempstead</option>
-        </select>
         <span class="filter-count" id="count" aria-live="polite">Showing 9 of 9 homes</span>
       </div>
     </div>
@@ -150,6 +148,33 @@
           </div>
         </a>
 
+        <!-- Future projects tier (owner, 2026-08-12): pre-approval pipeline.
+             HARD RULES per docs/08 row 22 -- county only, no address until
+             approvals; "plans filed / approvals pending" wording, never
+             "coming soon"; renderings labeled on-image when they arrive.
+             Static cards (no link) until each project gets a page. -->
+        <div class="card card--static" data-status="future">
+          <div class="card-media"><span class="badge badge--future">Future project</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Artist&rsquo;s rendering</strong>To come &mdash; will be labeled on the image</p></div></div>
+          <div class="card-body">
+            <h3 class="card-title">Single-family subdivision</h3>
+            <p class="card-place">Nassau County, NY</p>
+            <p class="card-feature">Subdivision application filed. Address published once approvals are in.</p>
+            <p class="card-meta">Plans submitted &middot; approvals pending</p>
+          </div>
+        </div>
+
+        <div class="card card--static" data-status="future">
+          <div class="card-media"><span class="badge badge--future">Future project</span>
+            <div class="ph ph--4x3"><p class="ph-label"><strong>Artist&rsquo;s rendering</strong>To come &mdash; will be labeled on the image</p></div></div>
+          <div class="card-body">
+            <h3 class="card-title">New single-family home</h3>
+            <p class="card-place">Nassau County, NY</p>
+            <p class="card-feature">Plans submitted for permits. Address published once approvals are in.</p>
+            <p class="card-meta">Plans submitted &middot; approvals pending</p>
+          </div>
+        </div>
+
         <a class="card" data-status="completed" data-town="Roosevelt" href="33-horace-avenue.html">
           <div class="card-media"><span class="badge badge--completed">Sold</span>
             <img class="card-photo" src="assets/photos/33-horace-avenue/02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg?v=0812" width="600" height="400" loading="lazy" alt="Front elevation of a completed two-story home with shake siding and a stone water table"></div>
@@ -182,7 +207,7 @@
 
         <a class="card" data-status="completed" data-town="West Hempstead" href="1053-mahopac-road.html">
           <div class="card-media"><span class="badge badge--completed">Sold</span>
-            <img class="card-photo" src="assets/photos/1053-mahopac/Front-of-House-.jpg" width="600" height="400" loading="lazy" alt="Front elevation of a completed two-story home with dark shake siding, a stone water table, and a white-railed porch"></div>
+            <img class="card-photo" src="assets/photos/1053-mahopac/01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2.jpg" width="600" height="400" loading="lazy" alt="Front elevation of a completed two-story home with dark shake siding, a stone water table, and a white-railed porch"></div>
           <div class="card-body">
             <h3 class="card-title">1053 Mahopac Road</h3>
             <p class="card-place">West Hempstead, NY</p>
@@ -347,11 +372,10 @@
     this.setAttribute('aria-expanded', open);
   });
 
-  // Filtering is real here so the empty state can actually be reached:
-  // pick "Available" plus a town other than Elmont. See docs/03, docs/13.
+  // Status filtering. The future tier shows pipeline projects by county
+  // only -- plans filed, approvals pending. See docs/08 row 22.
   var cards  = [].slice.call(document.querySelectorAll('.card[data-status]'));
   var chips  = [].slice.call(document.querySelectorAll('.filter'));
-  var town   = document.getElementById('town');
   var count  = document.getElementById('count');
   var empty  = document.getElementById('empty');
   var head   = document.getElementById('empty-head');
@@ -359,39 +383,33 @@
   var status = 'all';
 
   var COPY = {
-    status: {
+    available: {
       head: 'Nothing available this minute.',
       body: "We build a small number of houses a year, so there are stretches with nothing " +
             "on the market. Tell us the town and the size you're after and we'll let you " +
             "know when something's coming."
     },
-    town: function (t) {
-      return { head: "We haven't built in " + t + " yet.",
-               body: "That doesn't mean we won't — we're always looking at property across " +
-                     "Long Island. Tell us what you're after in " + t + " and we'll let you know." };
+    future: {
+      head: 'No future projects to show right now.',
+      body: "When plans are filed on a new project, it appears here \u2014 county first, " +
+            "address once approvals are in."
     },
-    both: function (t) {
-      return { head: "Nothing available in " + t + " right now.",
-               body: "Below is where we have been building. Tell us what you're looking for " +
-                     "and we'll get in touch when something fits." };
+    fallback: {
+      head: 'Nothing in this category right now.',
+      body: "Tell us what you're looking for and we'll get in touch when something fits."
     }
   };
 
   function apply() {
-    var t = town.value, shown = 0;
+    var shown = 0;
     cards.forEach(function (c) {
-      var ok = (status === 'all' || c.dataset.status === status) &&
-               (t === 'all' || c.dataset.town === t);
+      var ok = (status === 'all' || c.dataset.status === status);
       c.style.display = ok ? '' : 'none';
       if (ok) shown++;
     });
-
     count.textContent = 'Showing ' + shown + ' of ' + cards.length + ' homes';
-
     if (shown === 0) {
-      var c = (status !== 'all' && t !== 'all') ? COPY.both(t)
-            : (t !== 'all')                     ? COPY.town(t)
-            :                                     COPY.status;
+      var c = COPY[status] || COPY.fallback;
       head.textContent = c.head;
       body.textContent = c.body;
       empty.classList.add('is-shown');
@@ -408,11 +426,10 @@
       apply();
     });
   });
-  town.addEventListener('change', apply);
 
   document.querySelector('[data-reset]').addEventListener('click', function (e) {
     e.preventDefault();
-    status = 'all'; town.value = 'all';
+    status = 'all';
     chips.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.filter === 'all'); });
     apply();
   });

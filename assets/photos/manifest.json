@@ -1,85 +1,138 @@
 {
   "1053-mahopac": {
-    "address": "1053 Mahopac",
-    "count": 17,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "address": "1053 Mahopac Road, West Hempstead",
+    "count": 32,
+    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
-        "file": "01_Great_Room_Front_Entry_Marketing_Rendering_V1.jpg",
-        "kb": 353
+        "file": "01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2.jpg",
+        "kb": 642
       },
       {
-        "file": "02_Great_Room_Reverse_Marketing_Rendering_V1.jpg",
-        "kb": 313
+        "file": "02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 263
       },
       {
-        "file": "03_Great_Room_Interior_Connection_Marketing_Rendering_V1.jpg",
-        "kb": 316
+        "file": "03_G001_DSC_5286_DSC_5290_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 225
       },
       {
-        "file": "04_Small_Bedroom_Office_Marketing_Rendering_V1.jpg",
-        "kb": 215
+        "file": "04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 256
       },
       {
-        "file": "05_Dining_Family_Reverse_Marketing_Rendering_V1.jpg",
-        "kb": 325
+        "file": "05_G003_DSC_5296_DSC_5300_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 258
       },
       {
-        "file": "06_Dining_Family_Slider_Marketing_Rendering_V1.jpg",
-        "kb": 323
+        "file": "06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 261
       },
       {
-        "file": "07_Kitchen_Open_Plan_Marketing_Rendering_V1.jpg",
-        "kb": 335
+        "file": "07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 248
       },
       {
-        "file": "08_Kitchen_Wide_Marketing_Rendering_V1.jpg",
-        "kb": 292
+        "file": "08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 251
       },
       {
-        "file": "09_Kitchen_U_View_Marketing_Rendering_V1.jpg",
-        "kb": 298
+        "file": "09_G011_DSC_5336_DSC_5340_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 217
       },
       {
-        "file": "10_Bedroom_One_Wide_Marketing_Rendering_V1.jpg",
-        "kb": 276
+        "file": "10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 250
       },
       {
-        "file": "11_Bedroom_One_Closet_View_Marketing_Rendering_V1.jpg",
-        "kb": 260
+        "file": "11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 180
       },
       {
-        "file": "12_Long_Full_Bath_Wide_Marketing_Rendering_V1.jpg",
+        "file": "12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 272
+      },
+      {
+        "file": "13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 208
+      },
+      {
+        "file": "14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 195
+      },
+      {
+        "file": "15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 208
+      },
+      {
+        "file": "16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 211
+      },
+      {
+        "file": "17_G042_DSC_5441_DSC_5445_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 248
+      },
+      {
+        "file": "18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 209
+      },
+      {
+        "file": "19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V2.jpg",
+        "kb": 504
+      },
+      {
+        "file": "20_G006_DSC_5311_DSC_5315_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 283
+      },
+      {
+        "file": "21_G007_DSC_5316_DSC_5320_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 268
+      },
+      {
+        "file": "22_G010_DSC_5331_DSC_5335_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 239
+      },
+      {
+        "file": "23_G012_DSC_5341_DSC_5345_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 268
+      },
+      {
+        "file": "24_G016_DSC_5361_DSC_5363_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 287
+      },
+      {
+        "file": "25_G020_DSC_5373_DSC_5375_HDR_Marketing_Rendering_V1.jpg",
         "kb": 273
       },
       {
-        "file": "13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1.jpg",
-        "kb": 290
+        "file": "26_G037_DSC_5428_DSC_5430_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 195
       },
       {
-        "file": "14_Larger_Bedroom_Door_View_Marketing_Rendering_V1.jpg",
-        "kb": 294
+        "file": "27_G038_DSC_5431_DSC_5433_HDR_Marketing_Rendering_V1.jpg",
+        "kb": 232
       },
       {
-        "file": "15_Laundry_Hall_Marketing_Rendering_V1.jpg",
-        "kb": 298
+        "file": "28_G046_DSC_5461_DSC_5465_HDR_Marketing_Rendering_V2.jpg",
+        "kb": 635
       },
       {
-        "file": "16_Second_Full_Bath_Marketing_Rendering_V1.jpg",
-        "kb": 316
+        "file": "29_G049_DSC_5476_DSC_5480_HDR_Marketing_Rendering_V2.jpg",
+        "kb": 519
       },
       {
-        "file": "Front-of-House-.jpg",
-        "kb": 438,
-        "note": "Owner-designated lead exterior for 1053 Mahopac. Source file resided in the 1063 Mahopac folder on the drive (\"Front-of-House-.jpg\") \u2014 cross-filed; owner attribution 2026-08-02."
+        "file": "Cellar.jpg",
+        "kb": 317
+      },
+      {
+        "file": "First Floor.jpg",
+        "kb": 313
+      },
+      {
+        "file": "Second Floor.jpg",
+        "kb": 317
       }
-    ],
-    "town": "West Hempstead",
-    "zip": "11552",
-    "town_source": "Owner, 2026-08-02",
-    "status": "completed",
-    "status_verified_on": "2026-08-02",
-    "status_verified_by": "Owner"
+    ]
   },
   "1063-mahopac": {
     "address": "1063 Mahopac",
@@ -442,177 +495,139 @@
     }
   },
   "176-hillsboro-avenue": {
-    "address": "176 Hillsboro Avenue",
-    "count": 40,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20.",
+    "address": "176 Hillsboro Avenue, Elmont",
+    "count": 32,
+    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-12 (HDR/retouched; DSC camera ranges corroborate; vendor label is branding). Final set incl. floor plans. Cleared to ship. Optimized 1800px/q78.",
     "images": [
       {
         "file": "01_176_Hillsboro_Matching_Blue_Left_Green_Right_Three_Quarter_Marketing_Rendering_V9.jpg",
-        "kb": 504
-      },
-      {
-        "file": "01_G001_DSC_7351_DSC_7357_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 265
+        "kb": 556
       },
       {
         "file": "02_176_Hillsboro_Matching_Blue_Left_Green_Right_Centered_Marketing_Rendering_V9.jpg",
-        "kb": 398
-      },
-      {
-        "file": "02_G002_DSC_7358_DSC_7364_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 255
-      },
-      {
-        "file": "03_G003_DSC_7365_DSC_7371_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 278
-      },
-      {
-        "file": "04_G004_DSC_7372_DSC_7374_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 262
-      },
-      {
-        "file": "05_G005_DSC_7375_DSC_7379_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 271
-      },
-      {
-        "file": "06_G006_DSC_7380_DSC_7384_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 269
+        "kb": 440
       },
       {
         "file": "07_G007_DSC_7385_DSC_7391_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 257
+        "kb": 283
       },
       {
         "file": "08_G008_DSC_7392_DSC_7398_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 278
-      },
-      {
-        "file": "09_G009_DSC_7399_DSC_7405_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 279
+        "kb": 306
       },
       {
         "file": "10_G010_DSC_7406_DSC_7412_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 255
-      },
-      {
-        "file": "11_G011_DSC_7413_DSC_7419_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 199
+        "kb": 281
       },
       {
         "file": "12_G012_DSC_7420_DSC_7426_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 192
+        "kb": 212
       },
       {
         "file": "13_G013_DSC_7427_DSC_7433_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 203
+        "kb": 225
       },
       {
         "file": "14_G014_DSC_7434_DSC_7440_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 297
+        "kb": 328
       },
       {
         "file": "15_G015_DSC_7441_DSC_7447_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 209
+        "kb": 230
       },
       {
         "file": "16_G016_DSC_7448_DSC_7454_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 241
-      },
-      {
-        "file": "17_G017_DSC_7455_DSC_7461_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 241
+        "kb": 267
       },
       {
         "file": "18_G018_DSC_7462_DSC_7468_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 221
+        "kb": 244
       },
       {
         "file": "19_G019_DSC_7469_DSC_7475_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 225
+        "kb": 248
       },
       {
         "file": "20_G020_DSC_7476_DSC_7482_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 219
+        "kb": 242
       },
       {
         "file": "21_G021_DSC_7483_DSC_7489_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 222
+        "kb": 245
       },
       {
         "file": "22_G022_DSC_7490_DSC_7496_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 208
-      },
-      {
-        "file": "23_G023_DSC_7497_DSC_7503_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 193
+        "kb": 230
       },
       {
         "file": "24_G024_DSC_7504_DSC_7510_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 231
+        "kb": 256
       },
       {
         "file": "25_G025_DSC_7511_DSC_7517_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 215
+        "kb": 236
       },
       {
         "file": "26_G026_DSC_7518_DSC_7524_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 246
+        "kb": 273
       },
       {
         "file": "27_G027_DSC_7525_DSC_7531_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 214
+        "kb": 238
       },
       {
         "file": "28_G028_DSC_7532_DSC_7538_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 220
-      },
-      {
-        "file": "29_G029_DSC_7539_DSC_7545_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 225
+        "kb": 242
       },
       {
         "file": "30_G030_DSC_7546_DSC_7552_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 522
+        "kb": 576
       },
       {
         "file": "31_G031_DSC_7553_DSC_7559_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 523
+        "kb": 577
       },
       {
         "file": "32_G032_DSC_7560_DSC_7566_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 446
+        "kb": 493
       },
       {
         "file": "33_G033_DSC_7567_DSC_7573_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 550
+        "kb": 607
       },
       {
         "file": "34_G034_DSC_7574_DSC_7580_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 459
+        "kb": 507
       },
       {
         "file": "35_G035_DSC_7581_DSC_7587_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 416
+        "kb": 460
       },
       {
         "file": "36_G036_DSC_7588_DSC_7594_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 526
+        "kb": 580
       },
       {
         "file": "37_G037_DSC_7595_DSC_7601_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 534
+        "kb": 588
       },
       {
         "file": "38_G038_DSC_7602_DSC_7608_HDR_Marketing_Rendering_V3.jpg",
-        "kb": 458
+        "kb": 506
+      },
+      {
+        "file": "Basement.jpg",
+        "kb": 180
+      },
+      {
+        "file": "First Floor.jpg",
+        "kb": 247
+      },
+      {
+        "file": "Second Floor.jpg",
+        "kb": 203
       }
-    ],
-    "town": "Elmont",
-    "zip": "11003",
-    "town_source": "Owner, 2026-08-02",
-    "status": "completed",
-    "status_verified_on": "2026-08-02",
-    "status_verified_by": "Owner"
+    ]
   },
   "33-horace-avenue": {
     "address": "33 Horace Avenue, Roosevelt",

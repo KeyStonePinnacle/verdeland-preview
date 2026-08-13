@@ -797,3 +797,11 @@ a:hover { color: var(--clay); }
 .lightbox .lb-count { position: fixed; bottom: var(--s-4); left: 50%;
   transform: translateX(-50%); color: var(--cream); font-size: var(--fs-small);
   letter-spacing: 0.04em; }
+
+/* Future-projects tier: pipeline homes, county-only, approvals pending */
+.badge--future { background: transparent; color: var(--forest);
+  border: 1.5px solid var(--forest); }
+/* Static card: informational, not a link -- no hover lift implying a click */
+.card--static { cursor: default; }
+.card--static:hover { box-shadow: none; transform: none; }
+.card--static:hover .card-media .ph { transform: none; }
