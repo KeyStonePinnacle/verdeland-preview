@@ -805,3 +805,36 @@ a:hover { color: var(--clay); }
 .card--static { cursor: default; }
 .card--static:hover { box-shadow: none; transform: none; }
 .card--static:hover .card-media .ph { transform: none; }
+
+/* ── Deed odometer (D-039) ────────────────────────────────────────────── */
+.homes-intro { display:grid; grid-template-columns: minmax(0,1fr) minmax(280px,380px);
+  gap: var(--s-8); align-items: end; }
+@media (max-width: 860px) { .homes-intro { grid-template-columns: 1fr; align-items: start; } }
+
+.odo { background: var(--forest); color: var(--cream); border-radius: var(--r-lg);
+  padding: var(--s-6); }
+.odo-label { font-size: var(--fs-small); letter-spacing: .12em; text-transform: uppercase;
+  color: var(--sand); margin-bottom: var(--s-4); }
+.odo-counter { font-family: var(--font-display, Georgia, serif); font-size: 2.6rem;
+  line-height: 1; display: flex; align-items: baseline; gap: .18em;
+  font-variant-numeric: tabular-nums; margin-bottom: var(--s-3); }
+.odo-no { font-size: 1.4rem; color: var(--sand); }
+.odo-digits { display: inline-flex; }
+.odo-col { display: inline-block; height: 1em; overflow: hidden; }
+.odo-strip { display: inline-flex; flex-direction: column; line-height: 1;
+  transition: transform .55s cubic-bezier(.45,0,.15,1); will-change: transform; }
+.odo-strip span { height: 1em; }
+.odo-address { position: relative; height: 1.5em; overflow: hidden;
+  font-size: var(--fs-h4, 1.25rem); font-weight: 600; margin-bottom: var(--s-4); }
+.odo-line { position: absolute; inset: 0 auto auto 0; width: 100%; white-space: nowrap;
+  display: flex; align-items: baseline; gap: .55em;
+  transition: transform .5s cubic-bezier(.45,0,.15,1), opacity .5s ease; }
+.odo-line--in { transform: translateY(1.6em); opacity: 0; }
+.odo-line--out { transform: translateY(-1.6em); opacity: 0; }
+.odo-year { font-weight: 400; font-size: .78em; color: var(--sand);
+  font-variant-numeric: tabular-nums; }
+.odo-caption { font-size: var(--fs-small); color: rgba(251,248,243,.72); line-height: 1.5; }
+.odo--static .odo-address { height: auto; }
+@media (prefers-reduced-motion: reduce) {
+  .odo-strip, .odo-line { transition: none; }
+}
