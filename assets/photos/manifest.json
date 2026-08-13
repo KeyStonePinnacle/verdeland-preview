@@ -135,93 +135,151 @@
     ]
   },
   "1063-mahopac": {
-    "address": "1063 Mahopac",
-    "count": 19,
-    "provenance": "UNVERIFIED \u2014 vendor labels these \"Marketing Rendering\"; production method (photo/retouch/CGI/AI) unconfirmed. See docs/20. NOTE: this folder contained the 1053 lead exterior (cross-filed) \u2014 sanity-check remaining files for other cross-address strays.",
+    "address": "1063 Mahopac Road, West Hempstead",
+    "count": 35,
+    "provenance": "PHOTOGRAPHS \u2014 owner-confirmed 2026-08-13 (HDR/retouched). Interior-only set: NO exterior shot supplied \u2014 page and cards lead with the great room until one arrives. Incl. 3 floor plans. Two stray exec-*.png files excluded. 1800px/q78.",
     "images": [
       {
-        "file": "01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 592
+        "file": "01_Great_Room_Front_Entry_Marketing_Rendering_V1.jpg",
+        "kb": 388
       },
       {
-        "file": "02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1.jpg",
+        "file": "01_Great_Room_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 335
+      },
+      {
+        "file": "02_Great_Room_Entry_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 364
+      },
+      {
+        "file": "02_Great_Room_Reverse_Marketing_Rendering_V1.jpg",
+        "kb": 344
+      },
+      {
+        "file": "03_Great_Room_Interior_Connection_Marketing_Rendering_V1.jpg",
+        "kb": 347
+      },
+      {
+        "file": "03_Great_Room_Wide_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 328
+      },
+      {
+        "file": "04_Great_Room_Symmetric_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 367
+      },
+      {
+        "file": "04_Small_Bedroom_Office_Marketing_Rendering_V1.jpg",
         "kb": 238
       },
       {
-        "file": "03_G001_DSC_5286_DSC_5290_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 205
+        "file": "05_Dining_Family_Reverse_Marketing_Rendering_V1.jpg",
+        "kb": 358
       },
       {
-        "file": "04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 232
+        "file": "05_Small_Bedroom_Office_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 241
       },
       {
-        "file": "05_G003_DSC_5296_DSC_5300_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 234
+        "file": "06_Dining_Family_Slider_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 332
       },
       {
-        "file": "06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 237
+        "file": "06_Dining_Family_Slider_Marketing_Rendering_V1.jpg",
+        "kb": 354
       },
       {
-        "file": "07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 225
+        "file": "07_Dining_Family_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 361
       },
       {
-        "file": "08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 231
+        "file": "07_Kitchen_Open_Plan_Marketing_Rendering_V1.jpg",
+        "kb": 368
       },
       {
-        "file": "09_G011_DSC_5336_DSC_5340_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 200
+        "file": "08_Kitchen_Close_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 302
       },
       {
-        "file": "10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 229
+        "file": "08_Kitchen_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 319
       },
       {
-        "file": "11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 165
+        "file": "09_Kitchen_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 350
       },
       {
-        "file": "12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 249
+        "file": "09_Kitchen_U_View_Marketing_Rendering_V1.jpg",
+        "kb": 326
       },
       {
-        "file": "13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 187
+        "file": "10_Bedroom_One_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 280
       },
       {
-        "file": "14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 178
+        "file": "10_Bedroom_One_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 305
       },
       {
-        "file": "15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 189
+        "file": "11_Bedroom_One_Closet_View_Marketing_Rendering_V1.jpg",
+        "kb": 286
       },
       {
-        "file": "16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 190
+        "file": "11_Long_Full_Bath_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 269
       },
       {
-        "file": "17_G042_DSC_5441_DSC_5445_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 226
+        "file": "12_Bedroom_One_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 351
       },
       {
-        "file": "18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 189
+        "file": "12_Long_Full_Bath_Wide_Marketing_Rendering_V1.jpg",
+        "kb": 299
       },
       {
-        "file": "19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V1.jpg",
-        "kb": 469
+        "file": "13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1.jpg",
+        "kb": 320
+      },
+      {
+        "file": "13_Long_Full_Bath_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 261
+      },
+      {
+        "file": "14_Larger_Bedroom_Door_View_Marketing_Rendering_V1.jpg",
+        "kb": 321
+      },
+      {
+        "file": "14_Larger_Bedroom_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 359
+      },
+      {
+        "file": "15_Larger_Bedroom_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 299
+      },
+      {
+        "file": "15_Laundry_Hall_Marketing_Rendering_V1.jpg",
+        "kb": 326
+      },
+      {
+        "file": "16_Laundry_Hall_Alternate_Marketing_Rendering_V1.jpg",
+        "kb": 348
+      },
+      {
+        "file": "16_Second_Full_Bath_Marketing_Rendering_V1.jpg",
+        "kb": 346
+      },
+      {
+        "file": "Basement.jpg",
+        "kb": 317
+      },
+      {
+        "file": "First Floor.jpg",
+        "kb": 313
+      },
+      {
+        "file": "Second Floor.jpg",
+        "kb": 317
       }
-    ],
-    "town": "West Hempstead",
-    "zip": "11552",
-    "town_source": "Owner, 2026-08-02",
-    "status": "completed",
-    "status_verified_on": "2026-08-02",
-    "status_verified_by": "Owner"
+    ]
   },
   "121-east-fulton-avenue": {
     "address": "121 East Fulton Avenue",
