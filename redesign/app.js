@@ -1,0 +1,20 @@
+const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#nav');
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',open);nav.classList.toggle('open',open)});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}});
+const grid=document.querySelector('#home-grid');
+if(grid){
+ function render(town){const list=homes.filter(h=>town==='all'||h.town===town);grid.innerHTML=list.map(h=>`<a class="home-card" href="home.html?home=${h.id}"><div class="photo"><img src="${h.images[0]}" alt="Exterior of ${h.title}" width="1800" height="1200" loading="lazy"><span>COMPLETED HOME</span></div><div class="card-bottom"><div><h3>${h.title}</h3><p>${h.town}, New York</p></div><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('');document.querySelector('#home-count').textContent=`${list.length} ${list.length===1?'home':'homes'}`}
+ render('all');document.querySelectorAll('[data-town]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-town]').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',el===b)});render(b.dataset.town)}));
+ const inquiry=document.querySelector('#inquiry');document.querySelector('[data-inquiry]').addEventListener('click',()=>inquiry.showModal());inquiry.querySelectorAll('.close,[data-close]').forEach(b=>b.addEventListener('click',()=>inquiry.close()));
+ document.querySelector('#inquiry-form').addEventListener('submit',e=>{e.preventDefault();e.target.hidden=true;const success=document.querySelector('#form-success');success.hidden=false;success.querySelector('button').focus()});
+}
+const pg=document.querySelector('#gallery-grid');
+if(pg){
+ const h=homes.find(h=>h.id===new URLSearchParams(location.search).get('home'))||homes[0];document.title=`${h.title} — VerdeLand Home Builders`;document.querySelector('#property-name').textContent=h.title;document.querySelector('#property-town').textContent=h.town.toUpperCase()+', NEW YORK';const hero=document.querySelector('#property-hero');hero.src=h.images[0];hero.alt='Exterior of '+h.title;hero.fetchPriority='high';document.querySelector('#photo-count').textContent=h.images.length+' photographs';
+ let shown=0,index=0;const more=document.querySelector('#more-photos'),box=document.querySelector('#lightbox'),photo=document.querySelector('#lightbox-image');
+ function display(){photo.src=h.images[index];photo.alt=`${h.title}, photograph ${index+1}`;document.querySelector('#lightbox-count').textContent=`${index+1} / ${h.images.length}`}
+ function addPhotos(){const end=Math.min(shown+7,h.images.length);for(let i=shown;i<end;i++){const b=document.createElement('button');b.setAttribute('aria-label',`View photograph ${i+1} of ${h.title}`);b.innerHTML=`<img src="${h.images[i]}" alt="${h.title}, photograph ${i+1}" width="1800" height="1200" loading="lazy"><span aria-hidden="true">＋</span>`;b.addEventListener('click',()=>{index=i;display();box.showModal()});pg.append(b)}shown=end;more.hidden=shown===h.images.length}
+ addPhotos();more.addEventListener('click',addPhotos);box.querySelector('.close').addEventListener('click',()=>box.close());function move(n){index=(index+n+h.images.length)%h.images.length;display()}document.querySelector('#prev-photo').addEventListener('click',()=>move(-1));document.querySelector('#next-photo').addEventListener('click',()=>move(1));box.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}if(e.key==='ArrowRight'){e.preventDefault();move(1)}});
+}
+document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
