@@ -15,7 +15,21 @@ if(pg){
  const key=document.body.dataset.home||new URLSearchParams(location.search).get('home');const h=homes.find(h=>h.id===key)||homes[0];document.title=`${h.title} — VerdeLand Home Builders`;document.querySelector('#property-name').textContent=h.title;document.querySelector('#property-town').textContent=h.town.toUpperCase()+', NEW YORK';const hero=document.querySelector('#property-hero');hero.src=h.images[0]||'assets/brand/model-placeholder.svg';hero.alt=h.images.length?'Exterior of '+h.title:'Photography pending for '+h.title;hero.fetchPriority='high';document.querySelector('#photo-count').textContent=h.images.length?h.images.length+' photographs':'Photography is being prepared.';document.querySelector('.pill').textContent=h.label;document.querySelector('#property-description').textContent=h.description;
  let shown=0,index=0;const more=document.querySelector('#more-photos'),box=document.querySelector('#lightbox'),photo=document.querySelector('#lightbox-image');
  function display(){photo.src=h.images[index];photo.alt=`${h.title}, photograph ${index+1}`;document.querySelector('#lightbox-count').textContent=`${index+1} / ${h.images.length}`}
- function addPhotos(){const end=Math.min(shown+7,h.images.length);for(let i=shown;i<end;i++){const b=document.createElement('button');b.setAttribute('aria-label',`View photograph ${i+1} of ${h.title}`);b.innerHTML=`<img src="${h.images[i]}" alt="${h.title}, photograph ${i+1}" width="1800" height="1200" loading="lazy"><span aria-hidden="true">＋</span>`;b.addEventListener('click',()=>{index=i;display();box.showModal()});pg.append(b)}shown=end;more.hidden=shown===h.images.length}
+ function addPhotos(){const end=Math.min(shown+6,h.images.length);for(let i=shown;i<end;i++){const b=document.createElement('button');b.setAttribute('aria-label',`View photograph ${i+1} of ${h.title}`);b.innerHTML=`<img src="${h.images[i]}" alt="${h.title}, photograph ${i+1}" width="1800" height="1200" loading="lazy"><span aria-hidden="true">＋</span>`;b.addEventListener('click',()=>{index=i;display();box.showModal()});pg.append(b)}shown=end;more.hidden=shown===h.images.length}
  addPhotos();more.addEventListener('click',addPhotos);box.querySelector('.close').addEventListener('click',()=>box.close());function move(n){if(!h.images.length)return;index=(index+n+h.images.length)%h.images.length;display()}document.querySelector('#prev-photo').addEventListener('click',()=>move(-1));document.querySelector('#next-photo').addEventListener('click',()=>move(1));box.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}if(e.key==='ArrowRight'){e.preventDefault();move(1)}});
 }
 document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
+
+// Load the interactive tour in place when requested; keep the external link available.
+document.querySelectorAll('[data-start-tour]').forEach(button => {
+ button.addEventListener('click', () => {
+  const container = button.closest('[data-tour]');
+  const frame = document.createElement('iframe');
+  frame.src = container.dataset.tour;
+  frame.title = '837 Cleveland Street interactive 3D walkthrough';
+  frame.allow = 'fullscreen; xr-spatial-tracking';
+  frame.allowFullscreen = true;
+  container.replaceChildren(frame);
+  frame.focus();
+ });
+});

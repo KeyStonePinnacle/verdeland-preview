@@ -102,3 +102,63 @@ body.warm-pop {
   .warm-pop .details-copy h2 { font-size: 41px; }
   .warm-pop .model-teaser { padding-top: 58px; padding-bottom: 58px; }
 }
+/* Property media: bounded frames, compact thumbnails, full-size views on demand. */
+.warm-pop .property-intro,
+.warm-pop .property-summary,
+.warm-pop .gallery-section,
+.warm-pop .property-media {
+  max-width: 1328px;
+  margin-inline: auto;
+}
+.warm-pop .property-intro { padding-top: 24px; padding-bottom: 30px; }
+.warm-pop .property-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: calc(100% - 44px);
+}
+.warm-pop .property-hero > img {
+  height: clamp(260px, 36vw, 480px);
+  object-fit: contain;
+  background: #e9e9df;
+}
+.warm-pop .property-summary,
+.warm-pop .gallery-section,
+.warm-pop .property-media { padding-top: 48px; padding-bottom: 48px; }
+.warm-pop .property-summary h2,
+.warm-pop .gallery-section h2,
+.warm-pop .property-media h2 { font-size: clamp(30px, 3vw, 43px); }
+.warm-pop .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.warm-pop .gallery-grid button,
+.warm-pop .gallery-grid button:first-child { grid-column: auto; aspect-ratio: 3 / 2; }
+.warm-pop .gallery-grid img,
+.warm-pop .gallery-grid button:first-child img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+.warm-pop .tour-embed,
+.warm-pop .property-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 580px;
+  background: #202a23;
+  position: relative;
+  overflow: hidden;
+}
+.warm-pop .tour-embed > img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.7); }
+.warm-pop .tour-embed > button { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); white-space: nowrap; }
+.warm-pop .tour-embed iframe { display: block; width: 100%; height: 100%; border: 0; }
+.warm-pop .property-video { object-fit: contain; }
+.warm-pop .media-note { margin-top: 12px; font-size: 12px; color: var(--muted); }
+@media (max-width: 600px) {
+  .warm-pop .property-hero { width: calc(100% - 32px); }
+  .warm-pop .property-hero > img { height: 260px; }
+  .warm-pop .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .warm-pop .property-summary,
+  .warm-pop .gallery-section,
+  .warm-pop .property-media { padding-top: 32px; padding-bottom: 32px; }
+  .warm-pop .tour-embed { aspect-ratio: 4 / 3; }
+  .warm-pop .property-media .section-heading .text-link { margin-top: 14px; }
+}
