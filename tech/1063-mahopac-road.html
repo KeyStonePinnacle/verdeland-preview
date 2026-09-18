@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>1063 Mahopac Road — VerdeLand Home Builders</title>
+<link rel="stylesheet" href="../assets/css/site-modern.css?v=20260918">
+
+<link rel="stylesheet" href="tech.css?v=1">
+</head>
+<body data-home="1063-mahopac-road">
+<a class="skip" href="#main">Skip to content</a>
+<div class="direction-bar"><span>DESIGN EXPLORATION / 02</span><a href="../design-review.html" target="_top">Compare both directions ↗</a></div><header class="header">
+<a class="brand" href="index.html" aria-label="VerdeLand Home Builders home">
+<img src="../assets/brand/verdeland-mark.svg" width="48" height="38" alt="">
+<span>VerdeLand<small>HOME BUILDERS</small>
+</span>
+</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span>＋</span>
+</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="homes.html">Our homes</a>
+<a href="why-verdeland.html">Our story</a>
+<a href="house-models.html">House models</a>
+<a href="sell-your-property.html">Sell your property</a>
+<a class="nav-contact" href="#contact">Let’s talk <span>↗</span>
+</a>
+</nav>
+</header>
+<main id="main">
+<section class="property-intro">
+<a class="text-link back" href="homes.html">← Back to the collection</a>
+<div class="property-heading">
+<div>
+<p class="eyebrow" id="property-town">WEST HEMPSTEAD, NEW YORK</p>
+<h1 id="property-name">1063 Mahopac Road</h1>
+</div>
+<span class="pill">Completed home</span>
+</div>
+</section>
+<div class="property-hero">
+<img id="property-hero" alt="Exterior of 1063 Mahopac Road" width="1800" height="1200">
+<a class="button light" href="#gallery">Explore the gallery <span>↓</span>
+</a>
+</div>
+<section class="section property-summary">
+<p class="eyebrow">A CLOSER LOOK</p>
+<div>
+<h2>From the first impression<br>to the last detail.</h2>
+<p id="property-description">Explore this completed VerdeLand home, room by room. Exterior views, living spaces, and the details behind the front door.</p>
+</div>
+</section>
+<section class="section gallery-section" id="gallery">
+<div class="section-heading">
+<div>
+<p class="eyebrow">THE PHOTO JOURNAL</p>
+<h2>Outside. Inside. Everything.</h2>
+</div>
+<span id="photo-count">
+</span>
+</div>
+<div class="gallery-grid" id="gallery-grid">
+</div>
+<button class="button" id="more-photos">See more photographs <span>＋</span>
+</button>
+</section>
+<section class="section">
+<p class="eyebrow">THE LAYOUT</p>
+<h2>Floor by floor.</h2>
+<div class="plan-grid">
+<a href="../assets/photos/1063-mahopac/Basement.jpg" target="_blank" rel="noopener">
+<img src="../assets/photos/1063-mahopac/Basement.jpg" alt="Lower-level floor plan for 1063 Mahopac Road" loading="lazy">
+<span>Open lower-level plan ↗</span>
+</a>
+<a href="../assets/photos/1063-mahopac/First Floor.jpg" target="_blank" rel="noopener">
+<img src="../assets/photos/1063-mahopac/First Floor.jpg" alt="Floor plan for 1063 Mahopac Road" loading="lazy">
+<span>Open floor plan ↗</span>
+</a>
+<a href="../assets/photos/1063-mahopac/Second Floor.jpg" target="_blank" rel="noopener">
+<img src="../assets/photos/1063-mahopac/Second Floor.jpg" alt="Floor plan for 1063 Mahopac Road" loading="lazy">
+<span>Open floor plan ↗</span>
+</a>
+</div>
+</section>
+<section class="land">
+<div>
+<p class="eyebrow">FIND YOUR NEXT CHAPTER</p>
+<h2>See yourself in<br>a VerdeLand home?</h2>
+</div>
+<div>
+<p>This home is part of our completed portfolio. Get in touch to ask about current projects.</p>
+<a class="button light" href="tel:+15168076127">Talk about our homes <span>↗</span>
+</a>
+</div>
+</section>
+</main>
+<dialog class="lightbox" id="lightbox">
+<button class="close" aria-label="Close photograph">×</button>
+<img id="lightbox-image" alt="">
+<div class="lightbox-controls">
+<button id="prev-photo" aria-label="Previous photograph">←</button>
+<span id="lightbox-count" aria-live="polite">
+</span>
+<button id="next-photo" aria-label="Next photograph">→</button>
+</div>
+</dialog>
+<footer id="contact">
+<div class="footer-top">
+<p class="eyebrow">YOUR NEXT CHAPTER</p>
+<h2>Let’s build on it.</h2>
+<a class="contact-link" href="tel:+15168076127">(516) 807-6127 <span>↗</span>
+</a>
+<a class="email" href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Verdeland Homes, Inc.</span>
+<span>Long Island, New York · Equal Housing Opportunity</span>
+<a href="../versions/pre-redesign-2026-09-18/index.html">Earlier design ↗</a>
+</div>
+<p class="review-note">TECH / ARCHITECTURAL · DESIGN EXPLORATION</p>
+</footer>
+<script src="homes-tech.js">
+</script>
+<script src="app.js">
+</script>
+</body>
+</html>

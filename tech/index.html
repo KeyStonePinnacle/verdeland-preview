@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>VerdeLand — A place to call your own</title>
+<link rel="stylesheet" href="../assets/css/site-modern.css?v=20260918">
+
+<link rel="stylesheet" href="tech.css?v=1">
+</head>
+<body class="tech">
+<a class="skip" href="#main">Skip to content</a>
+<div class="direction-bar"><span>DESIGN EXPLORATION / 02</span><a href="../design-review.html" target="_top">Compare both directions ↗</a></div><header class="header">
+<a class="brand" href="index.html" aria-label="VerdeLand Home Builders home">
+<img src="../assets/brand/verdeland-mark.svg" width="48" height="38" alt="">
+<span>VerdeLand<small>HOME BUILDERS</small>
+</span>
+</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span>＋</span>
+</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="homes.html">Our homes</a>
+<a href="why-verdeland.html">Our story</a>
+<a href="house-models.html">House models</a>
+<a href="sell-your-property.html">Sell your property</a>
+<a class="nav-contact" href="#contact">Let’s talk <span>↗</span>
+</a>
+</nav>
+</header>
+<main id="main">
+<section class="tech-hero"><div class="hero-copy"><p class="eyebrow"><span class="signal" aria-hidden="true"></span> LONG ISLAND / NEW HOMES</p><h1>Built with intent.<br><span>Seen in detail.</span></h1><p class="hero-description">A family tradition of building.<br>A new perspective on the place you call home.</p><div class="hero-actions"><a class="button" href="homes.html">Explore the homes <span>↗</span></a><a class="text-link" href="house-models.html">Enter the model studio <span>↗</span></a></div><div class="hero-coordinates"><span>DESIGN. BUILD. BELONG.</span><span>EST. 2001</span></div></div><div class="project-terminal"><div class="terminal-head"><span>PROJECT / 837 CLEVELAND</span><span class="terminal-tag">COMPLETED</span></div><div class="terminal-photo"><img id="feature-image" src="../assets/photos/837-cleveland-street/13_Exterior_Corner_Rendering.jpg" width="1800" height="1200" alt="Exterior of 837 Cleveland Street" fetchpriority="high"><span class="corner top-left"></span><span class="corner bottom-right"></span><span class="photo-index" id="feature-index">01 / EXTERIOR</span></div><div class="terminal-controls"><div role="group" aria-label="Featured home view"><button data-view="exterior" aria-pressed="true">Exterior</button><button data-view="interior" aria-pressed="false">Interior</button></div><a href="837-cleveland-street.html" aria-label="Explore 837 Cleveland Street">↗</a></div><div class="terminal-footer"><span>West Hempstead, NY</span><span>VIEW THE DETAILS</span></div></div></section><div class="credentials">
+<p>Rooted here.<br>
+<em>Built for what’s next.</em>
+</p>
+<div>
+<strong>2001</strong>
+<span>The beginning of VerdeLand</span>
+</div>
+<div>
+<strong>130+</strong>
+<span>Recorded property sales</span>
+</div>
+<div>
+<strong>One</strong>
+<span>Builder behind the details</span>
+</div>
+</div>
+<section id="homes" class="section collection">
+<div class="section-heading">
+<div>
+<p class="eyebrow">01 / SELECTED PROJECTS</p>
+<h2>The built collection.</h2>
+</div>
+<p>A few places we’ve helped bring to life.<br>Explore the homes, inside and out.</p>
+</div>
+<div class="filters" role="group" aria-label="Filter homes by town">
+<button class="active" data-town="all" aria-pressed="true">All locations</button>
+<button data-town="West Hempstead" aria-pressed="false">West Hempstead</button>
+<button data-town="Roosevelt" aria-pressed="false">Roosevelt</button>
+<button data-town="Elmont" aria-pressed="false">Elmont</button>
+<span id="home-count" aria-live="polite">
+</span>
+</div>
+<div class="home-grid" id="home-grid">
+</div>
+</section>
+<section class="details-story">
+<div class="detail-image">
+<img src="../assets/photos/837-cleveland-street/01_Kitchen_Wide_Rendering.jpg" alt="A light-filled kitchen with a generous island and white cabinetry at 837 Cleveland Street" width="1800" height="1200" loading="lazy">
+<span>INSIDE 837 CLEVELAND STREET</span>
+</div>
+<div class="details-copy">
+<p class="eyebrow">THE EVERYDAY, CONSIDERED</p>
+<h2>Every detail.<br>Part of the whole.
+</h2>
+<p>The kitchen that opens to the rest of the home. The light across the floor. A quiet corner that feels just right.</p>
+<p>Take a closer look at the spaces behind the front door.</p>
+<a class="text-link" href="837-cleveland-street.html#gallery">Step inside <span>↗</span>
+</a>
+</div>
+</section>
+<section class="section model-teaser">
+<div>
+<p class="eyebrow">02 / THE MODEL STUDIO</p>
+<h2>The next dimension<br>of home.</h2>
+</div>
+<div>
+<p>A new way to explore our house plans. Our upcoming 3D collection will bring the shape, spaces, and details into view.</p>
+<a class="text-link" href="house-models.html">Explore house models <span>↗</span>
+</a>
+</div>
+</section>
+<section id="story" class="section story">
+<p class="eyebrow">A FAMILY TRADITION, BUILT FORWARD</p>
+<div>
+<h2>One builder.<br>A personal standard.</h2>
+<div class="story-bottom">
+<p>My father spent more than thirty years in the business, and my uncle built homes as well. I founded VerdeLand in 2001 to carry that tradition forward in my own name.</p>
+<div class="signature">Steve LoVerde<small>FOUNDER, VERDELAND HOME BUILDERS</small>
+</div>
+</div>
+</div>
+</section>
+<section id="land" class="land">
+<div>
+<p class="eyebrow">FOR PROPERTY OWNERS</p>
+<h2>A new beginning<br>starts with <em>your land.</em>
+</h2>
+</div>
+<div>
+<p>Have land or an older home on Long Island? Talk directly with the builder about what could come next.</p>
+<a class="button light" href="sell-your-property.html">Tell us about your property <span>↗</span>
+</a>
+</div>
+</section>
+</main>
+<footer id="contact">
+<div class="footer-top">
+<p class="eyebrow">YOUR NEXT CHAPTER</p>
+<h2>Let’s build on it.</h2>
+<a class="contact-link" href="tel:+15168076127">(516) 807-6127 <span>↗</span>
+</a>
+<a class="email" href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Verdeland Homes, Inc.</span>
+<span>Long Island, New York · Equal Housing Opportunity</span>
+<a href="../versions/pre-redesign-2026-09-18/index.html">Earlier design ↗</a>
+</div>
+<p class="review-note">TECH / ARCHITECTURAL · DESIGN EXPLORATION</p>
+</footer>
+<script src="homes-tech.js">
+</script>
+<script src="app.js">
+</script>
+<script src="hero.js"></script></body>
+</html>

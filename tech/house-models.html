@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>House Models — VerdeLand Home Builders</title>
+<link rel="stylesheet" href="../assets/css/site-modern.css?v=20260918">
+
+<link rel="stylesheet" href="tech.css?v=1">
+</head>
+<body class="tech">
+<a class="skip" href="#main">Skip to content</a>
+<div class="direction-bar"><span>DESIGN EXPLORATION / 02</span><a href="../design-review.html" target="_top">Compare both directions ↗</a></div><header class="header">
+<a class="brand" href="index.html" aria-label="VerdeLand Home Builders home">
+<img src="../assets/brand/verdeland-mark.svg" width="48" height="38" alt="">
+<span>VerdeLand<small>HOME BUILDERS</small>
+</span>
+</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span>＋</span>
+</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="homes.html">Our homes</a>
+<a href="why-verdeland.html">Our story</a>
+<a href="house-models.html">House models</a>
+<a href="sell-your-property.html">Sell your property</a>
+<a class="nav-contact" href="#contact">Let’s talk <span>↗</span>
+</a>
+</nav>
+</header>
+<main id="main">
+<section class="intro models-intro">
+<div class="intro-top">
+<p class="eyebrow">THE DIGITAL MODEL STUDIO</p>
+<span class="edition">FROM THE DRAWING BOARD, INTO DIMENSION.</span>
+</div>
+<div class="intro-grid">
+<h1>The home.<br>In every dimension.
+</h1>
+<div class="intro-copy">
+<p>A closer connection to the plan.<br>Explore the shape, space, and details of the homes we’re creating.</p>
+<a class="text-link" href="#model-studio">Inside the studio <span>↘</span>
+</a>
+</div>
+</div>
+</section>
+<section id="model-studio" class="model-studio" aria-labelledby="studio-heading">
+<div class="model-stage">
+<div class="stage-top">
+<span class="eyebrow">VERDELAND / HOUSE MODELS</span>
+<span class="stage-status" id="model-status">COLLECTION IN PROGRESS</span>
+</div>
+<div class="model-empty" id="model-empty">
+<img src="../assets/brand/model-placeholder.svg" alt="Architectural line illustration of a house; not a project model" width="1000" height="650">
+<div class="empty-copy">
+<p class="eyebrow">A NEW PERSPECTIVE IS TAKING SHAPE</p>
+<h2 id="studio-heading">From plans to places.</h2>
+<p>Our first house models are being prepared.<br>Come back to explore them in three dimensions.</p>
+</div>
+</div>
+<div id="viewer-host" hidden>
+</div>
+<div class="stage-bottom">
+<span id="model-caption">Concept illustration · Actual house models to follow</span>
+<button class="model-reset" id="model-reset" hidden>Reset view ↺</button>
+</div>
+</div>
+<div class="model-selector" id="model-selector" hidden aria-label="Choose a house model">
+</div>
+<p class="model-error" id="model-error" role="status" hidden>
+</p>
+<div class="studio-note">
+<span>01 — THE DESIGN</span>
+<p>Models will offer a preview of a home’s design. Final plans, finishes, and built details may vary.</p>
+</div>
+</section>
+<section class="section model-features">
+<div>
+<p class="eyebrow">01 / THE EXTERIOR</p>
+<h2>A sense of arrival.</h2>
+<p>See how rooflines, windows, and materials come together. Look at the home from more than the front door.</p>
+</div>
+<div>
+<p class="eyebrow">02 / THE PLAN</p>
+<h2>Room to imagine.</h2>
+<p>Get a clearer feel for the spaces and how they connect, as interior models join the collection.</p>
+</div>
+<div>
+<p class="eyebrow">03 / THE DETAILS</p>
+<h2>Closer to the idea.</h2>
+<p>Explore the design decisions that give each home its character, before seeing them in the finished home.</p>
+</div>
+</section>
+<section class="land">
+<div>
+<p class="eyebrow">FROM THE STUDIO TO THE STREET</p>
+<h2>See the homes<br>we’ve brought to life.</h2>
+</div>
+<div>
+<p>While the model collection takes shape, explore our completed homes and current projects.</p>
+<a class="button light" href="homes.html">Explore our homes <span>↗</span>
+</a>
+</div>
+</section>
+</main>
+<footer id="contact">
+<div class="footer-top">
+<p class="eyebrow">YOUR NEXT CHAPTER</p>
+<h2>Let’s build on it.</h2>
+<a class="contact-link" href="tel:+15168076127">(516) 807-6127 <span>↗</span>
+</a>
+<a class="email" href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Verdeland Homes, Inc.</span>
+<span>Long Island, New York · Equal Housing Opportunity</span>
+<a href="../versions/pre-redesign-2026-09-18/index.html">Earlier design ↗</a>
+</div>
+<p class="review-note">TECH / ARCHITECTURAL · DESIGN EXPLORATION</p>
+</footer>
+<script src="homes-tech.js">
+</script>
+<script src="app.js">
+</script>
+<script src="../assets/models/catalog.js">
+</script>
+<script>window.VERDELAND_MODELS=(window.VERDELAND_MODELS||[]).map(m=>({...m,src:"../"+m.src,poster:m.poster?"../"+m.poster:undefined}));</script><script type="module" src="../assets/js/house-models.js">
+</script>
+</body>
+</html>
