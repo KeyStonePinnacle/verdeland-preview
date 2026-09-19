@@ -19,17 +19,3 @@ if(pg){
  addPhotos();more.addEventListener('click',addPhotos);box.querySelector('.close').addEventListener('click',()=>box.close());function move(n){if(!h.images.length)return;index=(index+n+h.images.length)%h.images.length;display()}document.querySelector('#prev-photo').addEventListener('click',()=>move(-1));document.querySelector('#next-photo').addEventListener('click',()=>move(1));box.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();move(-1)}if(e.key==='ArrowRight'){e.preventDefault();move(1)}});
 }
 document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}})});
-
-// Load the interactive tour in place when requested; keep the external link available.
-document.querySelectorAll('[data-start-tour]').forEach(button => {
- button.addEventListener('click', () => {
-  const container = button.closest('[data-tour]');
-  const frame = document.createElement('iframe');
-  frame.src = container.dataset.tour;
-  frame.title = '837 Cleveland Street interactive 3D walkthrough';
-  frame.allow = 'fullscreen; xr-spatial-tracking';
-  frame.allowFullscreen = true;
-  container.replaceChildren(frame);
-  frame.focus();
- });
-});
