@@ -25,9 +25,3 @@
 .property-layout .estate-main .property-media .section-heading{align-items:start;flex-direction:column}
 .property-layout .estate-main .property-media h2{font-size:clamp(28px,3vw,36px)}
 .property-layout .estate-main .property-media .text-link{font-size:13px;margin-top:0}
-.estate-project-facts{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
-.estate-project-facts dd{font:20px var(--serif);max-width:340px;margin-bottom:6px}
-.estate-hero-pending>img{display:none}
-@media(max-width:760px){.estate-project-facts{grid-template-columns:1fr;gap:16px}.estate-project-facts>div{border:0}.estate-project-facts dd{font-size:20px}}
-/* Keep local section navigation in flow; only the header menu is an overlay. */
-.property-layout .estate-jump{position:static;inset:auto;width:auto;background:transparent;flex-direction:row;align-items:center}
