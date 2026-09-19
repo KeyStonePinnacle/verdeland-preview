@@ -1,0 +1,23 @@
+/* Property collection template: first review on 176 Hillsboro Avenue. */
+.estate-hero{position:relative;isolation:isolate;min-height:400px;display:flex;align-items:end;background:#202a23;color:#fff}
+.estate-hero>img{position:absolute;inset:0;height:100%;object-fit:cover;object-position:center 48%;z-index:-2}
+.estate-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,27,18,.86),rgba(12,27,18,.62));z-index:-1}
+.estate-hero-content{width:100%;max-width:1280px;margin:auto;padding:32px 40px 40px}
+.estate-hero .text-link{font-size:13px;margin-bottom:36px;color:#fff;border-color:#c9d3c9}
+.estate-kicker{display:flex;align-items:center;gap:22px;margin-bottom:18px}
+.estate-hero .pill{background:#f6f5ef;color:#244531;border:0}
+.estate-hero h1{font-size:clamp(40px,4.8vw,68px);max-width:900px;margin-bottom:16px}
+.estate-hero #property-town{font-size:13px;letter-spacing:.12em}
+.estate-facts{margin:0;background:#153f2e;color:#f6f5ef;display:grid;grid-template-columns:repeat(5,1fr);padding:24px max(24px,calc((100% - 1200px)/2))}
+.estate-facts>div{display:flex;flex-direction:column;align-items:center;border-right:1px solid #527260;padding:0 12px;text-align:center}
+.estate-facts>div:last-child{border:0}.estate-facts dt{font-size:11px;letter-spacing:.08em;text-transform:uppercase;order:2}.estate-facts dd{margin:0;font:32px var(--serif);line-height:1.3}
+.estate-layout{max-width:1280px;padding:56px 40px 72px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:56px;align-items:start}
+.estate-main{min-width:0}.estate-main h2{font-size:36px;margin:10px 0 20px}.estate-overview>p:not(.eyebrow){max-width:64ch}
+.estate-source{font-size:12px;color:#60655c;margin-top:18px}.estate-source a{text-decoration:underline;text-underline-offset:3px;display:inline-flex;align-items:center;min-height:44px}
+.estate-jump{display:flex;flex-wrap:wrap;gap:24px;border-block:1px solid var(--line);margin-top:24px;padding:8px 0;font-size:13px}.estate-jump a{min-height:44px}
+.property-layout .estate-main .section{padding:36px 0;margin:0;max-width:none}.property-layout .estate-main .section-heading{margin-bottom:20px;gap:16px}.property-layout .estate-main .section-heading h2{margin-bottom:0}
+.property-layout .estate-main .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.property-layout .estate-main #more-photos{margin-top:20px}
+.estate-main #photo-count{font-size:12px;white-space:nowrap}.estate-plans .plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}.estate-plans .plan-grid a{min-width:0;background:#fff;border:1px solid var(--line)}.estate-plans .plan-grid img{height:180px;width:100%;object-fit:contain;padding:10px}.estate-plans .plan-grid span{display:flex;align-items:center;min-height:52px;padding:10px;font-size:12px}
+.estate-sidebar{position:sticky;top:24px}.estate-sidebar h2{font-size:29px;line-height:1.15;margin:14px 0}.estate-sidebar p:not(.eyebrow){font-size:14px;line-height:1.7}.estate-status,.estate-contact{padding:28px}.estate-status{background:#eaece2;border:1px solid #d4d6cc}.estate-status .text-link{margin-top:20px;font-size:13px;width:100%}.estate-contact{margin-top:20px;background:#153f2e;color:#f6f5ef}.estate-contact .button{width:100%;font-size:13px;margin-top:24px;padding:14px 16px;gap:12px}.estate-email{display:flex;justify-content:space-between;align-items:center;min-height:48px;font-size:13px;margin-top:8px}.estate-compare{font-size:12px;margin-top:24px;width:100%}.estate-location{border-top:1px solid var(--line);padding-top:32px}.estate-location .text-link{margin-top:20px}
+@media(max-width:1000px){.estate-layout{gap:28px;grid-template-columns:minmax(0,1fr) 280px;padding-inline:24px}.estate-status,.estate-contact{padding:22px}.estate-hero-content{padding-inline:24px}}
+@media(max-width:760px){.estate-hero{min-height:360px}.estate-hero-content{padding:24px 22px 32px}.estate-hero .text-link{margin-bottom:28px}.estate-kicker{flex-wrap:wrap;gap:12px}.estate-hero h1{font-size:42px}.estate-layout{display:flex;flex-direction:column;padding:32px 22px 48px;gap:36px}.estate-main,.estate-sidebar{width:100%}.estate-sidebar{position:static}.estate-facts{grid-template-columns:repeat(3,1fr);padding:20px 12px;row-gap:20px}.estate-facts>div:nth-child(3){border:0}.estate-facts dd{font-size:28px}.estate-facts dt{font-size:10px}.estate-main h2{font-size:32px}.estate-jump{gap:18px}.estate-plans .plan-grid{grid-template-columns:1fr}.estate-plans .plan-grid img{height:240px}.estate-main .section-heading{align-items:start;flex-direction:column}.estate-contact .button{max-width:360px}}
