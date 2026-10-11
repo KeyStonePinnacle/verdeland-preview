@@ -11,3 +11,18 @@
 @media(max-width:760px){.header{height:78px;padding:0 22px}.brand img{width:33px}.brand{font-size:26px}.brand small{font-size:8px}.menu-toggle{display:flex;align-items:center;gap:15px;padding:0;background:none;border:0;min-height:44px;font-size:12px}.menu-toggle span{font-size:22px}.header nav{display:none;position:absolute;top:77px;left:0;right:0;padding:20px 24px;background:var(--paper);border-bottom:1px solid var(--line)}.header nav.open{display:flex;flex-direction:column;align-items:stretch;gap:7px}.model-empty{grid-template-columns:1fr}.model-empty>img{height:300px}.empty-copy{padding:15px 24px 40px}.empty-copy h2{font-size:38px}.stage-top,.stage-bottom{padding:18px;flex-wrap:wrap}.stage-top .eyebrow{font-size:9px}.stage-status{font-size:9px}.studio-note{display:block}.studio-note p{margin-top:15px}.model-features,.model-teaser{grid-template-columns:1fr;gap:35px}.model-features h2{margin-top:15px}.plan-grid{grid-template-columns:1fr}model-viewer{height:430px}.modern-legacy .header .brand{font-size:26px}.modern-legacy main .section{padding:45px 22px}}
 .contact-options{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid var(--line)}.contact-options h2{font-size:45px;margin:22px 0}.contact-options p:not(.eyebrow){color:var(--muted);margin-bottom:20px}.modern-legacy main a[href^="tel:"],.modern-legacy main a[href^="mailto:"]{display:inline-flex;align-items:center;min-height:44px}.modern-legacy main .contact-panel a{display:flex}
 @media(max-width:600px){.contact-options{grid-template-columns:1fr;gap:45px}.contact-options h2{font-size:36px}.contact-options .text-link{font-size:12px;gap:15px}}
+
+/* Local photo/contact review, October 2026. */
+.filters button{min-width:44px}
+.meeting-location{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid var(--line)}
+.meeting-location h2{font-size:clamp(34px,4vw,48px);margin:22px 0}
+.meeting-location p:not(.eyebrow){color:var(--muted);max-width:56ch}
+.meeting-location .button{margin-top:24px}
+.meeting-address{padding:32px;background:#e9e9df;align-self:start}
+.meeting-address h3{font-size:28px;line-height:1.25;margin-bottom:20px}
+.meeting-address address{font-style:normal;font-size:20px;line-height:1.65;margin-bottom:24px}
+.meeting-address p{font-size:14px;line-height:1.7}
+.meeting-link{display:inline-flex;align-items:center;min-height:44px;margin-top:12px;font-size:13px;text-decoration:underline;text-underline-offset:4px}
+.photo-pending{display:grid;place-content:center;min-height:260px;padding:32px;background:#e9e9df;color:#252b26;font-size:18px;text-align:center}
+.gallery-note{margin-bottom:24px;color:var(--muted);max-width:65ch;font-size:14px}
+@media(max-width:760px){.meeting-location{grid-template-columns:1fr;gap:32px}.meeting-address{padding:24px}}
