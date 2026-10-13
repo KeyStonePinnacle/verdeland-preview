@@ -12,7 +12,11 @@ function photoAttributes(home, index, sizes) {
 }
 const grid=document.querySelector('#home-grid');
 if(grid){
- function render(town){const list=homes.filter(h=>town==='all'||h.town===town);grid.innerHTML=list.map(h=>`<a class="home-card" href="${h.url}"><div class="photo">${h.images.length?`<img ${photoAttributes(h,0,'(max-width: 600px) 100vw, 50vw')} loading="lazy">`:'<div class="photo-pending">Property photography pending</div>'}<span>${h.label}</span></div><div class="card-bottom"><div><h3>${h.title}</h3><p>${h.town}, New York</p></div><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('');document.querySelector('#home-count').textContent=`${list.length} ${list.length===1?'home':'homes'}`}
+ const featuredIds=grid.dataset.featured?.split(/\s+/).filter(Boolean);
+ const collection=featuredIds?featuredIds.map(id=>homes.find(h=>h.id===id)).filter(h=>h?.images.length):homes;
+ const imageSizes=featuredIds?'(max-width: 850px) 100vw, 33vw':'(max-width: 600px) 100vw, 50vw';
+ const count=document.querySelector('#home-count');
+ function render(town){const list=collection.filter(h=>town==='all'||h.town===town);grid.innerHTML=list.map(h=>`<a class="home-card" href="${h.url}"><div class="photo">${h.images.length?`<img ${photoAttributes(h,0,imageSizes)} loading="lazy">`:'<div class="photo-pending">Property photography pending</div>'}<span>${h.label}</span></div><div class="card-bottom"><div><h3>${h.title}</h3><p>${h.town}, New York</p></div><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('');if(count)count.textContent=`${list.length} ${list.length===1?'home':'homes'}`}
  render('all');document.querySelectorAll('[data-town]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-town]').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',el===b)});render(b.dataset.town)}));
  }
 const inquiry=document.querySelector('#inquiry');if(inquiry){document.querySelector('[data-inquiry]').addEventListener('click',()=>inquiry.showModal());inquiry.querySelectorAll('.close,[data-close]').forEach(b=>b.addEventListener('click',()=>inquiry.close()));

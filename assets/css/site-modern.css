@@ -26,3 +26,10 @@
 .photo-pending{display:grid;place-content:center;min-height:260px;padding:32px;background:#e9e9df;color:#252b26;font-size:18px;text-align:center}
 .gallery-note{margin-bottom:24px;color:var(--muted);max-width:65ch;font-size:14px}
 @media(max-width:760px){.meeting-location{grid-template-columns:1fr;gap:32px}.meeting-address{padding:24px}}
+
+/* Homepage selection; the full portfolio keeps its existing collection layout. */
+.home-grid--featured{grid-template-columns:repeat(3,minmax(0,1fr))}
+.home-grid--featured .card-bottom{gap:16px}
+.home-grid--featured .card-arrow{flex-shrink:0}
+.portfolio-action{margin-top:36px}
+@media(max-width:850px){.home-grid--featured{grid-template-columns:1fr}}
