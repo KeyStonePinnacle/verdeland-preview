@@ -76,9 +76,9 @@
 </div>
 </section>
 <section class="section inquiry-panel" id="property-inquiry-section" data-no-tracking data-clarity-mask="true" aria-labelledby="inquiry-title">
-<div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">Ask about a home.</h2><p>Choose a property or send a general question. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email VerdeLand directly</a>.</p></div>
+<div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">Inquire about upcoming projects.</h2><p>Send a general question about upcoming projects. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email VerdeLand directly</a>.</p></div>
 <form class="inquiry-form" id="property-inquiry" action="/api/inquiry" method="post" novalidate data-clarity-mask="true">
-<div class="inquiry-field"><label for="inquiry-property">Property</label><select id="inquiry-property" name="property"><option value="">General property question</option></select></div>
+<input id="inquiry-property" type="hidden" name="property" value="">
 <div class="inquiry-field"><label for="inquiry-name">Name</label><input id="inquiry-name" name="name" autocomplete="name" maxlength="120" required aria-describedby="error-name"><p class="inquiry-error" id="error-name"></p></div>
 <div class="inquiry-field"><label for="inquiry-email">Email</label><input id="inquiry-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="error-email"><p class="inquiry-error" id="error-email"></p></div>
 <div class="inquiry-field"><label for="inquiry-phone">Phone (optional)</label><input id="inquiry-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" aria-describedby="error-phone"><p class="inquiry-error" id="error-phone"></p></div>

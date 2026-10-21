@@ -2,28 +2,17 @@
   'use strict';
   const form = document.querySelector('#property-inquiry');
   if (!form) return;
-  const property = form.elements.property, status = document.querySelector('#inquiry-status');
+  const status = document.querySelector('#inquiry-status');
   const submit = form.querySelector('[type=submit]');
-  let challenge, pendingChallenge, sending = false;
-  const startedProperties = new Set();
-  for (const home of homes) {
-    const option = document.createElement('option'); option.value = home.id;
-    option.textContent = `${home.title} · ${home.town}`; property.append(option);
-  }
-  const requested = new URLSearchParams(location.search).get('property');
-  if (homes.some(home => home.id === requested)) property.value = requested;
+  let challenge, pendingChallenge, sending = false, started = false;
   const fields = ['name','email','phone','message'];
-  function propertyContext() { return homes.some(home => home.id === property.value) ? property.value : 'none'; }
   function inquiryStart(event) {
-    if (event.isTrusted === false || ![...fields, 'property'].includes(event.target?.name)) return;
-    const id = propertyContext();
-    if (startedProperties.has(id)) return;
+    if (event.isTrusted === false || !fields.includes(event.target?.name) || started) return;
     // Consume the start even without consent; later permission never replays it.
-    startedProperties.add(id);
-    window.VerdeAnalytics?.track('inquiry_start', {property_id:id});
+    started = true;
+    window.VerdeAnalytics?.track('inquiry_start', {property_id:'none'});
   }
   form.addEventListener('input', inquiryStart);
-  form.addEventListener('change', event => { if (event.target?.name === 'property') inquiryStart(event); });
   function validate(name) {
     const input = form.elements[name], value = input.value.trim();
     let message = '';
@@ -53,11 +42,10 @@
     const invalid = fields.filter(name => !validate(name));
     if (invalid.length) { form.elements[invalid[0]].focus(); return; }
     sending = true; submit.disabled = true; submit.textContent = 'Sending…'; status.textContent = '';
-    const submittedProperty = property.value;
-    const recordAcceptance = window.VerdeAnalytics?.beginInquirySubmission(propertyContext());
+    const recordAcceptance = window.VerdeAnalytics?.beginInquirySubmission('none');
     try {
       const session = await getChallenge();
-      const payload = {token:session.token, property:submittedProperty, website:form.elements.website.value};
+      const payload = {token:session.token, property:'', website:form.elements.website.value};
       fields.forEach(name => { payload[name] = form.elements[name].value.trim(); });
       const response = await fetch('/api/inquiry', {method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Verde-Inquiry':'1'},body:JSON.stringify(payload),signal:AbortSignal.timeout(20000)});
       const result = await response.json();
@@ -69,9 +57,8 @@
       }
       status.textContent = 'Your inquiry was accepted by our email service for delivery to info@verdelandhomebuilders.com. Thank you.';
       recordAcceptance?.(result.receipt);
-      form.reset(); challenge = null; startedProperties.clear();
+      form.reset(); challenge = null; started = false;
       fields.forEach(name => { form.elements[name].removeAttribute('aria-invalid'); document.querySelector('#error-' + name).textContent = ''; });
-      if (homes.some(home => home.id === requested)) property.value = requested;
     } catch (error) {
       status.textContent = error.message === 'unavailable' || error instanceof TypeError || error instanceof SyntaxError || error.name === 'TimeoutError'
         ? 'The inquiry form is unavailable. Your entries are still here. Please email info@verdelandhomebuilders.com or try again later.'
