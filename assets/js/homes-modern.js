@@ -111,7 +111,8 @@ const homes = [
       "assets/photos/web-20261021/833-cleveland-street/interiors-32-1800.webp",
       "assets/photos/web-20261021/833-cleveland-street/interiors-35-1800.webp",
       "assets/photos/web-20261021/833-cleveland-street/interiors-40-1800.webp",
-      "assets/photos/web-20261021/833-cleveland-street/interiors-42-1800.webp"
+      "assets/photos/web-20261021/833-cleveland-street/interiors-42-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-34-1800.webp"
     ],
     "plans": [],
     "description": "A VerdeLand project in West Hempstead. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
@@ -206,6 +207,13 @@ const homes = [
         "width": 1800,
         "height": 1199,
         "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-42-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Straight-on view of the double vanity at 833 Cleveland Street",
+        "width": 1536,
+        "height": 1024,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-34-760.webp",
         "thumbnailWidth": 760
       }
     ],
