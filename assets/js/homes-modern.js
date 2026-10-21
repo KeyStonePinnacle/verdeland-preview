@@ -1,4 +1,4 @@
-// Reviewed local photographs: docs/data/photo-selection-2026-10-11.json
+// Reviewed photo selections: docs/data/photo-selection-2026-10-11.json, photo-selection-2026-10-21.json and photo-selection-833-2026-10-21.json
 const homes = [
   {
     "id": "home-detail",
@@ -7,6 +7,9 @@ const homes = [
     "label": "Available · confirmed Aug 2, 2026",
     "url": "home-detail.html",
     "images": [
+      "assets/photos/web-20261021/1320-r-street/gray-10-1800.webp",
+      "assets/photos/web-20261021/1320-r-street/gray-11-1800.webp",
+      "assets/photos/web-20261021/1320-r-street/gray-15-1800.webp",
       "assets/photos/web-20261011/1320-r-street/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507-1800.webp",
       "assets/photos/web-20261011/1320-r-street/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae-1800.webp",
       "assets/photos/web-20261011/1320-r-street/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3-1800.webp",
@@ -15,6 +18,27 @@ const homes = [
     "plans": [],
     "description": "A VerdeLand project in Elmont. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
     "photoDetails": [
+      {
+        "alt": "Front exterior of 1320 R Street",
+        "width": 1800,
+        "height": 1122,
+        "thumbnail": "assets/photos/web-20261021/1320-r-street/gray-10-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Driveway and detached garage at 1320 R Street",
+        "width": 1800,
+        "height": 1150,
+        "thumbnail": "assets/photos/web-20261021/1320-r-street/gray-11-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Side lawn and exterior of 1320 R Street",
+        "width": 1800,
+        "height": 1142,
+        "thumbnail": "assets/photos/web-20261021/1320-r-street/gray-15-760.webp",
+        "thumbnailWidth": 760
+      },
       {
         "alt": "Front exterior during construction at 1320 R Street",
         "width": 1537,
@@ -44,7 +68,7 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Construction photographs from the July 2026 source set. They show the home at that stage of work."
+    "photoNote": "Exterior views followed by construction photographs from the July 2026 source set. The construction images show the home at that stage of work."
   },
   {
     "id": "1316-r-street",
@@ -52,10 +76,37 @@ const homes = [
     "town": "Elmont",
     "label": "Available · confirmed Aug 2, 2026",
     "url": "1316-r-street.html",
-    "images": [],
+    "images": [
+      "assets/photos/web-20261021/1316-r-street/white-01-1800.webp",
+      "assets/photos/web-20261021/1316-r-street/white-02-1800.webp",
+      "assets/photos/web-20261021/1316-r-street/white-03-1800.webp"
+    ],
     "plans": [],
     "description": "A VerdeLand project in Elmont. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
-    "photoNote": "Property-specific photography is not yet available. Contact us for current project details."
+    "photoNote": "Exterior views of 1316 R Street. Contact us for current project details.",
+    "photoDetails": [
+      {
+        "alt": "Front exterior of 1316 R Street",
+        "width": 1800,
+        "height": 1108,
+        "thumbnail": "assets/photos/web-20261021/1316-r-street/white-01-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Driveway and attached garage at 1316 R Street",
+        "width": 1800,
+        "height": 1131,
+        "thumbnail": "assets/photos/web-20261021/1316-r-street/white-02-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Porch and side exterior of 1316 R Street",
+        "width": 1800,
+        "height": 1128,
+        "thumbnail": "assets/photos/web-20261021/1316-r-street/white-03-760.webp",
+        "thumbnailWidth": 760
+      }
+    ]
   },
   {
     "id": "833-cleveland-street",
@@ -63,10 +114,93 @@ const homes = [
     "town": "West Hempstead",
     "label": "Under contract · confirmed Aug 2, 2026",
     "url": "833-cleveland-street.html",
-    "images": [],
+    "images": [
+      "assets/photos/web-20261021/833-cleveland-street/interiors-24-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-26-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-22-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-28-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-29-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-31-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-32-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-35-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-40-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/interiors-42-1800.webp"
+    ],
     "plans": [],
     "description": "A VerdeLand project in West Hempstead. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
-    "photoNote": "Property-specific photography is not yet available. Contact us for current project details."
+    "photoNote": "Edited interior photographs supplied for 833 Cleveland Street. Contact us for current project details.",
+    "photoDetails": [
+      {
+        "alt": "Kitchen and island at 833 Cleveland Street",
+        "width": 1484,
+        "height": 988,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-24-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Kitchen and patio doors at 833 Cleveland Street",
+        "width": 1460,
+        "height": 972,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-26-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Front room with paneled walls at 833 Cleveland Street",
+        "width": 1800,
+        "height": 1199,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-22-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Open room and patio doors at 833 Cleveland Street",
+        "width": 1472,
+        "height": 980,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-28-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Additional room at 833 Cleveland Street",
+        "width": 1800,
+        "height": 1199,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-29-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Bathroom with white vanity at 833 Cleveland Street",
+        "width": 1198,
+        "height": 1800,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-31-760.webp",
+        "thumbnailWidth": 506
+      },
+      {
+        "alt": "Bathroom with double vanity and shower at 833 Cleveland Street",
+        "width": 1800,
+        "height": 1198,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-32-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Stair landing at 833 Cleveland Street",
+        "width": 1019,
+        "height": 1533,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-35-760.webp",
+        "thumbnailWidth": 505
+      },
+      {
+        "alt": "Unfinished basement and stairs at 833 Cleveland Street",
+        "width": 1800,
+        "height": 1198,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-40-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Unfinished basement mechanical area at 833 Cleveland Street",
+        "width": 1800,
+        "height": 1199,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-42-760.webp",
+        "thumbnailWidth": 760
+      }
+    ]
   },
   {
     "id": "837-cleveland-street",
