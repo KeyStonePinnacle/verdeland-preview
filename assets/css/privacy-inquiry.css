@@ -1,0 +1,39 @@
+.privacy-banner,.privacy-dialog,.inquiry-panel{color:#193c30;background:#fbf8f3;font-family:Arial,Helvetica,sans-serif}
+.privacy-banner[hidden],.privacy-banner [hidden],.privacy-dialog [hidden]{display:none!important}
+.privacy-banner{position:relative;border-top:2px solid #193c30;padding:28px max(24px,5vw);display:grid;grid-template-columns:minmax(0,1.8fr) minmax(230px,1fr);gap:28px;z-index:10}
+.privacy-banner h2,.privacy-dialog h2{font-size:25px;line-height:1.2;margin:0 0 12px;letter-spacing:0}
+.privacy-banner p,.privacy-dialog p{font-size:16px;line-height:1.5;max-width:70ch;margin:8px 0}
+.privacy-banner a,.privacy-links a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline}
+.privacy-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.privacy-actions button,.privacy-links button{font:inherit;font-size:16px;min-height:44px;padding:10px 16px;border:1px solid currentColor;cursor:pointer;border-radius:0;color:inherit;background:transparent}
+.privacy-actions button{flex:1 1 160px;color:#193c30;background:#fbf8f3}
+.privacy-actions button:hover,.privacy-actions button:focus-visible{background:#193c30;color:#fff}
+.privacy-review{font-weight:700}
+.privacy-dialog{width:min(600px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:24px;border:2px solid #193c30;overflow:auto}
+.privacy-dialog::backdrop{background:rgba(0,0,0,.55)}
+.privacy-option{display:flex;gap:14px;align-items:center;font-size:16px;line-height:1.5;padding:16px 0;border-top:1px solid #89968b;cursor:pointer}
+.privacy-option input{width:44px;height:44px;flex-shrink:0;accent-color:#193c30}
+.privacy-links{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;padding-top:24px}
+.privacy-links button{font-size:14px}
+.inquiry-panel{border-top:1px solid #89968b}
+.inquiry-panel h2{max-width:20ch}
+.inquiry-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px}
+.inquiry-form{max-width:680px;width:100%}
+.inquiry-form label{display:block;font-size:16px;font-weight:700;margin-bottom:8px}
+.inquiry-form input,.inquiry-form select,.inquiry-form textarea{display:block;box-sizing:border-box;width:100%;min-width:0;min-height:48px;padding:12px;font:inherit;font-size:16px;color:#193c30;background:#fff;border:1px solid #536d60;border-radius:0}
+.inquiry-form textarea{min-height:140px;resize:vertical}
+.inquiry-field{margin-bottom:20px}
+.inquiry-form input:focus-visible,.inquiry-form select:focus-visible,.inquiry-form textarea:focus-visible,.privacy-actions button:focus-visible,.privacy-links button:focus-visible,.privacy-option input:focus-visible{outline:3px solid #815600;outline-offset:3px}
+.inquiry-form [aria-invalid=true]{border:2px solid #8b241d}
+.inquiry-error{color:#8b241d;font-size:16px;margin:6px 0 0;min-height:0}
+.inquiry-error:empty{display:none}
+.inquiry-note,.inquiry-status{font-size:16px;line-height:1.5;margin:16px 0;overflow-wrap:anywhere}
+.inquiry-note a,.inquiry-status a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline}
+.inquiry-status:not(:empty){border-left:4px solid #193c30;padding:12px;background:#edf2ec}
+.inquiry-form button[disabled]{opacity:1;color:#fff;background:#435b50;cursor:wait}
+.inquiry-trap{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden}
+.privacy-copy{max-width:860px;margin:auto}
+.privacy-copy p,.privacy-copy li{font-size:18px;line-height:1.7;margin:12px 0}
+.privacy-copy h2{font-size:30px;margin-top:40px}
+.privacy-copy a{display:inline-flex;min-height:44px;align-items:center;overflow-wrap:anywhere;text-decoration:underline}
+@media(max-width:760px){.privacy-banner,.inquiry-layout{grid-template-columns:1fr;gap:20px}.privacy-banner{padding:24px}.privacy-dialog{padding:20px}.inquiry-layout{gap:24px}.privacy-actions{align-items:stretch}.privacy-actions button{flex-basis:100%}}

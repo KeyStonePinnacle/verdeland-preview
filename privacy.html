@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<script>
+/* PIN gate: keeps the preview off search engines and away from casual
+   visitors. It is a curtain, not a lock. */
+(function(){
+  var K='vl-pin', PIN='516807';
+  if (sessionStorage.getItem(K)===PIN) return;
+  document.documentElement.style.display='none';
+  for (var i=0;i<3;i++){
+    var p=prompt('Private preview \u2014 enter PIN');
+    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
+    if (p===null) break;
+  }
+  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
+  document.documentElement.style.display='';
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Privacy — VerdeLand Home Builders</title>
+<link rel="stylesheet" href="assets/css/site-modern.css?v=20261021-covers">
+
+<link rel="stylesheet" href="assets/css/warm-pop.css?v=2">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="stylesheet" href="assets/css/privacy-inquiry.css?v=20261021">
+<script defer src="assets/js/privacy-config.js?v=20261021"></script>
+<script defer src="assets/js/privacy.js?v=20261021-events"></script>
+<script defer src="assets/js/analytics-events.js?v=20261021"></script>
+</head>
+<body class="warm-pop">
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+<a class="brand brand-horizontal" href="index.html" aria-label="VerdeLand Home Builders home">
+<img src="assets/brand/verdeland-horizontal-20261021.webp" width="960" height="256" alt="" decoding="async">
+</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span>＋</span>
+</button>
+<nav id="nav" aria-label="Main navigation">
+<a href="homes.html">Our homes</a>
+<a href="why-verdeland.html">Our story</a>
+<a href="house-models.html">House models</a>
+<a href="sell-your-property.html">Sell your property</a>
+<a class="nav-contact" href="contact.html">Let’s talk <span>↗</span>
+</a>
+</nav>
+</header>
+<main id="main"><section class="intro"><p class="eyebrow">PRIVACY</p><div class="intro-grid"><h1>Your information.<br><em>Your choice.</em></h1><div class="intro-copy"><p>How this website handles inquiries and optional measurement.</p></div></div></section>
+<section class="section privacy-copy" data-no-tracking><p><strong>Updated October 21, 2026.</strong></p>
+<h2>Contacting VerdeLand</h2><p>Phone and email links let you contact VerdeLand Home Builders directly. We use the information you send to respond to your inquiry. The website email is <a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a>. Please avoid sending sensitive documents through an initial inquiry.</p>
+<h2>Essential functions</h2><p>The site remembers your privacy choice in your browser for up to 180 days. The private-preview access setting is separate. Hosting services process technical request data needed to provide and protect the website.</p>
+<h2>Optional visit analytics</h2><p>With your permission, Google Analytics measures page visits, property views and clicks on our phone and email links using browser identifiers. These events use property identifiers and contact categories. We do not send names, email addresses, phone numbers or message text in these events. Page addresses sent to Google omit query strings and fragments, and the referring page address is not included. Advertising features stay off.</p><p>Google Analytics cookies are configured to expire after 180 days without extending their lifetime on each visit. Google processes analytics data under its privacy policy. The buyer guides and this privacy page do not load analytics.</p>
+<h2>Session replay</h2><p>Microsoft Clarity is not enabled. The session-replay preference is unavailable until that service has been configured and disclosed.</p>
+<h2>Optional 3D tours</h2><p>A property’s Matterport tour loads only when you choose to start it. Starting a tour connects your browser to Matterport, which may receive technical request information and use cookies under its own privacy policy.</p>
+<h2>Manage your choices</h2><p>Optional analytics stay off until you agree. Rejecting them does not prevent you from browsing or contacting us. Open Cookie preferences below to change your choice. Withdrawing permission unloads optional tracking by refreshing the page and clears its accessible first-party cookies. It does not erase information already received by a provider.</p><p>We honor Global Privacy Control by keeping optional tracking off. Browser identifiers estimate visits and use of a browser; they do not establish a visitor’s personal identity.</p><button class="button" type="button" data-preferences>Cookie preferences</button>
+<h2>Privacy questions</h2><p>Contact <a href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a> about this notice or information you have sent us.</p>
+<h2>Provider information</h2><p><a href="https://policies.google.com/privacy" rel="noopener">Google privacy policy</a><br><a href="https://matterport.com/privacy-policy" rel="noopener">Matterport privacy policy</a></p></section></main>
+<footer id="contact">
+<div class="footer-top">
+<p class="eyebrow">YOUR NEXT CHAPTER</p>
+<h2>Let’s build on it.</h2>
+<a class="contact-link" href="tel:+15168076127">(516) 807-6127 <span>↗</span>
+</a>
+<a class="email" href="mailto:info@verdelandhomebuilders.com">info@verdelandhomebuilders.com</a>
+<a class="meeting-link" href="contact.html#meeting-location">Appointment-only meeting details</a>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Verdeland Homes, Inc.</span>
+<span>Long Island, New York · Equal Housing Opportunity</span>
+</div>
+<div class="privacy-links"><a href="privacy.html">Privacy</a><button type="button" data-preferences>Cookie preferences</button></div>
+<p class="review-note">PRIVATE PREVIEW · OCTOBER 2026</p>
+</footer>
+<script src="assets/js/homes-modern.js?v=20261021-sold">
+</script>
+<script src="assets/js/site-modern.js?v=20261021-covers">
+</script>
+</body>
+</html>
