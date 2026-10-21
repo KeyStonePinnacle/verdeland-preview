@@ -96,7 +96,7 @@ const homes = [
     "id": "833-cleveland-street",
     "title": "833 Cleveland Street",
     "town": "West Hempstead",
-    "label": "Under contract · confirmed Aug 2, 2026",
+    "label": "Sold · Completed",
     "url": "833-cleveland-street.html",
     "images": [
       "assets/photos/web-20261021/833-cleveland-street/exterior-main-1800.webp",
@@ -115,7 +115,7 @@ const homes = [
       "assets/photos/web-20261021/833-cleveland-street/interiors-34-1800.webp"
     ],
     "plans": [],
-    "description": "A VerdeLand project in West Hempstead. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
+    "description": "A sold and completed VerdeLand home in West Hempstead.",
     "photoNote": "Exterior and interior views of 833 Cleveland Street. Contact us for current project details.",
     "photoDetails": [
       {
