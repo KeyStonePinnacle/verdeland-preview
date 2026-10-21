@@ -9,11 +9,7 @@ const homes = [
     "images": [
       "assets/photos/web-20261021/1320-r-street/gray-10-1800.webp",
       "assets/photos/web-20261021/1320-r-street/gray-11-1800.webp",
-      "assets/photos/web-20261021/1320-r-street/gray-15-1800.webp",
-      "assets/photos/web-20261011/1320-r-street/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507-1800.webp",
-      "assets/photos/web-20261011/1320-r-street/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae-1800.webp",
-      "assets/photos/web-20261011/1320-r-street/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3-1800.webp",
-      "assets/photos/web-20261011/1320-r-street/exec-16c9b150-77d8-4c67-9438-910bfb766e52-1800.webp"
+      "assets/photos/web-20261021/1320-r-street/gray-15-1800.webp"
     ],
     "plans": [],
     "description": "A VerdeLand project in Elmont. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
@@ -38,37 +34,9 @@ const homes = [
         "height": 1142,
         "thumbnail": "assets/photos/web-20261021/1320-r-street/gray-15-760.webp",
         "thumbnailWidth": 760
-      },
-      {
-        "alt": "Front exterior during construction at 1320 R Street",
-        "width": 1537,
-        "height": 1023,
-        "thumbnail": "assets/photos/web-20261011/1320-r-street/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507-760.webp",
-        "thumbnailWidth": 760
-      },
-      {
-        "alt": "Corner-lot exterior during construction at 1320 R Street",
-        "width": 1537,
-        "height": 1023,
-        "thumbnail": "assets/photos/web-20261011/1320-r-street/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae-760.webp",
-        "thumbnailWidth": 760
-      },
-      {
-        "alt": "Interior at drywall stage at 1320 R Street",
-        "width": 1537,
-        "height": 1023,
-        "thumbnail": "assets/photos/web-20261011/1320-r-street/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3-760.webp",
-        "thumbnailWidth": 760
-      },
-      {
-        "alt": "Interior with large window at drywall stage at 1320 R Street",
-        "width": 1537,
-        "height": 1023,
-        "thumbnail": "assets/photos/web-20261011/1320-r-street/exec-16c9b150-77d8-4c67-9438-910bfb766e52-760.webp",
-        "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Exterior views followed by construction photographs from the July 2026 source set. The construction images show the home at that stage of work."
+    "photoNote": "Exterior views of 1320 R Street. Contact us for current project details."
   },
   {
     "id": "1316-r-street",
