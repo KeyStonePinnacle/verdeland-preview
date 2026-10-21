@@ -24,9 +24,6 @@ if(grid){
  function render(town){const list=collection.filter(h=>town==='all'||h.town===town);grid.innerHTML=list.map(h=>`<a class="home-card${h.cover?' home-card--cover':''}" href="${h.url}"><div class="photo">${h.images.length?`<img ${coverAttributes(h,imageSizes)} loading="lazy">`:'<div class="photo-pending">Property photography pending</div>'}<span>${h.label}</span></div><div class="card-bottom"><div><h3>${h.title}</h3><p>${h.town}, New York</p></div><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('');if(count)count.textContent=`${list.length} ${list.length===1?'home':'homes'}`}
  render('all');document.querySelectorAll('[data-town]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-town]').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',el===b)});render(b.dataset.town)}));
  }
-const inquiry=document.querySelector('#inquiry');if(inquiry){document.querySelector('[data-inquiry]').addEventListener('click',()=>inquiry.showModal());inquiry.querySelectorAll('.close,[data-close]').forEach(b=>b.addEventListener('click',()=>inquiry.close()));
- document.querySelector('#inquiry-form').addEventListener('submit',e=>{e.preventDefault();e.target.hidden=true;const success=document.querySelector('#form-success');success.hidden=false;success.querySelector('button').focus()});
-}
 const pg=document.querySelector('#gallery-grid');
 if(pg){
  const key=document.body.dataset.home||new URLSearchParams(location.search).get('home');const h=homes.find(h=>h.id===key)||homes[0];document.title=`${h.title} — VerdeLand Home Builders`;document.querySelector('#property-name').textContent=h.title;document.querySelector('#property-town').textContent=h.town.toUpperCase()+', NEW YORK';const hero=document.querySelector('#property-hero');

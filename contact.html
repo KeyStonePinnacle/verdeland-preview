@@ -75,6 +75,19 @@
 </a>
 </div>
 </section>
+<section class="section inquiry-panel" id="property-inquiry-section" data-no-tracking data-clarity-mask="true" aria-labelledby="inquiry-title">
+<div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">Ask about a home.</h2><p>Choose a property or send a general question. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email VerdeLand directly</a>.</p></div>
+<form class="inquiry-form" id="property-inquiry" action="/api/inquiry" method="post" novalidate data-clarity-mask="true">
+<div class="inquiry-field"><label for="inquiry-property">Property</label><select id="inquiry-property" name="property"><option value="">General property question</option></select></div>
+<div class="inquiry-field"><label for="inquiry-name">Name</label><input id="inquiry-name" name="name" autocomplete="name" maxlength="120" required aria-describedby="error-name"><p class="inquiry-error" id="error-name"></p></div>
+<div class="inquiry-field"><label for="inquiry-email">Email</label><input id="inquiry-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="error-email"><p class="inquiry-error" id="error-email"></p></div>
+<div class="inquiry-field"><label for="inquiry-phone">Phone (optional)</label><input id="inquiry-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" aria-describedby="error-phone"><p class="inquiry-error" id="error-phone"></p></div>
+<div class="inquiry-field"><label for="inquiry-message">Your question (optional)</label><textarea id="inquiry-message" name="message" rows="5" maxlength="4000" aria-describedby="error-message"></textarea><p class="inquiry-error" id="error-message"></p></div>
+<div class="inquiry-trap" aria-hidden="true"><label for="inquiry-website">Leave this field empty</label><input id="inquiry-website" name="website" tabindex="-1" autocomplete="off"></div>
+<p class="inquiry-note">We use these details to respond to your inquiry. Please do not include financial, identity or other sensitive documents. <a href="privacy.html">Read the privacy notice</a>.</p>
+<button class="button" type="submit">Send inquiry</button><p id="inquiry-status" class="inquiry-status" role="status" aria-live="polite" tabindex="-1"></p>
+<noscript><p>Please enable JavaScript to use the form, or <a href="mailto:info@verdelandhomebuilders.com">email us directly</a>.</p></noscript>
+</form></div></section>
 <section class="section meeting-location" id="meeting-location" aria-labelledby="meeting-title">
 <div>
 <p class="eyebrow">APPOINTMENT-ONLY MEETING LOCATION</p>
@@ -121,5 +134,6 @@
 </script>
 <script src="assets/js/site-modern.js?v=20261021-covers">
 </script>
+<script src="assets/js/inquiry.js?v=20261021"></script>
 </body>
 </html>
