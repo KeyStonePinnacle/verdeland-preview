@@ -1,4 +1,4 @@
-// Reviewed photo selections: docs/data/photo-selection-2026-10-11.json, photo-selection-2026-10-21.json and photo-selection-833-2026-10-21.json
+// Verified gallery and cover selections: docs/data/photo-selection-*.json and collection-cover-selection-2026-10-21.json
 const homes = [
   {
     "id": "home-detail",
@@ -36,7 +36,15 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Exterior views of 1320 R Street. Contact us for current project details."
+    "photoNote": "Exterior views of 1320 R Street. Contact us for current project details.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/home-detail-1200.webp",
+      "alt": "Front view of 1320 R Street",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/photos/covers-20261021/home-detail-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "1316-r-street",
@@ -74,7 +82,15 @@ const homes = [
         "thumbnail": "assets/photos/web-20261021/1316-r-street/white-03-760.webp",
         "thumbnailWidth": 760
       }
-    ]
+    ],
+    "cover": {
+      "src": "assets/photos/covers-20261021/1316-r-street-1200.webp",
+      "alt": "Front view of 1316 R Street",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/photos/covers-20261021/1316-r-street-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "833-cleveland-street",
@@ -83,6 +99,9 @@ const homes = [
     "label": "Under contract · confirmed Aug 2, 2026",
     "url": "833-cleveland-street.html",
     "images": [
+      "assets/photos/web-20261021/833-cleveland-street/exterior-main-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/exterior-left-1800.webp",
+      "assets/photos/web-20261021/833-cleveland-street/exterior-right-1800.webp",
       "assets/photos/web-20261021/833-cleveland-street/interiors-24-1800.webp",
       "assets/photos/web-20261021/833-cleveland-street/interiors-26-1800.webp",
       "assets/photos/web-20261021/833-cleveland-street/interiors-22-1800.webp",
@@ -96,8 +115,29 @@ const homes = [
     ],
     "plans": [],
     "description": "A VerdeLand project in West Hempstead. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
-    "photoNote": "Edited interior photographs supplied for 833 Cleveland Street. Contact us for current project details.",
+    "photoNote": "Exterior and interior views of 833 Cleveland Street. Contact us for current project details.",
     "photoDetails": [
+      {
+        "alt": "Front exterior of 833 Cleveland Street",
+        "width": 1672,
+        "height": 941,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/exterior-main-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Front exterior from the left at 833 Cleveland Street",
+        "width": 1536,
+        "height": 1024,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/exterior-left-760.webp",
+        "thumbnailWidth": 760
+      },
+      {
+        "alt": "Front exterior from the right at 833 Cleveland Street",
+        "width": 1672,
+        "height": 941,
+        "thumbnail": "assets/photos/web-20261021/833-cleveland-street/exterior-right-760.webp",
+        "thumbnailWidth": 760
+      },
       {
         "alt": "Kitchen and island at 833 Cleveland Street",
         "width": 1484,
@@ -168,7 +208,15 @@ const homes = [
         "thumbnail": "assets/photos/web-20261021/833-cleveland-street/interiors-42-760.webp",
         "thumbnailWidth": 760
       }
-    ]
+    ],
+    "cover": {
+      "src": "assets/photos/covers-20261021/833-cleveland-street-1200.webp",
+      "alt": "Front view of 833 Cleveland Street",
+      "width": 1032,
+      "height": 688,
+      "thumbnail": "assets/photos/covers-20261021/833-cleveland-street-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "837-cleveland-street",
@@ -319,7 +367,15 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/837-cleveland-street-1200.webp",
+      "alt": "Front view of 837 Cleveland Street",
+      "width": 1182,
+      "height": 788,
+      "thumbnail": "assets/photos/covers-20261021/837-cleveland-street-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "33-horace-avenue",
@@ -465,7 +521,15 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/33-horace-avenue-1200.webp",
+      "alt": "Front view of 33 Horace Avenue",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/photos/covers-20261021/33-horace-avenue-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "176-hillsboro-avenue",
@@ -595,7 +659,15 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/176-hillsboro-avenue-1200.webp",
+      "alt": "Front view of 176 Hillsboro Avenue",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/photos/covers-20261021/176-hillsboro-avenue-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "1063-mahopac-road",
@@ -733,7 +805,15 @@ const homes = [
         "thumbnailWidth": 506
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/1063-mahopac-road-1200.webp",
+      "alt": "Front view of 1063 Mahopac Road",
+      "width": 954,
+      "height": 636,
+      "thumbnail": "assets/photos/covers-20261021/1063-mahopac-road-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "1053-mahopac-road",
@@ -879,7 +959,15 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/1053-mahopac-road-1200.webp",
+      "alt": "Front view of 1053 Mahopac Road",
+      "width": 1194,
+      "height": 796,
+      "thumbnail": "assets/photos/covers-20261021/1053-mahopac-road-760.webp",
+      "thumbnailWidth": 760
+    }
   },
   {
     "id": "121-east-fulton-avenue",
@@ -1017,6 +1105,14 @@ const homes = [
         "thumbnailWidth": 760
       }
     ],
-    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability."
+    "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
+    "cover": {
+      "src": "assets/photos/covers-20261021/121-east-fulton-avenue-1200.webp",
+      "alt": "Front view of 121 East Fulton Avenue",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/photos/covers-20261021/121-east-fulton-avenue-760.webp",
+      "thumbnailWidth": 760
+    }
   }
 ];

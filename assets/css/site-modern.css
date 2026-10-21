@@ -38,3 +38,6 @@
 .home-grid--featured .card-arrow{flex-shrink:0}
 .portfolio-action{margin-top:36px}
 @media(max-width:850px){.home-grid--featured{grid-template-columns:1fr}}
+
+/* Approved collection covers preserve complete fronts in a consistent frame. */
+.home-card--cover .photo{aspect-ratio:3/2}.home-card--cover img{object-fit:contain}.home-card--cover .photo span{top:auto;bottom:12px}
