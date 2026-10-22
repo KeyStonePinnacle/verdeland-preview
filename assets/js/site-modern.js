@@ -1,7 +1,11 @@
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#nav');
+function closeMenu(){menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',open);nav.classList.toggle('open',open)});
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.setAttribute('aria-expanded','false');nav.classList.remove('open')}});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const returnFocus=menu.getAttribute('aria-expanded')==='true'&&nav.contains(document.activeElement);closeMenu();if(returnFocus)menu.focus()}});
+// Closing when focus leaves the disclosure keeps the next page control visible.
+document.addEventListener('focusin',e=>{if(menu.getAttribute('aria-expanded')==='true'&&!nav.contains(e.target)&&e.target!==menu)closeMenu()});
+matchMedia('(min-width: 761px)').addEventListener('change',e=>{if(e.matches)closeMenu()});
 // Use small web copies for cards/thumbnails and retain full frames in the lightbox.
 function photoAttributes(home, index, sizes) {
  const src=home.images[index],detail=home.photoDetails?.[index];

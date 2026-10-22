@@ -36,3 +36,44 @@ svg.vl-icon-arrow[data-direction="down-left"] { --arrow-x: -1.4px; --arrow-y: 1.
   svg.vl-icon-arrow { transition: none; }
   :where(a,button,[role="button"],[role="link"]):is(:hover,:focus-visible) svg.vl-icon-arrow { transform: none; }
 }
+
+/* The mobile disclosure keeps its text label; the three lines are decorative. */
+.menu-toggle { color: var(--ink); }
+.menu-toggle .menu-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+
+/* Keep navigation in view without removing the header from document flow. */
+:root { --site-header-height: 82px; }
+html { scroll-padding-top: calc(var(--site-header-height) + 16px); }
+.header, .modern-legacy .header {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  height: var(--site-header-height);
+}
+.header .brand-horizontal img { width: 240px; }
+@media (max-width: 1000px) {
+  .header .brand-horizontal img { width: 228px; }
+}
+@media (max-width: 760px) {
+  :root { --site-header-height: 74px; }
+  .header .brand-horizontal img { width: min(220px, calc(100vw - 132px)); }
+  .header nav {
+    top: 100%;
+    max-height: calc(100vh - var(--site-header-height));
+    max-height: calc(100dvh - var(--site-header-height));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+}
