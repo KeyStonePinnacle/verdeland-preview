@@ -33,8 +33,8 @@
     const el = document.createElement('script'); el.async = true; el.src = src;
     el.dataset.optionalTracking = 'true'; document.head.append(el);
   }
-  const propertyIds = new Set(['home-detail','1316-r-street','833-cleveland-street','837-cleveland-street','33-horace-avenue','176-hillsboro-avenue','1063-mahopac-road','1053-mahopac-road','121-east-fulton-avenue']);
-  const pagePaths = new Set(['/', '/index.html', '/home.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...[...propertyIds].map(id => '/' + id + '.html')]);
+  const propertyIds = new Set(['project-01','project-02','project-03','project-04','project-05','project-06','project-07','project-08','project-09']);
+  const pagePaths = new Set(['/', '/index.html', '/project-01.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...[...propertyIds].map(id => '/' + id + '.html')]);
   function safeGeneralContext() {
     return config.allowedHosts?.includes(location.hostname) && pagePaths.has(location.pathname) &&
       !location.search && (!location.hash || location.pathname === '/contact.html' && location.hash === '#meeting-location') &&

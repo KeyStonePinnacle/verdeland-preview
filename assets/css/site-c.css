@@ -619,7 +619,7 @@ a:hover { color: var(--clay); }
 .stage p { font-size: var(--fs-small); color: var(--ink-soft); }
 
 /* ------------------------------------------- scroll-linked drawing ----- */
-/* The pinned build scene on home-detail (D-029, amended). The wrapper is
+/* The pinned build scene on project-01 (D-029, amended). The wrapper is
    tall; the scene is sticky inside it. Native scroll is never intercepted:
    the wheel keeps working, reverse scroll un-builds, and the pin releases
    when the wrapper ends. Unarmed (no JS / reduced motion) there is no pin

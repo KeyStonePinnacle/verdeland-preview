@@ -3,8 +3,3070 @@
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" }
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/1053-mahopac-road.html",
+      "destination": "/project-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/1063-mahopac-road.html",
+      "destination": "/project-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/121-east-fulton-avenue.html",
+      "destination": "/project-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/1316-r-street.html",
+      "destination": "/project-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/176-hillsboro-avenue.html",
+      "destination": "/project-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/33-horace-avenue.html",
+      "destination": "/project-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/833-cleveland-street.html",
+      "destination": "/project-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/837-cleveland-street.html",
+      "destination": "/project-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/contact.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/home-detail.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/homes.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/sell-your-property.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/a/why-verdeland.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/9a6bf1120eac19b59c0ea4f4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/1115cd20e097a83d43bf3d89.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/03_G001_DSC_5286_DSC_5290_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/16a3a4ec10587610a2dfc88b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/fe88d75e4d4be4ef528c7547.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/05_G003_DSC_5296_DSC_5300_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/51d650d5e4f08862b910d829.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/0b978f06ad9ea3c10b0f10f8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/03fe52c3b258948f8247fbb2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/9d9cc7d1cb7456fd60141d6e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/09_G011_DSC_5336_DSC_5340_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/9ea6f9857919f819d9d6a1b8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/12581b11191299ad004c9404.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/84a17683eac9319e627870bb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/eb3e3423e47513ede1d5d7c0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/a3c3fff23d08924f8e7a85ec.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f02a6fd0fdee14cdf1613b48.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/5ffeeda7ac5fc6c843762f2c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/5b68c59ba6dad2af15371b41.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/17_G042_DSC_5441_DSC_5445_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/a52d4d58dab0c2b708d0560c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/979439f341d841faa0cc3c14.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/9805bf703dc85e3b2c1072da.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/20_G006_DSC_5311_DSC_5315_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/99f3fdcb66a51ec26a63b6eb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/21_G007_DSC_5316_DSC_5320_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/20cb0a45bab87a380d275ea8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/22_G010_DSC_5331_DSC_5335_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/00e835cdddaec63bcb3a62cb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/23_G012_DSC_5341_DSC_5345_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/99d4f28cdd13dfff1dda1da0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/24_G016_DSC_5361_DSC_5363_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/3666c37662b01fe86524264a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/25_G020_DSC_5373_DSC_5375_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/0b40dd568000970b37dac59c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/26_G037_DSC_5428_DSC_5430_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/badd703f26047c9c23a403b6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/27_G038_DSC_5431_DSC_5433_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/394c89575dcc438f8bb098be.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/28_G046_DSC_5461_DSC_5465_HDR_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/6270dedcf7e6e270b9275977.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/29_G049_DSC_5476_DSC_5480_HDR_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/734574d4c9b88f5a739e5e94.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/Cellar.jpg",
+      "destination": "/assets/media/f3ed7e8d1d297175337e46db.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/First Floor.jpg",
+      "destination": "/assets/media/9d275cbfc74aa1a8581c99d4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/First%20Floor.jpg",
+      "destination": "/assets/media/9d275cbfc74aa1a8581c99d4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/Second Floor.jpg",
+      "destination": "/assets/media/6cec63aae14514ffd70375ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1053-mahopac/Second%20Floor.jpg",
+      "destination": "/assets/media/6cec63aae14514ffd70375ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/00_Front_Exterior_1.jpg",
+      "destination": "/assets/media/6a8dfe8148acc74b6795fdc3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/00_Front_Exterior_2.jpg",
+      "destination": "/assets/media/cf58f6c234441f27cf07c828.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/01_Great_Room_Front_Entry_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/b382c91121c5e7607e710d58.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/01_Great_Room_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/31fd1792bd62cbd410c27f4d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/02_Great_Room_Entry_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/df4d994b979db32ec1c65698.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/02_Great_Room_Reverse_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/099665e7be8357ca35b3981f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/03_Great_Room_Interior_Connection_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/bc73b2f8ff5de889810dfcd7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/03_Great_Room_Wide_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f597436b94b7f647400aaf41.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/04_Great_Room_Symmetric_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/c8f5fd225af30ed52b3d2fe5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/04_Small_Bedroom_Office_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/437ec137aae20330923ed068.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/05_Dining_Family_Reverse_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/d203e1e983998cccbee2297a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/05_Small_Bedroom_Office_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/71a6af26a59d6087120d8b3f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/06_Dining_Family_Slider_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/884f60e412e8f10a8f389314.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/06_Dining_Family_Slider_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/63cabfd36bf7b6ffc74c12ba.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/07_Dining_Family_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/b7c60691d1b6ba5d762a1c0e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/07_Kitchen_Open_Plan_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/ba012c01ba5c5772ad5226a9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/08_Kitchen_Close_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/30c77401a45cad894636bbc7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/08_Kitchen_Wide_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/a08b34ce951f03df9e757b27.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/09_Kitchen_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/80c5eeaddc667736276f0fde.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/09_Kitchen_U_View_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f2727bee465c38a2e5ced4ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/10_Bedroom_One_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/0366ff7b7b0658f16751b1bd.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/10_Bedroom_One_Wide_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/3ee63bc0d6f4b7758c9ab563.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/11_Bedroom_One_Closet_View_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/746e1e91680b222e0644a249.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/11_Long_Full_Bath_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/c5ea43f60bf9712a3867d1e1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/12_Bedroom_One_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f08c59e1156884c62bf8953c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/12_Long_Full_Bath_Wide_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/dd59403633dd8e4912ba8e9c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/baa67b95e92b0fd530d34dfd.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/13_Long_Full_Bath_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/729f60ca153be2e134893cff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/14_Larger_Bedroom_Door_View_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/0cae6f7e7ec59b2351ed70a5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/14_Larger_Bedroom_Portrait_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/67fa8b49d1245955750856ec.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/15_Larger_Bedroom_Reverse_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/ae0d895ca3c4ee2a23a96c33.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/15_Laundry_Hall_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f2f04e5cfd5197b11e906795.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/16_Laundry_Hall_Alternate_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/bc41349f74b16956ea88ac27.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/16_Second_Full_Bath_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/09c5f9fb56da421a1e7de302.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/Basement.jpg",
+      "destination": "/assets/media/f3ed7e8d1d297175337e46db.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/First Floor.jpg",
+      "destination": "/assets/media/9d275cbfc74aa1a8581c99d4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/First%20Floor.jpg",
+      "destination": "/assets/media/9d275cbfc74aa1a8581c99d4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/Second Floor.jpg",
+      "destination": "/assets/media/6cec63aae14514ffd70375ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1063-mahopac/Second%20Floor.jpg",
+      "destination": "/assets/media/6cec63aae14514ffd70375ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/01_G001_DSC_3703_DSC_3707_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/6b781e4a01e701d3d36a2147.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/02_G002_DSC_3708_DSC_3712_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/a3a064fafbfdaa28426d4d9f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/03_G005_DSC_3723_DSC_3727_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/807a88d5c2cf2996358bdae7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/04_G006_DSC_3728_DSC_3732_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/b995e0d8d6fb3a9a2e38cd4b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/05_G008_DSC_3738_DSC_3742_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/04957a104da022bbb24b1825.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/06_G009_DSC_3743_DSC_3747_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/e9c06ada05d856e56cd309c4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/07_G014_DSC_3768_DSC_3772_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/f42a899ab63e119483795121.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/08_G025_DSC_3801_DSC_3807_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/c87a1bbfd5bc42202eb9c369.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/09_G043_DSC_3863_DSC_3867_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/abac4134a0210a035e5c51b4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/10_G046_DSC_3875_DSC_3877_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/cbbfc9927051c3e361bc9d2e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/11_G049_DSC_3883_DSC_3887_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/9dfbac9e25d9993aaaf80fea.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/12_G052_DSC_3903_DSC_3907_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/4e4a3864588baad2f5eec0e8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/13_G054_DSC_3913_DSC_3917_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/e8b83222ab6354f22c1dd275.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/14_G058_DSC_3929_DSC_3931_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/76034b4ab9d6bd85bdbe1776.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/15_G079_DSC_3998_DSC_4002_HDR_Marketing_Rendering_V1.jpg",
+      "destination": "/assets/media/3f38da6e8703d8dcf33897c2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/Basement.jpg",
+      "destination": "/assets/media/6f70ca16f42e7178ce30e938.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/First Floor.jpg",
+      "destination": "/assets/media/d25a06d969b171290aadf952.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/First%20Floor.jpg",
+      "destination": "/assets/media/d25a06d969b171290aadf952.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/Second Floor.jpg",
+      "destination": "/assets/media/5f7d0b0bb55044f29548dd1c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/121-east-fulton-avenue/Second%20Floor.jpg",
+      "destination": "/assets/media/5f7d0b0bb55044f29548dd1c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/01_Exterior_Wide_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/096c1606654a9710d7d4a81b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/02_Exterior_Front_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/70d6769b864020bcb2df3dd5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/03_Kitchen_Sliding_Door_Wide_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/a26924f8815b92661c37dd12.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/04_Kitchen_Sliding_Door_Alternate_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/563b00133e81d662e234753c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/05_Open_Layout_Kitchen_Wide_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/ded0e3413feaed034d645159.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1316-r-street/06_Open_Layout_Kitchen_Alternate_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/f1e8072d376f55cad4790f69.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/01_Kitchen_Wide_Rendering.jpg",
+      "destination": "/assets/media/d57f9e1901b698e17daeb463.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/02_Kitchen_Island_Rendering.jpg",
+      "destination": "/assets/media/89c2df8a860a1b922084817c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/03_Kitchen_Range_Rendering.jpg",
+      "destination": "/assets/media/6d025951c2cd7bb7efa2d1d1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/04_Living_Room_Rendering.jpg",
+      "destination": "/assets/media/3109e6a3c25619ee224e9366.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/05_Living_Room_Alternate_Rendering.jpg",
+      "destination": "/assets/media/61627d1948c1b0eab996f267.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/06_Dining_Open_Layout_Rendering.jpg",
+      "destination": "/assets/media/657889b68085a2b65bd76b3e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/07_Main_Staircase_Rendering.jpg",
+      "destination": "/assets/media/d2234c8c386674de4e8bcc71.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/08_Upper_Staircase_Rendering.jpg",
+      "destination": "/assets/media/4a1e3dca1510bc5e9b41d0f8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/09_Primary_Bath_Wide_Rendering.jpg",
+      "destination": "/assets/media/0ecdd1e408425f6caa4a6d60.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/10_Primary_Bath_Shower_Rendering.jpg",
+      "destination": "/assets/media/c35d4bd03000879b0d07de0c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/11_Primary_Bath_Vanity_Rendering.jpg",
+      "destination": "/assets/media/e712e3878f4a7ce09aca37fa.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/15_Powder_Room_One_Rendering.jpg",
+      "destination": "/assets/media/b376afacda151294e113d7f5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/16_Powder_Room_Two_Rendering_V2.jpg",
+      "destination": "/assets/media/027dcf23641737481d8c1087.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/17_Unfinished_Basement_Wide_Rendering.jpg",
+      "destination": "/assets/media/8a0a35a27cbbb61f083bdeaf.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/18_Unfinished_Basement_Alternate_Rendering.jpg",
+      "destination": "/assets/media/6e96768564153a80b76b11a5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/19_HVAC_Water_Heater_Furnace_Wide_Rendering.jpg",
+      "destination": "/assets/media/4858490f3349cdf70d88a124.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/20_Water_Heater_Furnace_Mechanical_Close_Rendering.jpg",
+      "destination": "/assets/media/756c55571df1665d182286ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/21_Bedroom_One_Rendering_V2.jpg",
+      "destination": "/assets/media/35ed2d73847789ed9d353355.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/22_Bedroom_Two_Rendering_V2.jpg",
+      "destination": "/assets/media/e06c83ae280dd020d3401e71.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/23_Large_Bedroom_Rendering_V2.jpg",
+      "destination": "/assets/media/c034d0df0c3e221750268ad0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/24_Hall_Bathroom_Rendering_V2.jpg",
+      "destination": "/assets/media/08c287e338e48e6d1008efb1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/25_Foyer_Staircase_Rendering_V2.jpg",
+      "destination": "/assets/media/71f49e8cdd4a316bd82d88a6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/26_Staircase_Downview_Rendering_V2.jpg",
+      "destination": "/assets/media/8fea9793ed087c9b8ec9d3a2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/27_Upper_Landing_Wide_Rendering_V2.jpg",
+      "destination": "/assets/media/8f728e6b9d60dfccdb287e70.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/28_Upper_Landing_Alternate_Rendering_V2.jpg",
+      "destination": "/assets/media/1901c0fb15d0571c0c14436f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/29_Laundry_Room_Rendering_V2.jpg",
+      "destination": "/assets/media/b4b8bee64f967dbbf4e5b883.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/30_Walk_In_Closet_Rendering_V2.jpg",
+      "destination": "/assets/media/df6b1beb9ccf4372822b05cb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/31_Tray_Ceiling_Bedroom_Rendering_V2.jpg",
+      "destination": "/assets/media/9398e0edb120e6ecf478d47b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/32_Garage_Rendering_V2.jpg",
+      "destination": "/assets/media/9f0a98124da36d92f041d7fd.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/33_Kitchen_Backyard_View_Rendering_V2.jpg",
+      "destination": "/assets/media/112676f4737ed003f407a3be.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/34_Kitchen_Island_View_Rendering_V2.jpg",
+      "destination": "/assets/media/52e564072048895eb6dcda91.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/35_Exterior_Front_Hero_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/a30391bbc084fe3979f70423.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/36_Exterior_Front_Left_Corner_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/f06e1aeda3de48dba9a036a8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/36_Exterior_Front_Right_Driveway_Marketing_Rendering_V2.jpg",
+      "destination": "/assets/media/b098d1c2dbc8758565069933.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-02594dcb-f28e-442a-85bb-0f76b2ecb236.jpg",
+      "destination": "/assets/media/848f4db1c86c138ea80d8eac.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-06277c82-9be8-4ff5-a2da-255e8fece725.jpg",
+      "destination": "/assets/media/32293478efd520c4c9e3db3e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-06585a20-9113-4de3-ad7b-e4791b090052.jpg",
+      "destination": "/assets/media/83d88b5e1f00c7bce4032ffc.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-09acf9bd-b047-4741-9fa0-80a058102727.jpg",
+      "destination": "/assets/media/52cc154a44bb3aedc4709f31.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-0b71773b-3e1a-4734-bc8c-5f12b63ae75d.jpg",
+      "destination": "/assets/media/2b4184786cc4975e82632879.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-16c9b150-77d8-4c67-9438-910bfb766e52.jpg",
+      "destination": "/assets/media/441104548628ec64bea42372.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-19760d7c-15c4-4c1e-8ccc-00946e24ecaa.jpg",
+      "destination": "/assets/media/3a08bc186307e47eddba5ee4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-1fdd7d8c-3f9f-4e37-a76a-8e196775146f.jpg",
+      "destination": "/assets/media/18b0208345d8434077b5ceac.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-21ab5af5-3cae-4690-9b35-7eba45a132db.jpg",
+      "destination": "/assets/media/947c35ebaeb8f81271473f05.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-254c1353-c2cb-4dd1-a459-25c7dfeec00b.jpg",
+      "destination": "/assets/media/0310f8358963406c4804cf32.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-2811b283-1981-4f09-93ba-73b149c93982.jpg",
+      "destination": "/assets/media/84554520269cec36541db462.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-335d85b6-4c07-4250-8874-72f61e0b04bf.jpg",
+      "destination": "/assets/media/52af128dd3609472784b37e5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3.jpg",
+      "destination": "/assets/media/e2b79d0eae48247bbe036645.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-3e4c41b7-5d7f-45fc-ae99-8925dfab207c.jpg",
+      "destination": "/assets/media/2ab833f5e0f17d13a2da4733.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-3f54e2c0-ea6d-4787-b784-dccaba79dad3.jpg",
+      "destination": "/assets/media/3077aab9d0b37f7421320cb1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-46d02417-a824-4db0-b643-7799fcd7c2ed.jpg",
+      "destination": "/assets/media/c8d54b96c52b9e79320a2b79.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-4b82f4e7-e97f-49e6-9d19-9c2ac9f415e0.jpg",
+      "destination": "/assets/media/296a2aaff4dc5d717ac04107.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-4b83810a-96e7-4b70-b003-6c1522b31673.jpg",
+      "destination": "/assets/media/34fb3d604d51cdcebb242670.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae.jpg",
+      "destination": "/assets/media/e34b105b3752c18c3abd3c0e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-66a1ca88-83a3-47d2-8f54-e3024d1a20d8.jpg",
+      "destination": "/assets/media/53cc5bd9fc8be419059a6480.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-67a23a0c-94b9-48c1-ba51-711b1f5dc959.jpg",
+      "destination": "/assets/media/5f26d4395665f4a02d7a04f7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-6b5fb48f-3cd3-448b-98cd-fc566a0078dc.jpg",
+      "destination": "/assets/media/f9b94a11e8890c6f67f1f066.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-71bc4567-7c3a-44ef-9bed-6a5dbb101949.jpg",
+      "destination": "/assets/media/2740418fde09e187fa5cdba3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-782aba77-cf64-41b8-b795-1e547ad63e89.jpg",
+      "destination": "/assets/media/826b3908f77ba20da2309448.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-7a661c59-0e31-4cef-bf22-5522e3f54f88.jpg",
+      "destination": "/assets/media/69b17a97af41c4f865ad8da4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-7cc30f05-9b67-4db2-bb3f-20a43cc435d3.jpg",
+      "destination": "/assets/media/433582fd0a5cb3a7c9c01444.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-84330ccf-bb74-4817-a0bc-21d52f46b0e7.jpg",
+      "destination": "/assets/media/2ef417924deb3934d6d98736.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-8597914d-450c-48e1-9848-c632c6c544d3.jpg",
+      "destination": "/assets/media/892744cec472cca285a6eae8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-89a0048b-d130-41ea-91d2-c3a14e49fc63.jpg",
+      "destination": "/assets/media/cc99c878f7b1e272b1c3222d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507.jpg",
+      "destination": "/assets/media/24ef37254ea7bca8b751b6ec.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-99c7ac69-fd7a-4044-b7ec-98e9df1fdcfb.jpg",
+      "destination": "/assets/media/d636399095b2f4d17a2e6940.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-baa38c45-eba6-48c9-9c73-2bec2883848b.jpg",
+      "destination": "/assets/media/2a900c589cdad8228fd35df9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-bc793448-85a4-48bd-9948-7f82d29a7ff9.jpg",
+      "destination": "/assets/media/056c077be081068618f73148.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-d3d2ad18-a7da-4863-97f7-78783aa33303.jpg",
+      "destination": "/assets/media/83daf02a1f25b270bf656446.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-d8450cf8-6af0-4beb-8e13-1c89a3949c67.jpg",
+      "destination": "/assets/media/344268064e938cde142fdadb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-e2c1236e-499d-48e6-a16e-d1c0a8a0a4cd.jpg",
+      "destination": "/assets/media/5ad7069e4f9e21bfbac16710.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-ed73c7fc-dbf1-4252-8ed4-b65c8dc15775.jpg",
+      "destination": "/assets/media/0013bda9dac022d30358f3eb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-f1832561-313f-4994-ae24-868c27459104.jpg",
+      "destination": "/assets/media/97b34742b06008229023bbe2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-f5ebb62c-a24c-438a-b7dc-021ba7f28505.jpg",
+      "destination": "/assets/media/24280e8f8eff6a6366b003a6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-f6d63de0-8440-42c7-ac92-4ba48c5661c2.jpg",
+      "destination": "/assets/media/54f4ae3d3b1a922c79287d29.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-fd0bcd9b-ec88-47d6-bd33-8a2c1fb242e7.jpg",
+      "destination": "/assets/media/5b1b5cfc031ffab02b8ae250.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/1320-r-street/progress/exec-ffed6296-924e-4829-9f6f-5e006b1fa270.jpg",
+      "destination": "/assets/media/18e494cf51ba54ff44aba9db.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/01_176_Hillsboro_Matching_Blue_Left_Green_Right_Three_Quarter_Marketing_Rendering_V9.jpg",
+      "destination": "/assets/media/6f73ae951d095dda7e436db5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/02_176_Hillsboro_Matching_Blue_Left_Green_Right_Centered_Marketing_Rendering_V9.jpg",
+      "destination": "/assets/media/d1566fc81f97480db854745d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/07_G007_DSC_7385_DSC_7391_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/8fc1cce81aba877730ca0354.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/08_G008_DSC_7392_DSC_7398_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/73dce3cd5e1e6d999eddd5bf.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/10_G010_DSC_7406_DSC_7412_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/96c60df3f8632f2b8308717a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/12_G012_DSC_7420_DSC_7426_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/947fccc8add64e96d93de945.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/13_G013_DSC_7427_DSC_7433_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/08a89bb428221cb5e7fb2b7d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/14_G014_DSC_7434_DSC_7440_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/73950b0210de3bbdc607e96f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/15_G015_DSC_7441_DSC_7447_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/675b6a61471f7f858ffbd0b3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/16_G016_DSC_7448_DSC_7454_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/897f3ebd5b4849635736bc0a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/18_G018_DSC_7462_DSC_7468_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/6ba32679717a07dc49fe1783.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/19_G019_DSC_7469_DSC_7475_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/986131a056c978b437461c97.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/20_G020_DSC_7476_DSC_7482_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/3e7665d9f57b441ce731db10.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/21_G021_DSC_7483_DSC_7489_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/15a6821ca8b869e30b2e9381.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/22_G022_DSC_7490_DSC_7496_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/a148d9032b10534f7d36aa9c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/24_G024_DSC_7504_DSC_7510_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/8693ad51d4d9767751afa7e1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/25_G025_DSC_7511_DSC_7517_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/cccb2121e88ef5da0c0dd511.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/26_G026_DSC_7518_DSC_7524_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/dc28872232443d7c8a0b530c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/27_G027_DSC_7525_DSC_7531_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/b89a8c1b6ff6f22f920e91f9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/28_G028_DSC_7532_DSC_7538_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/e3927cd06e7dcc51f21f6a5a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/30_G030_DSC_7546_DSC_7552_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/09eebd40792f57aa4f4fa131.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/31_G031_DSC_7553_DSC_7559_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/58b76fd3634ce07a310ab905.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/32_G032_DSC_7560_DSC_7566_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/b6b6ac5e221f07aef8b845e9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/33_G033_DSC_7567_DSC_7573_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/f844d0c7eac7ca62a5380b08.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/34_G034_DSC_7574_DSC_7580_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/f85cdb717b596841fe70d12f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/35_G035_DSC_7581_DSC_7587_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/2621d7bc938b761887d5ce03.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/36_G036_DSC_7588_DSC_7594_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/224a6e628419623b1af59e02.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/37_G037_DSC_7595_DSC_7601_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/cfb97293bcf4e65d6f282d99.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/38_G038_DSC_7602_DSC_7608_HDR_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/5a8d2db6838fcfaf0017d9d6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/Basement.jpg",
+      "destination": "/assets/media/8e8a533860fb611e7f7e2317.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/First Floor.jpg",
+      "destination": "/assets/media/ac0a1266693e6f97d5a92d63.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/First%20Floor.jpg",
+      "destination": "/assets/media/ac0a1266693e6f97d5a92d63.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/Second Floor.jpg",
+      "destination": "/assets/media/aec9ec71765b0ca8a9a5c9cc.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/176-hillsboro-avenue/Second%20Floor.jpg",
+      "destination": "/assets/media/aec9ec71765b0ca8a9a5c9cc.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/02_G002_Exterior_Front_Hero_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/c712888f5313d2b1682c0e02.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/03_G003_Exterior_Driveway_Right_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/63b795da9e580219bae73472.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/05_G005_Exterior_Left_Corner_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/a7b80cf18362ce97e4cc65be.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/07_G007_Living_Room_Window_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/aecc6ec66a1aa2053a2ec813.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/09_G009_Dining_Open_Layout_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/0de8ec604c8bd7387340bf94.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/10_G010_Living_Dining_Backyard_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/3a26a4a22b32d67cc5fa2473.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/11_G011_Kitchen_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/26d011f726fc3ca148d3d857.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/12_G012_Kitchen_Range_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/4a04476367af2c309c801762.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/03e8e81f1f63773bcbaa20b2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/14_G014_Kitchen_Refrigerator_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/bfb8808118e17aea2b647b92.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/16_G016_Powder_Room_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/be7d6a2f7a45d49f3903e546.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/249cb708995c6205d21bd825.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/19_G019_Main_Staircase_Up_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/71d5aca0c59125a3538a3bf5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/20_G020_Upper_Staircase_Landing_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/821158b4ba58681fa23718b4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/21_G022_Staircase_Downview_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/220b3d7577221e2c6fa88225.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/cf25ae86fa353c0bb0d44b76.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/23_G024_Bedroom_One_Door_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/e64af04ea56ffea4d1529d75.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/24_G025_Bedroom_One_Alternate_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/2cccdb72f778fe3ba1ab5406.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/dcc2e447969bc61fb5215551.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/27_G028_Hall_Bath_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/95a350fed5762ea7eb89f112.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/28_G029_Hall_Bath_Vanity_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/ea2c51f27fd994fc4a3564ee.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/8ff5b910d3dfbe526acb4c89.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/30_G031_Primary_Bedroom_Door_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/554e8ee050766e72ce974e8d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/31_G032_Primary_Bedroom_Window_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/5dd4dd20ba4191e84a6c0102.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/33_G034_Walk_In_Closet_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/3013f53bbe7b57f271251a52.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/35_G036_Primary_Bath_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/10298d6fddba3978bee1eb6e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/36_G037_Primary_Bath_Vanity_Shower_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/ea028e310914797606e468ef.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/39_G040_Laundry_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/9b09cff0aadce9f0936b8ee7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/44_G045_Unfinished_Basement_Wide_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/13480d59b2f317d746f7991d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/45_G046_Unfinished_Basement_Mechanical_View_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/2e61e8d878f567cf1e296ebb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/46_G047_Unfinished_Basement_Alternate_Marketing_Rendering_V3.jpg",
+      "destination": "/assets/media/e86939d95e905992d53ca726.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/Basement.jpg",
+      "destination": "/assets/media/932fc8a0711588d726b00404.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/First Floor.jpg",
+      "destination": "/assets/media/f04ef553a0ee1eab0364483e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/First%20Floor.jpg",
+      "destination": "/assets/media/f04ef553a0ee1eab0364483e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/Second Floor.jpg",
+      "destination": "/assets/media/57607f4e229895345550296c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/33-horace-avenue/Second%20Floor.jpg",
+      "destination": "/assets/media/57607f4e229895345550296c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/01_Kitchen_Wide_Rendering.jpg",
+      "destination": "/assets/media/d57f9e1901b698e17daeb463.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/02_Kitchen_Island_Rendering.jpg",
+      "destination": "/assets/media/89c2df8a860a1b922084817c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/03_Kitchen_Range_Rendering.jpg",
+      "destination": "/assets/media/6d025951c2cd7bb7efa2d1d1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/04_Living_Room_Rendering.jpg",
+      "destination": "/assets/media/3109e6a3c25619ee224e9366.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/05_Living_Room_Alternate_Rendering.jpg",
+      "destination": "/assets/media/61627d1948c1b0eab996f267.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/06_Dining_Open_Layout_Rendering.jpg",
+      "destination": "/assets/media/657889b68085a2b65bd76b3e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/07_Main_Staircase_Rendering.jpg",
+      "destination": "/assets/media/d2234c8c386674de4e8bcc71.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/08_Upper_Staircase_Rendering.jpg",
+      "destination": "/assets/media/4a1e3dca1510bc5e9b41d0f8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/09_Primary_Bath_Wide_Rendering.jpg",
+      "destination": "/assets/media/0ecdd1e408425f6caa4a6d60.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/10_Primary_Bath_Shower_Rendering.jpg",
+      "destination": "/assets/media/c35d4bd03000879b0d07de0c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/11_Primary_Bath_Vanity_Rendering.jpg",
+      "destination": "/assets/media/e712e3878f4a7ce09aca37fa.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/12_Exterior_Wide_Rendering.jpg",
+      "destination": "/assets/media/5188a1868d7c03fc2e63ee38.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/13_Exterior_Corner_Rendering.jpg",
+      "destination": "/assets/media/4b23a00001b4ec010c237e30.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/14_Exterior_Front_Rendering.jpg",
+      "destination": "/assets/media/0ce90c9427655587caacdad8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/15_Powder_Room_One_Rendering.jpg",
+      "destination": "/assets/media/b376afacda151294e113d7f5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/16_Powder_Room_Two_Rendering_V2.jpg",
+      "destination": "/assets/media/027dcf23641737481d8c1087.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/17_Unfinished_Basement_Wide_Rendering.jpg",
+      "destination": "/assets/media/8a0a35a27cbbb61f083bdeaf.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/18_Unfinished_Basement_Alternate_Rendering.jpg",
+      "destination": "/assets/media/6e96768564153a80b76b11a5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/19_HVAC_Water_Heater_Furnace_Wide_Rendering.jpg",
+      "destination": "/assets/media/4858490f3349cdf70d88a124.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/20_Water_Heater_Furnace_Mechanical_Close_Rendering.jpg",
+      "destination": "/assets/media/756c55571df1665d182286ff.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/21_Bedroom_One_Rendering_V2.jpg",
+      "destination": "/assets/media/35ed2d73847789ed9d353355.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/22_Bedroom_Two_Rendering_V2.jpg",
+      "destination": "/assets/media/e06c83ae280dd020d3401e71.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/23_Large_Bedroom_Rendering_V2.jpg",
+      "destination": "/assets/media/c034d0df0c3e221750268ad0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/24_Hall_Bathroom_Rendering_V2.jpg",
+      "destination": "/assets/media/08c287e338e48e6d1008efb1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/25_Foyer_Staircase_Rendering_V2.jpg",
+      "destination": "/assets/media/71f49e8cdd4a316bd82d88a6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/26_Staircase_Downview_Rendering_V2.jpg",
+      "destination": "/assets/media/8fea9793ed087c9b8ec9d3a2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/27_Upper_Landing_Wide_Rendering_V2.jpg",
+      "destination": "/assets/media/8f728e6b9d60dfccdb287e70.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/28_Upper_Landing_Alternate_Rendering_V2.jpg",
+      "destination": "/assets/media/1901c0fb15d0571c0c14436f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/29_Laundry_Room_Rendering_V2.jpg",
+      "destination": "/assets/media/b4b8bee64f967dbbf4e5b883.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/30_Walk_In_Closet_Rendering_V2.jpg",
+      "destination": "/assets/media/df6b1beb9ccf4372822b05cb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/31_Tray_Ceiling_Bedroom_Rendering_V2.jpg",
+      "destination": "/assets/media/9398e0edb120e6ecf478d47b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/32_Garage_Rendering_V2.jpg",
+      "destination": "/assets/media/9f0a98124da36d92f041d7fd.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/33_Kitchen_Backyard_View_Rendering_V2.jpg",
+      "destination": "/assets/media/112676f4737ed003f407a3be.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/837-cleveland-street/34_Kitchen_Island_View_Rendering_V2.jpg",
+      "destination": "/assets/media/52e564072048895eb6dcda91.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1053-mahopac-road-1200.webp",
+      "destination": "/assets/media/26fae0ac5d08abd61b89d216.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1053-mahopac-road-760.webp",
+      "destination": "/assets/media/af20a36a4c62de527eae94d1.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1063-mahopac-road-1200.webp",
+      "destination": "/assets/media/e5e3bfcbb2ad81e372a87820.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1063-mahopac-road-760.webp",
+      "destination": "/assets/media/4e41aef6218dc88ce736b8c4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/121-east-fulton-avenue-1200.webp",
+      "destination": "/assets/media/852c718153c3cddc9a362564.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/121-east-fulton-avenue-760.webp",
+      "destination": "/assets/media/f24343e935ebc1d2e64481ac.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1316-r-street-1200.webp",
+      "destination": "/assets/media/775dc2f731b043270e88fe90.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/1316-r-street-760.webp",
+      "destination": "/assets/media/43fdcc3d4f49236482148edc.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/176-hillsboro-avenue-1200.webp",
+      "destination": "/assets/media/1b8e79ff69f650acd79a9996.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/176-hillsboro-avenue-760.webp",
+      "destination": "/assets/media/5980b313e428d86508c00172.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/33-horace-avenue-1200.webp",
+      "destination": "/assets/media/580a658e082739874559fbb7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/33-horace-avenue-760.webp",
+      "destination": "/assets/media/dc3c4a5c3c687663724ac4a4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/833-cleveland-street-1200.webp",
+      "destination": "/assets/media/ec21511ab5430b94d34e126b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/833-cleveland-street-760.webp",
+      "destination": "/assets/media/e276882f70ae3152a033756a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/837-cleveland-street-1200.webp",
+      "destination": "/assets/media/222fbf94176899a5de5d76c0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/837-cleveland-street-760.webp",
+      "destination": "/assets/media/153b1d6ac7fc83af737ff91c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/home-detail-1200.webp",
+      "destination": "/assets/media/6ab573b6922face523d0d31e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/covers-20261021/home-detail-760.webp",
+      "destination": "/assets/media/6b12812ff9dbbf2b2d2ca3b5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2-1800.webp",
+      "destination": "/assets/media/a43d63f3bc4a71920d4aa9b5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/01_G047_DSC_5468_DSC_5470_HDR_Marketing_Rendering_V2-760.webp",
+      "destination": "/assets/media/4e876b4a6418126444ec31b7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/54bafa3301da7afe0a08900e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/02_G005_DSC_5306_DSC_5310_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/f76d1702cd4c269376877d29.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/e6369faacc61817400cee5e1.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/04_G004_DSC_5301_DSC_5305_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/0654c78c07fc7d04645e97a6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/5d1d1fe31049ae291a1e474e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/06_G009_DSC_5326_DSC_5330_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/0138276986c919d62adf72b0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/52ff487b33fa75a8d362b397.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/07_G013_DSC_5346_DSC_5350_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/0c546ac347bea4db6ccfdd55.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/e651ae974930aaed4dc1fa7e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/08_G014_DSC_5351_DSC_5355_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/99779dc3e756834e1172f636.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/84798cc2448299ff59235698.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/10_G015_DSC_5356_DSC_5360_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/e4d08df70962bd2e625c8415.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/afd6ae5330dbed10b54149d7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/11_G008_DSC_5321_DSC_5325_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/ed21092ab89425c31313abca.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/cfd7dab22b06aafd1a825eb4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/12_G023_DSC_5386_DSC_5390_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/1115d23a257ebfaffa5c28af.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/1842e8752e4a3a6ed1a83a6a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/13_G032_DSC_5411_DSC_5413_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/98310163334160b8125a4dae.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/8d9134aea2c8e4686f3692b4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/14_G035_DSC_5422_DSC_5424_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/6837af08c2266f3fe331baef.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/8c046a2365e873e9de42a962.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/15_G026_DSC_5396_DSC_5398_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/1443dd9e6a180b7f4c5ba367.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/07ed8b291d5b2a47e113150f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/16_G040_DSC_5436_DSC_5438_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/8fe13ea2ffda1e4e98aa4e34.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/2862c28c8dcb0feb56f63418.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/18_G044_DSC_5451_DSC_5455_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/0f42e97f7f200c809c3ee2d1.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V2-1800.webp",
+      "destination": "/assets/media/5f32a4b896512028c0c22f0b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/19_G055_DSC_5492_DSC_5494_HDR_Marketing_Rendering_V2-760.webp",
+      "destination": "/assets/media/394c09190d8cb7a250c8c81d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/29_G049_DSC_5476_DSC_5480_HDR_Marketing_Rendering_V2-1800.webp",
+      "destination": "/assets/media/b451ad20b89d7cee5481d13d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1053-mahopac-road/29_G049_DSC_5476_DSC_5480_HDR_Marketing_Rendering_V2-760.webp",
+      "destination": "/assets/media/3ec0e717d270d26ab3755b3a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/01_Great_Room_Front_Entry_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/28dc55cb64e9199bf3b77143.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/01_Great_Room_Front_Entry_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/ff7a7e03d3bfbea5f14d8a29.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/02_Great_Room_Reverse_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/f65ea4c49828b228c138707d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/02_Great_Room_Reverse_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/25c69f1c8b6e1e1a73c55f6f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/03_Great_Room_Interior_Connection_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/391389016adbaeb9df17f64e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/03_Great_Room_Interior_Connection_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/a2ef2e0772b8917aaf7c5a0d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/05_Dining_Family_Reverse_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/5e8a9e16561fedb783b6cbfd.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/05_Dining_Family_Reverse_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/e026f9cb5dad3ef66ec20fff.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/06_Dining_Family_Slider_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/47d8bc9ab3258f1771b2d720.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/06_Dining_Family_Slider_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/f7fa8b950c3f541053e2a101.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/07_Kitchen_Open_Plan_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/736540074ef99f39d7c7a637.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/07_Kitchen_Open_Plan_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/fb9a22df26077f4b5f050109.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/08_Kitchen_Close_Alternate_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/4581e9aac61feb746b34011c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/08_Kitchen_Close_Alternate_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/bcec86e054a647678161dbad.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/09_Kitchen_U_View_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/31782ec60d85fd6ad7b11a87.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/09_Kitchen_U_View_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/98d48a6db9da6281e52f3ace.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/10_Bedroom_One_Wide_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/29c39b579d2d1762ad76dac0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/10_Bedroom_One_Wide_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/44f614ea272bec440012ab2d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/12_Long_Full_Bath_Wide_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/a6152139d76a8824d30e6abd.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/12_Long_Full_Bath_Wide_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/fbd293b740dd8af4264fe7b7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/cc07e86f53e97a8084570ac2.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/13_Larger_Bedroom_Closet_View_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/8391369f0a3b08be11109849.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/15_Laundry_Hall_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/af7256553b9051c3623b4482.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/15_Laundry_Hall_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/104cd9b6dd08694cacf9972c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/16_Second_Full_Bath_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/fbd0f50f7f9fc288039212c6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/16_Second_Full_Bath_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/edb1a7be03a25956ca2c2203.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/Front of house 2-1800.webp",
+      "destination": "/assets/media/8b95e521e72abd24f98cc067.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/Front of house 2-760.webp",
+      "destination": "/assets/media/73e4e66e2a980913d7744c1d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/Front%20of%20house%202-1800.webp",
+      "destination": "/assets/media/8b95e521e72abd24f98cc067.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/Front%20of%20house%202-760.webp",
+      "destination": "/assets/media/73e4e66e2a980913d7744c1d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/front of house 1-1800.webp",
+      "destination": "/assets/media/d1a893773ba256695ffd26a0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/front of house 1-760.webp",
+      "destination": "/assets/media/d4692e984e622eccccf057db.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/front%20of%20house%201-1800.webp",
+      "destination": "/assets/media/d1a893773ba256695ffd26a0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1063-mahopac-road/front%20of%20house%201-760.webp",
+      "destination": "/assets/media/d4692e984e622eccccf057db.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/01_G001_DSC_3703_DSC_3707_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/bf9f494a97746d259077e0f5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/01_G001_DSC_3703_DSC_3707_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/da0574562c68fda69bebe96c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/02_G002_DSC_3708_DSC_3712_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/d66126f709126e5af692baeb.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/02_G002_DSC_3708_DSC_3712_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/8f88bc5ea920a6e2d7b74b66.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/03_G005_DSC_3723_DSC_3727_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/31eb876f958f9d062e93fb90.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/03_G005_DSC_3723_DSC_3727_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/22ce9335494ddd0d9d972185.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/04_G006_DSC_3728_DSC_3732_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/3b87de0c11b42b0c82edbd5e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/04_G006_DSC_3728_DSC_3732_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/bc0b495cca01187e662fe56b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/05_G008_DSC_3738_DSC_3742_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/ff9cc92980c1029ad1845873.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/05_G008_DSC_3738_DSC_3742_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/2a134f4b685a4e99501cbf35.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/06_G009_DSC_3743_DSC_3747_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/53b4a766ed059a0507851d81.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/06_G009_DSC_3743_DSC_3747_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/8052059b44983a04ad3a2fb1.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/07_G014_DSC_3768_DSC_3772_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/b4955ff969679756e4085dc1.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/07_G014_DSC_3768_DSC_3772_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/89d6d9052f7df2ee64472856.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/08_G025_DSC_3801_DSC_3807_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/126357dc04a4da0f190547b0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/08_G025_DSC_3801_DSC_3807_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/1884969389e6b3cc34736fa7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/09_G043_DSC_3863_DSC_3867_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/1845d5d1a745bcc99cee42d0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/09_G043_DSC_3863_DSC_3867_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/a2f4791402d8d75cb92501c6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/10_G046_DSC_3875_DSC_3877_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/41c64ee361131f8a96f56309.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/10_G046_DSC_3875_DSC_3877_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/d98527bfdebfa980970f044d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/11_G049_DSC_3883_DSC_3887_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/509fc7c7250421c1a25e5282.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/11_G049_DSC_3883_DSC_3887_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/cc8eaeec2bf1b615b21e4295.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/12_G052_DSC_3903_DSC_3907_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/bee06a5f6cf24f7ff4759370.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/12_G052_DSC_3903_DSC_3907_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/e8c28b4b3b6f1e6e97213f21.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/13_G054_DSC_3913_DSC_3917_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/91ae47f51bb015a89e296c79.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/13_G054_DSC_3913_DSC_3917_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/565e43ac5da632eca519433c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/14_G058_DSC_3929_DSC_3931_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/aac9378ac4e8a2b6cfd08ab0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/14_G058_DSC_3929_DSC_3931_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/4fff0ecc1a63f24428af5a07.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/15_G079_DSC_3998_DSC_4002_HDR_Marketing_Rendering_V1-1800.webp",
+      "destination": "/assets/media/2d337dbf48f861ba5ed88985.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/121-east-fulton-avenue/15_G079_DSC_3998_DSC_4002_HDR_Marketing_Rendering_V1-760.webp",
+      "destination": "/assets/media/f2d2b35884914fac61476b45.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-16c9b150-77d8-4c67-9438-910bfb766e52-1800.webp",
+      "destination": "/assets/media/8b9b00afffa97feb6859062f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-16c9b150-77d8-4c67-9438-910bfb766e52-760.webp",
+      "destination": "/assets/media/08d2de64d09f54890b36b66a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3-1800.webp",
+      "destination": "/assets/media/8f1822de4a51597717991998.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-3acc17ee-3bb7-4809-b4a6-b493b86538d3-760.webp",
+      "destination": "/assets/media/97a3aaa82bb3a1f500c96e2a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae-1800.webp",
+      "destination": "/assets/media/bbd23e82fab7f7a35043f7b3.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-6603d6bf-91ef-49ef-9cbd-93031fd320ae-760.webp",
+      "destination": "/assets/media/5fae84214219b1c69896c04e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507-1800.webp",
+      "destination": "/assets/media/cdea6c38588e142722866956.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/1320-r-street/exec-8a0ce441-21f6-4a79-8d73-7d9d0ced4507-760.webp",
+      "destination": "/assets/media/9be7a6351e8244022477d12d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/07_G007_DSC_7385_DSC_7391_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/7c35a2822f88e1380b3abddb.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/07_G007_DSC_7385_DSC_7391_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/8fe176421e995cd161a6abc5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/08_G008_DSC_7392_DSC_7398_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/d098ba077c0a07b51e7ffd05.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/08_G008_DSC_7392_DSC_7398_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/c9bc043990a035685d517219.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/12_G012_DSC_7420_DSC_7426_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/e23a6050b90308074c1af2c6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/12_G012_DSC_7420_DSC_7426_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/39666986a357ffc42463957e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/13_G013_DSC_7427_DSC_7433_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/00281f2fb1168a05d7f16069.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/13_G013_DSC_7427_DSC_7433_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/1fd3bb8a12a14ea35b5f37b3.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/14_G014_DSC_7434_DSC_7440_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/08da9f22077b81f9dbfb272f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/14_G014_DSC_7434_DSC_7440_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/1c323e63eec6de8ae871e54d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/15_G015_DSC_7441_DSC_7447_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/b25b8df9cb09df257f3e4377.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/15_G015_DSC_7441_DSC_7447_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/23f6fec7c7b3a280bd6a10b9.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/16_G016_DSC_7448_DSC_7454_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/3ba2bc57beeb76ba62d0b02d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/16_G016_DSC_7448_DSC_7454_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/f53e0a55df516c909bb8d75a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/19_G019_DSC_7469_DSC_7475_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/86dce2f118644ae0d6c80073.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/19_G019_DSC_7469_DSC_7475_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/3f0da1b33622d47a97d35407.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/22_G022_DSC_7490_DSC_7496_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/4c976261639ebb410ad970d3.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/22_G022_DSC_7490_DSC_7496_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/2663df6e42020e026b68bc37.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/25_G025_DSC_7511_DSC_7517_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/e70b550128f7ccd4e5d28b47.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/25_G025_DSC_7511_DSC_7517_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/248a479bfaf974afbf81d3de.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/28_G028_DSC_7532_DSC_7538_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/82284c806ac6124fe480846c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/28_G028_DSC_7532_DSC_7538_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/5e6bfaf83c93eb90058e17ca.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/30_G030_DSC_7546_DSC_7552_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/cb4dee3d61b857bea522ff18.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/30_G030_DSC_7546_DSC_7552_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/6ddd8701f73fc1970110d637.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/33_G033_DSC_7567_DSC_7573_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/74e0a2f3983b58e938c0671b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/33_G033_DSC_7567_DSC_7573_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/b7cb7b7c0489a7136965ff78.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/35_G035_DSC_7581_DSC_7587_HDR_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/189c84f97180a5322e7e6a16.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/176-hillsboro-avenue/35_G035_DSC_7581_DSC_7587_HDR_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/5c728441d835d6378eb29574.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/02_G002_Exterior_Front_Hero_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/a7c97da494004b5d22574e82.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/02_G002_Exterior_Front_Hero_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/0e8862972a95ec8f367c5b9f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/03_G003_Exterior_Driveway_Right_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/efd72a2d2e46b68e17c12c24.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/03_G003_Exterior_Driveway_Right_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/24398464afa4999b2b5409ef.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/05_G005_Exterior_Left_Corner_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/1ae4a13e15f21b1ce7143fa5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/05_G005_Exterior_Left_Corner_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/b99d2cb042f6bf964c9dceea.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/07_G007_Living_Room_Window_View_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/0cd09004583a7f37390697f9.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/07_G007_Living_Room_Window_View_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/fe034d2eb6fc40842ec5a4c6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/09_G009_Dining_Open_Layout_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/f2ea233daeb8a0f56ef88d37.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/09_G009_Dining_Open_Layout_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/130fb1248ef70512e4051bfa.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/11_G011_Kitchen_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/158629e698b727ac92c81922.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/11_G011_Kitchen_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/e661b0c53e51b01d06b058e9.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/0844fc386269263eb91d616a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/13_G013_Kitchen_Island_Long_View_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/cc3d072628d736f5e3c40062.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/16_G016_Powder_Room_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/8a129dab2a97f2f518a827d4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/16_G016_Powder_Room_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/de421c0291cbdf0079aebe8a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/1c61ba72270ce550fbcaf477.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/18_G018_Foyer_Main_Staircase_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/7f23ff53451a03ad39ae0cbd.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/34bde0b50f413942b4361213.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/22_G023_Bedroom_One_Window_View_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/8dc76c0bd13e0c437ec3aa34.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/18c77c4a6815e31fc1033b28.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/25_G026_Bedroom_Two_Window_View_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/0c86b3b08d1b69c4a4995017.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/27_G028_Hall_Bath_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/0f3347381d0175f2d4489097.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/27_G028_Hall_Bath_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/3f3e4c4710ae505f1b25a7d9.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/16caf4769da86fef1f5f4133.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/29_G030_Primary_Bedroom_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/8228c5a39d10a4b1c6e7ef8a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/35_G036_Primary_Bath_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/a6261cd0b362e684ccafa560.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/35_G036_Primary_Bath_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/10413f803abfa57b8840bc31.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/39_G040_Laundry_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/a0ad4a90bf7bbf8d2d715026.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/39_G040_Laundry_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/f828fc1c4f858ffa3cf55e62.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/44_G045_Unfinished_Basement_Wide_Marketing_Rendering_V3-1800.webp",
+      "destination": "/assets/media/27cfa636bab37d5b71834145.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/33-horace-avenue/44_G045_Unfinished_Basement_Wide_Marketing_Rendering_V3-760.webp",
+      "destination": "/assets/media/19bb6ac3eee920c8dbe03c55.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/01_Kitchen_Wide_Rendering-1800.webp",
+      "destination": "/assets/media/53881b28dca525e30c851fbd.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/01_Kitchen_Wide_Rendering-760.webp",
+      "destination": "/assets/media/30eaab5cf4f3209d1adaa0e6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/02_Kitchen_Island_Rendering-1800.webp",
+      "destination": "/assets/media/04126cd3130742b2bac550e6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/02_Kitchen_Island_Rendering-760.webp",
+      "destination": "/assets/media/cd7b74040be28ea56b28430d.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/04_Living_Room_Rendering-1800.webp",
+      "destination": "/assets/media/9367c02714d9080dd2b3adae.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/04_Living_Room_Rendering-760.webp",
+      "destination": "/assets/media/dd1d8f5576d2307dc38d21d8.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/06_Dining_Open_Layout_Rendering-1800.webp",
+      "destination": "/assets/media/d06ed3254e3061dd7dbaf474.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/06_Dining_Open_Layout_Rendering-760.webp",
+      "destination": "/assets/media/47449a7261942139c6b84748.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/07_Main_Staircase_Rendering-1800.webp",
+      "destination": "/assets/media/b66d45da4671c205ec87ae3a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/07_Main_Staircase_Rendering-760.webp",
+      "destination": "/assets/media/c771b4c10fe437a932718191.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/09_Primary_Bath_Wide_Rendering-1800.webp",
+      "destination": "/assets/media/c3156268e2b9af1249853cc8.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/09_Primary_Bath_Wide_Rendering-760.webp",
+      "destination": "/assets/media/7afd934918372d44898846ad.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/11_Primary_Bath_Vanity_Rendering-1800.webp",
+      "destination": "/assets/media/1a8cf8a96e6305eb100c0cb7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/11_Primary_Bath_Vanity_Rendering-760.webp",
+      "destination": "/assets/media/b7f0ec2fc18cf5414dd5598f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/13_Exterior_Corner_Rendering-1800.webp",
+      "destination": "/assets/media/5071f944cc3662df8f4d0634.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/13_Exterior_Corner_Rendering-760.webp",
+      "destination": "/assets/media/04f84033de3525c9b26f72f6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/14_Exterior_Front_Rendering-1800.webp",
+      "destination": "/assets/media/07b74764221b22ff91bd294f.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/14_Exterior_Front_Rendering-760.webp",
+      "destination": "/assets/media/6285cdad842b993814605ac7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/17_Unfinished_Basement_Wide_Rendering-1800.webp",
+      "destination": "/assets/media/aab15b2b883f537c99cfe6c5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/17_Unfinished_Basement_Wide_Rendering-760.webp",
+      "destination": "/assets/media/33f0f6f0d979f40db0e0f48b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/21_Bedroom_One_Rendering_V2-1800.webp",
+      "destination": "/assets/media/5cf95d344be0536545dd79b8.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/21_Bedroom_One_Rendering_V2-760.webp",
+      "destination": "/assets/media/2724e1e2f4175d77b4663cc6.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/23_Large_Bedroom_Rendering_V2-1800.webp",
+      "destination": "/assets/media/ffcc81e6350a428a24fe2394.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/23_Large_Bedroom_Rendering_V2-760.webp",
+      "destination": "/assets/media/ed5227c131a6efa201b59e59.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/24_Hall_Bathroom_Rendering_V2-1800.webp",
+      "destination": "/assets/media/cdf79dc4c9c6bb4192efa079.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/24_Hall_Bathroom_Rendering_V2-760.webp",
+      "destination": "/assets/media/24d9578a74348ae236a82064.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/29_Laundry_Room_Rendering_V2-1800.webp",
+      "destination": "/assets/media/5c70068956215184a6ce305c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/29_Laundry_Room_Rendering_V2-760.webp",
+      "destination": "/assets/media/315604479b5845161b8f1672.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/30_Walk_In_Closet_Rendering_V2-1800.webp",
+      "destination": "/assets/media/046fedeb85daee3cc44ce20e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/30_Walk_In_Closet_Rendering_V2-760.webp",
+      "destination": "/assets/media/805d15f1b163b1dc73382985.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/31_Tray_Ceiling_Bedroom_Rendering_V2-1800.webp",
+      "destination": "/assets/media/579b4380378d75f09c820164.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261011/837-cleveland-street/31_Tray_Ceiling_Bedroom_Rendering_V2-760.webp",
+      "destination": "/assets/media/d35ddbdd724fd59276fed3a2.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-01-1800.webp",
+      "destination": "/assets/media/1d19ab0ee0bf133a0cf2c3ba.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-01-760.webp",
+      "destination": "/assets/media/a4cdf9caa0c7fed5d6d8cfb2.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-02-1800.webp",
+      "destination": "/assets/media/1fc176461146db053946c498.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-02-760.webp",
+      "destination": "/assets/media/96acd6ca6e521ed7ea65acfc.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-03-1800.webp",
+      "destination": "/assets/media/ed48870f193a8d87e83bee3b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1316-r-street/white-03-760.webp",
+      "destination": "/assets/media/caf80e3b2eb37dbc4844ec1e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-10-1800.webp",
+      "destination": "/assets/media/1522755d9dae8cdd464a5e14.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-10-760.webp",
+      "destination": "/assets/media/47fa04dc2a21f08fa57bbbbc.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-11-1800.webp",
+      "destination": "/assets/media/3479266586b3fda877bf3ebb.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-11-760.webp",
+      "destination": "/assets/media/768ac7c5aab423ecfab319e3.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-15-1800.webp",
+      "destination": "/assets/media/1421eee432791d88794673b2.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/1320-r-street/gray-15-760.webp",
+      "destination": "/assets/media/1b0426a018b6df9a1e34a6a4.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-left-1800.webp",
+      "destination": "/assets/media/25f43753c3a0aad2e7cab814.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-left-760.webp",
+      "destination": "/assets/media/17ed9d8167f84981e7eefd9e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-main-1800.webp",
+      "destination": "/assets/media/e43cad94e76eb7ce62d7cdcc.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-main-760.webp",
+      "destination": "/assets/media/f4272ec0a33fae6d6b19e389.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-right-1800.webp",
+      "destination": "/assets/media/f27199fc0a9e905cb63ead09.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/exterior-right-760.webp",
+      "destination": "/assets/media/7b7a5a449b932384b7b7bca0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-22-1800.webp",
+      "destination": "/assets/media/f9705fd381d030ac850dd5b2.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-22-760.webp",
+      "destination": "/assets/media/6fb70db6ade85fcfd26c23f8.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-24-1800.webp",
+      "destination": "/assets/media/d988515c27e51dd4c0221010.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-24-760.webp",
+      "destination": "/assets/media/729aafb5b6446b2e5972d24c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-26-1800.webp",
+      "destination": "/assets/media/eb6a8f4b62fff740e25a639b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-26-760.webp",
+      "destination": "/assets/media/ce59f7ecf646bae1fb33003e.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-28-1800.webp",
+      "destination": "/assets/media/6e0a09f8cf813c7af23a8d6b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-28-760.webp",
+      "destination": "/assets/media/7b1569436d4771b5d3c09616.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-29-1800.webp",
+      "destination": "/assets/media/147adcf5be243751c18e1b9a.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-29-760.webp",
+      "destination": "/assets/media/5b3482506758e95af206f72c.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-31-1800.webp",
+      "destination": "/assets/media/6f7f7d4079758683af5597b0.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-31-760.webp",
+      "destination": "/assets/media/bda0357d3bdc47ee757b15c5.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-32-1800.webp",
+      "destination": "/assets/media/37776daa2c37a0e98f572b26.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-32-760.webp",
+      "destination": "/assets/media/5d319af5bf62a33b9562ba72.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-34-1800.webp",
+      "destination": "/assets/media/d021776f8a9df715c8a25332.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-34-760.webp",
+      "destination": "/assets/media/457a601de0b3404ab755da83.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-35-1800.webp",
+      "destination": "/assets/media/0b77402087624ede3d924eda.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-35-760.webp",
+      "destination": "/assets/media/d88f35f6eeb4d84487b0ed47.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-40-1800.webp",
+      "destination": "/assets/media/96a68ccfee79ddc2e303cb5b.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-40-760.webp",
+      "destination": "/assets/media/d3b229b91a2746b10bf56905.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-42-1800.webp",
+      "destination": "/assets/media/97ce9480b1f32d662e9de8d7.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/photos/web-20261021/833-cleveland-street/interiors-42-760.webp",
+      "destination": "/assets/media/ef5b926f896f2afd1fc16544.webp",
+      "permanent": true
+    },
+    {
+      "source": "/assets/renderings/hero-reel/hero-1.jpg",
+      "destination": "/assets/media/b75d0d7b5ec4b778c944087b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/renderings/hero-reel/hero-2.jpg",
+      "destination": "/assets/media/61b32fb8798a5f33645aba6c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/renderings/hero-reel/hero-3.jpg",
+      "destination": "/assets/media/e2c6e2b3b37c3bc31fd1e5f6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/renderings/hero-reel/hero-4.jpg",
+      "destination": "/assets/media/b7139da24246329b50db8c47.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/renderings/hero-reel/hero-5.jpg",
+      "destination": "/assets/media/3affee62a10ae787fdec3e59.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/video/837-cleveland-street-tour-poster.jpg",
+      "destination": "/assets/media/2a5a4b56c604b801222d28da.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/video/837-cleveland-street-tour.mp4",
+      "destination": "/assets/media/102b4dd320be8b3596148caf.mp4",
+      "permanent": true
+    },
+    {
+      "source": "/b/how-we-build.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/b/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/c/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/compare.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/design-review.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/home-detail.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/home.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/parked/build-scene.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/parked/logo-build.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/redesign/home.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/redesign/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/1053-mahopac-road.html",
+      "destination": "/project-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/1063-mahopac-road.html",
+      "destination": "/project-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/121-east-fulton-avenue.html",
+      "destination": "/project-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/1316-r-street.html",
+      "destination": "/project-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/176-hillsboro-avenue.html",
+      "destination": "/project-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/33-horace-avenue.html",
+      "destination": "/project-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/833-cleveland-street.html",
+      "destination": "/project-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/837-cleveland-street.html",
+      "destination": "/project-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/contact.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/home-detail.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/home.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/homes.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/house-models.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/sell-your-property.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/tech/why-verdeland.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/1053-mahopac-road.html",
+      "destination": "/project-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/1063-mahopac-road.html",
+      "destination": "/project-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/121-east-fulton-avenue.html",
+      "destination": "/project-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/1316-r-street.html",
+      "destination": "/project-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/176-hillsboro-avenue.html",
+      "destination": "/project-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/33-horace-avenue.html",
+      "destination": "/project-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/833-cleveland-street.html",
+      "destination": "/project-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/837-cleveland-street.html",
+      "destination": "/project-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/home-detail.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-collection-rollout-2026-09-19/home.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-property-layout-2026-09-19/176-hillsboro-avenue.html",
+      "destination": "/project-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/1053-mahopac-road.html",
+      "destination": "/project-08.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/1063-mahopac-road.html",
+      "destination": "/project-07.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/121-east-fulton-avenue.html",
+      "destination": "/project-09.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/1316-r-street.html",
+      "destination": "/project-02.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/176-hillsboro-avenue.html",
+      "destination": "/project-06.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/33-horace-avenue.html",
+      "destination": "/project-05.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/833-cleveland-street.html",
+      "destination": "/project-03.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/837-cleveland-street.html",
+      "destination": "/project-04.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/compare.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/contact.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/home-detail.html",
+      "destination": "/project-01.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/homes.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/index.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/sell-your-property.html",
+      "destination": "/homes.html",
+      "permanent": true
+    },
+    {
+      "source": "/versions/pre-redesign-2026-09-18/why-verdeland.html",
+      "destination": "/homes.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/vercel.json",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/lib/:path*",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/assets/photos/manifest.json",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/assets/renderings/hero-reel/manifest.json",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/assets/js/deed-odometer.js",
+      "destination": "/privacy.html"
     }
   ]
 }

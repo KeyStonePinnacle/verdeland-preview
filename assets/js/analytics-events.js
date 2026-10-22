@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const propertyIds = new Set(['home-detail','1316-r-street','833-cleveland-street','837-cleveland-street','33-horace-avenue','176-hillsboro-avenue','1063-mahopac-road','1053-mahopac-road','121-east-fulton-avenue']);
+  const propertyIds = new Set(['project-01','project-02','project-03','project-04','project-05','project-06','project-07','project-08','project-09']);
   const id = document.body.dataset.home;
   const propertyId = propertyIds.has(id) && location.pathname === '/' + id + '.html' ? id : 'none';
   let viewed = false;
