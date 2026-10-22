@@ -1,2 +1,26 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /lib/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /tests/
+Disallow: /docs/
+Disallow: /output/
+Disallow: /references/
+Disallow: /prototype/
+Disallow: /a/
+Disallow: /b/
+Disallow: /c/
+Disallow: /.git/
+Disallow: /.agents/
+Disallow: /.codex/
+Disallow: /compare.html
+Disallow: /home-detail.html
+Disallow: /vercel.json
+Disallow: /assets/photos/
+Disallow: /assets/renderings/hero-reel/manifest.json
+Disallow: /assets/js/deed-odometer.js
+
+Sitemap: https://www.verdelandhomebuilders.com/sitemap.xml

@@ -2,29 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">
-<script>
-/* PIN gate: keeps the preview off search engines and away from casual
-   visitors. It is a curtain, not a lock. */
-(function(){
-  var K='vl-pin', PIN='516807';
-  if (sessionStorage.getItem(K)===PIN) return;
-  document.documentElement.style.display='none';
-  for (var i=0;i<3;i++){
-    var p=prompt('Private preview \u2014 enter PIN');
-    if (p===PIN){ sessionStorage.setItem(K,PIN); document.documentElement.style.display=''; return; }
-    if (p===null) break;
-  }
-  document.documentElement.innerHTML='<body style="font-family:system-ui;padding:48px;background:#FBF8F3;color:#1A1D19"><p style="max-width:40ch"><strong>Private preview.</strong> This site is not yet published. Refresh to try the PIN again.</p></body>';
-  document.documentElement.style.display='';
-})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
 <title>Sell Your Property on Long Island | Verdeland Homes</title>
 <meta name="description" content="Explore the land, older homes, bungalows and other Long Island properties Verdeland Homes considers. Share a few details through our contact form.">
 <meta name="format-detection" content="telephone=no,email=no">
-<link rel="canonical" href="https://www.verdelandhomebuilders.com/sell-your-property.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sell Your Property on Long Island | Verdeland Homes">
 <meta property="og:description" content="A conversation about your property, its possibilities and what comes next.">
@@ -42,11 +23,12 @@
 <link rel="stylesheet" href="/assets/css/refined-icons.css?v=20261022">
 <script defer src="/assets/js/refined-icons.js?v=20261022"></script>
 <link rel="stylesheet" href="/assets/css/property-privacy.css?v=20261022">
+<link rel="canonical" href="https://www.verdelandhomebuilders.com/sell-your-property.html">
 </head>
 <body class="modern-legacy warm-pop seller-page">
 <a class="skip" href="#main">Skip to content</a>
 <header class="header">
-<a class="brand brand-horizontal" href="index.html" aria-label="VerdeLand Home Builders home">
+<a class="brand brand-horizontal" href="/" aria-label="VerdeLand Home Builders home">
 <img src="assets/brand/verdeland-horizontal-20261021.webp" width="960" height="256" alt="" decoding="async">
 </a>
 <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span>＋</span>
@@ -119,7 +101,6 @@
 <span>Long Island, New York · Equal Housing Opportunity</span>
 </div>
 <div class="privacy-links"><a href="privacy.html">Privacy</a><button type="button" data-preferences>Cookie preferences</button></div>
-<p class="review-note">PRIVATE PREVIEW · OCTOBER 2026</p>
 </footer>
 <script src="assets/js/homes-modern.js?v=20261021-sold">
 </script>
