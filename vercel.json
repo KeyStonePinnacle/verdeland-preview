@@ -3045,15 +3045,16 @@
       "source": "/versions/pre-redesign-2026-09-18/why-verdeland.html",
       "destination": "/homes.html",
       "permanent": true
+    },
+    {
+      "source": "/lib/:path*",
+      "destination": "/privacy.html",
+      "permanent": false
     }
   ],
   "rewrites": [
     {
       "source": "/vercel.json",
-      "destination": "/privacy.html"
-    },
-    {
-      "source": "/lib/:path*",
       "destination": "/privacy.html"
     },
     {
