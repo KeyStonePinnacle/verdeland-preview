@@ -5,9 +5,11 @@
   const status = document.querySelector('#inquiry-status');
   const submit = form.querySelector('[type=submit]');
   let challenge, pendingChallenge, sending = false, started = false;
-  const fields = ['name','email','phone','message'];
+  const fields = ['name','email','phone','inquiryType','message'];
+  // Exact allowlist is also enforced on the server; never send this choice to analytics.
+  const inquiryTypes = ['general','buying_home','upcoming_projects','selling_land','selling_older_home','selling_bungalow','selling_oversized_lot','selling_vacant_property','estate_property','foreclosure_sale','short_sale'];
   // Keep these input rules aligned with lib/inquiry-handler.mjs.
-  const fieldLimits = {name:120,email:254,phone:40,message:4000};
+  const fieldLimits = {name:120,email:254,phone:40,inquiryType:40,message:4000};
   const singleLineControl = /[\u0000-\u001f\u007f-\u009f]/;
   const messageControl = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f-\u009f]/;
   function validEmail(value) {
@@ -46,7 +48,8 @@
     if (name === 'name' && !value.replace(/[\p{White_Space}\p{Cf}]/gu,'')) message = 'Enter your name.';
     if (name === 'email' && !validEmail(value)) message = 'Enter a valid email address, such as name@example.com.';
     if (name === 'phone' && !validPhone(value)) message = 'Enter a valid phone number with an area code, or + and a country code.';
-    if (name === 'message' && !/[\p{L}\p{N}]/u.test(value)) message = 'Enter a question or message about upcoming projects.';
+    if (name === 'inquiryType' && !inquiryTypes.includes(raw)) message = 'Choose an inquiry type from the list.';
+    if (name === 'message' && !/[\p{L}\p{N}]/u.test(value)) message = 'Enter a question or message.';
     if ((name === 'message' ? messageControl : singleLineControl).test(raw)) message = 'Remove unsupported characters from this entry.';
     if (raw.length > fieldLimits[name]) message = `Use ${fieldLimits[name]} characters or fewer.`;
     input.setAttribute('aria-invalid', String(!!message));
@@ -54,10 +57,12 @@
     return !message;
   }
   // Correct existing errors while typing, so blurring to Send cannot move the button mid-click.
-  form.addEventListener('input', event => {
+  function recheckError(event) {
     const name = event.target?.name;
     if (fields.includes(name) && form.elements[name].getAttribute('aria-invalid') === 'true') validate(name);
-  });
+  }
+  form.addEventListener('input', recheckError);
+  form.addEventListener('change', recheckError);
   async function getChallenge() {
     if (challenge && Date.now() < challenge.expiresAt) return challenge;
     if (!pendingChallenge) pendingChallenge = fetch('/api/inquiry', {headers:{'X-Verde-Inquiry':'1'},cache:'no-store',credentials:'same-origin',signal:AbortSignal.timeout(15000)})
@@ -83,7 +88,7 @@
       const response = await fetch('/api/inquiry', {method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Verde-Inquiry':'1'},body:JSON.stringify(payload),signal:AbortSignal.timeout(20000)});
       const result = await response.json();
       if (!response.ok || result.accepted !== true) {
-        if (result.code === 'invalid' || result.code === 'too_large') throw new Error('Please check your name, email, phone number and question. Your entries are still here.');
+        if (result.code === 'invalid' || result.code === 'too_large') throw new Error('Please check your inquiry type, name, email, phone number and question. Your entries are still here.');
         if (response.status === 429) throw new Error('Please wait a few minutes before trying again. Your entries are still here.');
         if (result.code === 'too_soon') throw new Error('Please wait a few seconds and try again. Your entries are still here.');
         if (result.code === 'expired') { challenge = null; throw new Error('Please try again to refresh the form. Your entries are still here.'); }

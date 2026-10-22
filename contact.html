@@ -79,12 +79,29 @@
 </div>
 </section>
 <section class="section inquiry-panel" id="property-inquiry-section" data-no-tracking data-clarity-mask="true" aria-labelledby="inquiry-title">
-<div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">Inquire about upcoming projects.</h2><p>Send a general question about upcoming projects. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email Verdeland Homes directly</a>.</p></div>
+<div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">How can we help?</h2><p>Ask about a home, an upcoming project or a property you’re thinking of selling. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email Verdeland Homes directly</a>.</p></div>
 <form class="inquiry-form" id="property-inquiry" action="/api/inquiry" method="post" novalidate data-clarity-mask="true">
 <input id="inquiry-property" type="hidden" name="property" value="">
 <div class="inquiry-field"><label for="inquiry-name">Name (required)</label><input id="inquiry-name" name="name" autocomplete="name" maxlength="120" required aria-describedby="error-name"><p class="inquiry-error" id="error-name"></p></div>
 <div class="inquiry-field"><label for="inquiry-email">Email (required)</label><input id="inquiry-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="error-email"><p class="inquiry-error" id="error-email"></p></div>
 <div class="inquiry-field"><label for="inquiry-phone">Phone (required)</label><input id="inquiry-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" required aria-describedby="error-phone"><p class="inquiry-error" id="error-phone"></p></div>
+<div class="inquiry-field"><label for="inquiry-type">Inquiry type (required)</label><select id="inquiry-type" name="inquiryType" required aria-describedby="error-inquiryType">
+<option value="general" selected>General inquiry</option>
+<optgroup label="Homes and upcoming projects">
+<option value="buying_home">Buying a home</option>
+<option value="upcoming_projects">Upcoming homes and projects</option>
+</optgroup>
+<optgroup label="A property I’m thinking of selling">
+<option value="selling_land">Selling vacant land</option>
+<option value="selling_older_home">Selling an older home</option>
+<option value="selling_bungalow">Selling a bungalow</option>
+<option value="selling_oversized_lot">Selling an oversized lot</option>
+<option value="selling_vacant_property">Vacant or neglected property</option>
+<option value="estate_property">Inherited or estate property</option>
+<option value="foreclosure_sale">Foreclosure-related sale</option>
+<option value="short_sale">Short-sale inquiry</option>
+</optgroup>
+</select><p class="inquiry-error" id="error-inquiryType"></p></div>
 <div class="inquiry-field"><label for="inquiry-message">Your question (required)</label><textarea id="inquiry-message" name="message" rows="5" maxlength="4000" required aria-describedby="error-message"></textarea><p class="inquiry-error" id="error-message"></p></div>
 <div class="inquiry-trap" aria-hidden="true"><label for="inquiry-website">Leave this field empty</label><input id="inquiry-website" name="website" tabindex="-1" autocomplete="off"></div>
 <p class="inquiry-note">We use these details to respond to your inquiry. Please do not include financial, identity or other sensitive documents. <a href="privacy.html">Read the privacy notice</a>.</p>
@@ -139,6 +156,6 @@
 </script>
 <script src="assets/js/site-modern.js?v=20261021-covers">
 </script>
-<script src="assets/js/inquiry.js?v=20261021"></script>
+<script src="assets/js/inquiry.js?v=20261022-type"></script>
 </body>
 </html>
