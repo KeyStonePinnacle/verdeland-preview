@@ -1,0 +1,59 @@
+/* Local seller-page review; no global component overrides. */
+.seller-page .seller-section{padding:88px 4.5%}
+.seller-container{max-width:1320px;margin:0 auto}
+.seller-page .seller-hero{padding-top:72px;padding-bottom:0}
+.seller-hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:center}
+.seller-page .seller-hero h1{font-size:clamp(52px,6vw,86px);max-width:12ch;margin-top:25px;line-height:1.02}
+.seller-page main .eyebrow{color:#176b45}
+.seller-intro p{font-size:18px;color:#50594f;margin-bottom:20px;max-width:47ch}
+.seller-page .button{gap:25px;line-height:1.5}
+.seller-intro .button{margin-top:12px}
+.seller-jump{display:flex;flex-wrap:wrap;align-items:center;gap:12px 32px;margin-top:64px;border-top:1px solid #c9cdc2;padding:18px 0}
+.seller-jump span{font-size:12px;color:#5c6459;margin-right:auto}
+.seller-jump a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;text-decoration:underline;text-underline-offset:5px}
+.seller-page .seller-types{background:#eceee5}
+.seller-section-head{max-width:700px;margin-bottom:40px}
+.seller-section-head h2{font-size:clamp(38px,4.3vw,59px);margin:21px 0 24px;line-height:1.1}
+.seller-section-head>p:not(.eyebrow){font-size:17px;color:#50594f;max-width:61ch}
+.seller-card-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#c4ccbe;border:1px solid #c4ccbe}
+.seller-card{padding:38px 40px 42px;background:#f6f5ef;min-width:0}
+.seller-card:last-child{grid-column:1/-1;display:grid;grid-template-columns:60px 1fr 1.3fr;column-gap:30px;align-items:start}
+.seller-card:last-child .seller-icon{grid-row:1/4}
+.seller-card:last-child .seller-kicker{grid-column:2;margin-top:0}
+.seller-card:last-child h3{grid-column:2}
+.seller-card:last-child>p:last-child{grid-column:3;grid-row:1/4;margin-top:0}
+.seller-icon{display:block;width:46px;height:46px;fill:none;stroke:#176b45;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
+.seller-kicker{font-size:12px;color:#5c6459;margin-top:25px;margin-bottom:9px;letter-spacing:.025em}
+.seller-card h3{font-size:34px;line-height:1.13;letter-spacing:-.035em}
+.seller-card>p:last-child{font-size:16px;color:#50594f;margin-top:20px;max-width:62ch}
+.seller-review-note{display:grid;grid-template-columns:1fr 1.2fr;gap:50px;margin-top:36px;padding-top:30px;border-top:1px solid #c4ccbe}
+.seller-review-note h3{font-size:29px;line-height:1.2;max-width:22ch}
+.seller-review-note p{font-size:15px;color:#50594f;max-width:65ch}
+.seller-page .seller-situations{background:#244636;color:#f6f5ef}
+.seller-situation-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:35px 80px}
+.seller-situations .eyebrow{color:#c4dfc4!important}
+.seller-situations .seller-section-head>p:not(.eyebrow){color:#e0e8df}
+.seller-situation-list article{padding:28px 0;border-top:1px solid #6e8776}
+.seller-situation-list article:first-child{padding-top:0;border-top:0}
+.seller-situation-list h3{font-size:30px;line-height:1.2;margin-bottom:16px}
+.seller-situation-list p{color:#e0e8df;font-size:16px}
+.seller-resources{grid-column:1/-1;border-top:1px solid #6e8776;padding-top:24px;display:flex;flex-wrap:wrap;gap:4px 28px}
+.seller-resources p{width:100%;font-size:13px;color:#e0e8df}
+.seller-resources a{display:inline-flex;gap:12px;align-items:center;min-height:44px;font-size:13px;text-decoration:underline;text-underline-offset:5px}
+.seller-steps{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:45px;margin:0;padding:0}
+.seller-steps li{border-top:1px solid #bec7b7;padding-top:25px;min-width:0}
+.seller-steps li>span{color:#176b45;font-size:13px;letter-spacing:.1em}
+.seller-steps h3{font-size:31px;line-height:1.2;margin:22px 0 18px}
+.seller-steps p{font-size:16px;color:#50594f}
+.seller-contact-panel{background:#eceee5;padding:40px;display:grid;grid-template-columns:1.3fr 1fr;gap:50px;align-items:center;margin-top:64px}
+.seller-contact-panel h2{font-size:clamp(34px,3.5vw,46px);margin:20px 0;line-height:1.1}
+.seller-contact-panel p:not(.eyebrow){color:#50594f;font-size:14px;max-width:61ch}
+.seller-contact-panel .seller-contact-note{font-size:12px!important;margin-top:18px;max-width:40ch!important}
+.seller-page .seller-collection{padding-top:48px;padding-bottom:56px;border-top:1px solid #c9cdc2}
+.seller-collection .seller-container{display:flex;align-items:center;justify-content:space-between;gap:40px}
+.seller-collection h2{font-size:clamp(31px,3vw,44px);max-width:25ch;margin-top:18px;line-height:1.12}
+.seller-collection .text-link{flex-shrink:0}
+.seller-page .header a[aria-current=page]{text-decoration:underline;text-underline-offset:6px}
+.seller-page main a:not(.button):hover{ text-decoration-thickness:2px }
+@media(max-width:1000px){.seller-hero-grid,.seller-situation-grid{gap:40px}.seller-card{padding:30px}.seller-card:last-child{grid-template-columns:46px 1fr 1.2fr;column-gap:20px}.seller-contact-panel{padding:30px;gap:30px}.seller-steps{gap:28px}}
+@media(max-width:760px){.seller-page .seller-section{padding:55px 24px}.seller-page .seller-hero{padding-top:42px;padding-bottom:0}.seller-hero-grid,.seller-situation-grid,.seller-review-note,.seller-contact-panel{grid-template-columns:1fr;gap:28px}.seller-page .seller-hero h1{font-size:clamp(49px,12.5vw,76px);margin-top:20px}.seller-intro p{font-size:17px}.seller-jump{margin-top:35px;gap:0 20px;padding:17px 0}.seller-jump span{width:100%;margin-bottom:7px}.seller-jump a{font-size:12px}.seller-card-grid{grid-template-columns:1fr}.seller-card{padding:30px 25px}.seller-card:last-child{display:block}.seller-card:last-child .seller-kicker{margin-top:25px}.seller-card:last-child>p:last-child{margin-top:20px}.seller-card h3{font-size:32px}.seller-section-head{margin-bottom:30px}.seller-section-head h2{font-size:40px}.seller-review-note{gap:16px}.seller-review-note h3{font-size:28px}.seller-situations .seller-section-head{margin-bottom:0}.seller-resources{gap:4px}.seller-resources a{font-size:12px}.seller-steps{grid-template-columns:1fr;gap:30px}.seller-steps h3{margin-top:16px;font-size:30px}.seller-contact-panel{padding:28px 24px;margin-top:42px}.seller-page .button{width:100%;gap:15px;text-align:left}.seller-collection .seller-container{display:block}.seller-collection .text-link{margin-top:25px}.seller-page .seller-collection{padding-top:45px;padding-bottom:45px}}
