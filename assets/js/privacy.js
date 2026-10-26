@@ -34,7 +34,15 @@
     el.dataset.optionalTracking = 'true'; document.head.append(el);
   }
   const propertyIds = new Set(['project-01','project-02','project-03','project-04','project-05','project-06','project-07','project-08','project-09']);
-  const pagePaths = new Set(['/', '/index.html', '/project-01.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...[...propertyIds].map(id => '/' + id + '.html')]);
+  // Exported routes may change without changing nonpersonal analytics IDs.
+  // A supplied map is authoritative: missing or invalid entries fail closed.
+  const propertyPaths = new Map([...propertyIds].map(id => {
+    const paths = config.propertyPaths;
+    const path = paths === undefined ? '/' + id + '.html' :
+      paths && typeof paths === 'object' && !Array.isArray(paths) && Object.hasOwn(paths, id) ? paths[id] : null;
+    return [id, typeof path === 'string' && /^\/[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(path) ? path : null];
+  }));
+  const pagePaths = new Set(['/', '/index.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...[...propertyPaths.values()].filter(Boolean)]);
   function safeGeneralContext() {
     return config.allowedHosts?.includes(location.hostname) && pagePaths.has(location.pathname) &&
       !location.search && (!location.hash || location.pathname === '/contact.html' && location.hash === '#meeting-location') &&
@@ -52,7 +60,7 @@
   function safeContext() { return safeGeneralContext() || safeInquiryContext(); }
   function currentProperty() {
     const id = document.body.dataset.home;
-    return propertyIds.has(id) && location.pathname === '/' + id + '.html' ? id : 'none';
+    return propertyIds.has(id) && location.pathname === propertyPaths.get(id) ? id : 'none';
   }
   function inquiryProperty() {
     const id = document.querySelector('#property-inquiry')?.elements.property.value;

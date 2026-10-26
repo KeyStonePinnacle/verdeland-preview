@@ -30,7 +30,7 @@ if(grid){
  }
 const pg=document.querySelector('#gallery-grid');
 if(pg){
- const key=document.body.dataset.home||new URLSearchParams(location.search).get('home');const h=homes.find(h=>h.id===key)||homes[0];document.title=`${h.title} — VerdeLand Home Builders`;document.querySelector('#property-name').textContent=h.title;document.querySelector('#property-town').hidden=true;const hero=document.querySelector('#property-hero');
+ const key=document.body.dataset.home||new URLSearchParams(location.search).get('home');const h=homes.find(h=>h.id===key)||homes[0];document.title=h.searchTitle;document.querySelector('#property-name').textContent=h.title;document.querySelector('#property-town').hidden=false;document.querySelector('#property-town').textContent=h.subtitle;const hero=document.querySelector('#property-hero');
  if(h.images.length){hero.src=h.images[0];hero.alt=h.photoDetails?.[0]?.alt||'Exterior of '+h.title;const detail=h.photoDetails?.[0];if(detail){hero.srcset=`${encodeURI(detail.thumbnail)} ${detail.thumbnailWidth}w, ${encodeURI(h.images[0])} ${detail.width}w`;hero.sizes='100vw';hero.width=detail.width;hero.height=detail.height;}hero.fetchPriority='high';}else{hero.removeAttribute('src');hero.hidden=true;}
  document.querySelector('#photo-count').textContent=h.images.length?h.images.length+' photographs':'Photography pending';document.querySelector('.pill').textContent=h.label;document.querySelector('#property-description').textContent=h.description;
  const note=document.querySelector('[data-photo-note]');if(note)note.textContent=h.photoNote||'';

@@ -1,11 +1,11 @@
-// Public town-only project catalog.
+// Approved public portfolio names; stable nonpersonal project identifiers.
 const homes = [
   {
     "id": "project-01",
-    "title": "Elmont, New York",
+    "title": "Elmont Modern Gables",
     "town": "Elmont",
     "label": "Available · confirmed Aug 2, 2026",
-    "url": "project-01.html",
+    "url": "elmont-ny-modern-gables.html",
     "images": [
       "assets/media/1522755d9dae8cdd464a5e14.webp",
       "assets/media/3479266586b3fda877bf3ebb.webp",
@@ -44,14 +44,16 @@ const homes = [
       "height": 800,
       "thumbnail": "assets/media/6b12812ff9dbbf2b2d2ca3b5.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "Elmont NY New Construction Home: Modern Gables | Verdeland",
+    "subtitle": "A new-construction project in Elmont, New York."
   },
   {
     "id": "project-02",
-    "title": "Elmont, New York",
+    "title": "Elmont Stone & Gable",
     "town": "Elmont",
     "label": "Available · confirmed Aug 2, 2026",
-    "url": "project-02.html",
+    "url": "elmont-ny-stone-gable.html",
     "images": [
       "assets/media/1d19ab0ee0bf133a0cf2c3ba.webp",
       "assets/media/1fc176461146db053946c498.webp",
@@ -90,14 +92,16 @@ const homes = [
       "height": 800,
       "thumbnail": "assets/media/43fdcc3d4f49236482148edc.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "Elmont NY New Construction Home: Stone & Gable | Verdeland",
+    "subtitle": "A new-construction project in Elmont, New York."
   },
   {
     "id": "project-03",
-    "title": "West Hempstead, New York",
+    "title": "West Hempstead Twin Gables",
     "town": "West Hempstead",
     "label": "Sold · Completed",
-    "url": "project-03.html",
+    "url": "west-hempstead-ny-twin-gables.html",
     "images": [
       "assets/media/e43cad94e76eb7ce62d7cdcc.webp",
       "assets/media/25f43753c3a0aad2e7cab814.webp",
@@ -224,14 +228,16 @@ const homes = [
       "height": 688,
       "thumbnail": "assets/media/e276882f70ae3152a033756a.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "West Hempstead NY New Construction Home: Twin Gables | Verdeland",
+    "subtitle": "A new-construction project in West Hempstead, New York."
   },
   {
     "id": "project-04",
-    "title": "West Hempstead, New York",
+    "title": "West Hempstead Modern Classic",
     "town": "West Hempstead",
     "label": "Completed home",
-    "url": "project-04.html",
+    "url": "west-hempstead-ny-modern-classic.html",
     "images": [
       "assets/media/5071f944cc3662df8f4d0634.webp",
       "assets/media/07b74764221b22ff91bd294f.webp",
@@ -379,14 +385,16 @@ const homes = [
       "thumbnail": "assets/media/153b1d6ac7fc83af737ff91c.webp",
       "thumbnailWidth": 760
     },
-    "walkthroughOnRequest": true
+    "walkthroughOnRequest": true,
+    "searchTitle": "West Hempstead NY New Construction Home: Modern Classic | Verdeland",
+    "subtitle": "A new-construction project in West Hempstead, New York."
   },
   {
     "id": "project-05",
-    "title": "Roosevelt, New York",
+    "title": "Roosevelt Sage & Stone",
     "town": "Roosevelt",
     "label": "Completed home",
-    "url": "project-05.html",
+    "url": "roosevelt-ny-sage-stone.html",
     "images": [
       "assets/media/a7c97da494004b5d22574e82.webp",
       "assets/media/efd72a2d2e46b68e17c12c24.webp",
@@ -533,14 +541,16 @@ const homes = [
       "height": 800,
       "thumbnail": "assets/media/dc3c4a5c3c687663724ac4a4.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "Roosevelt NY New Construction Home: Sage & Stone | Verdeland",
+    "subtitle": "A new-construction project in Roosevelt, New York."
   },
   {
     "id": "project-06",
-    "title": "Elmont, New York",
+    "title": "Elmont Stonefront Residence",
     "town": "Elmont",
     "label": "Completed home",
-    "url": "project-06.html",
+    "url": "elmont-ny-stonefront-residence.html",
     "images": [
       "assets/media/189c84f97180a5322e7e6a16.webp",
       "assets/media/74e0a2f3983b58e938c0671b.webp",
@@ -671,14 +681,16 @@ const homes = [
       "height": 800,
       "thumbnail": "assets/media/5980b313e428d86508c00172.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "Elmont NY New Construction Home: Stonefront Residence | Verdeland",
+    "subtitle": "A new-construction project in Elmont, New York."
   },
   {
     "id": "project-07",
-    "title": "West Hempstead, New York",
+    "title": "West Hempstead Porchside Home",
     "town": "West Hempstead",
     "label": "Completed home",
-    "url": "project-07.html",
+    "url": "west-hempstead-ny-porchside-home.html",
     "images": [
       "assets/media/d1a893773ba256695ffd26a0.webp",
       "assets/media/8b95e521e72abd24f98cc067.webp",
@@ -817,14 +829,16 @@ const homes = [
       "height": 636,
       "thumbnail": "assets/media/4e41aef6218dc88ce736b8c4.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "West Hempstead NY New Construction Home: Porchside | Verdeland",
+    "subtitle": "A new-construction project in West Hempstead, New York."
   },
   {
     "id": "project-08",
-    "title": "West Hempstead, New York",
+    "title": "West Hempstead Stone & Shingle",
     "town": "West Hempstead",
     "label": "Completed home",
-    "url": "project-08.html",
+    "url": "west-hempstead-ny-stone-shingle.html",
     "images": [
       "assets/media/a43d63f3bc4a71920d4aa9b5.webp",
       "assets/media/5f32a4b896512028c0c22f0b.webp",
@@ -971,14 +985,16 @@ const homes = [
       "height": 796,
       "thumbnail": "assets/media/af20a36a4c62de527eae94d1.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "West Hempstead NY New Construction Home: Stone & Shingle | Verdeland",
+    "subtitle": "A new-construction project in West Hempstead, New York."
   },
   {
     "id": "project-09",
-    "title": "Roosevelt, New York",
+    "title": "Roosevelt Stonefront Classic",
     "town": "Roosevelt",
     "label": "Completed home",
-    "url": "project-09.html",
+    "url": "roosevelt-ny-stonefront-classic.html",
     "images": [
       "assets/media/2d337dbf48f861ba5ed88985.webp",
       "assets/media/bf9f494a97746d259077e0f5.webp",
@@ -1117,6 +1133,8 @@ const homes = [
       "height": 800,
       "thumbnail": "assets/media/f24343e935ebc1d2e64481ac.webp",
       "thumbnailWidth": 760
-    }
+    },
+    "searchTitle": "Roosevelt NY New Construction Home: Stonefront Classic | Verdeland",
+    "subtitle": "A new-construction project in Roosevelt, New York."
   }
 ];

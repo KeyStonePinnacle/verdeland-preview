@@ -1,8 +1,13 @@
 (() => {
   'use strict';
+  const config = window.VERDE_PRIVACY_CONFIG || {};
   const propertyIds = new Set(['project-01','project-02','project-03','project-04','project-05','project-06','project-07','project-08','project-09']);
   const id = document.body.dataset.home;
-  const propertyId = propertyIds.has(id) && location.pathname === '/' + id + '.html' ? id : 'none';
+  const paths = config.propertyPaths;
+  const path = paths === undefined ? '/' + id + '.html' :
+    paths && typeof paths === 'object' && !Array.isArray(paths) && Object.hasOwn(paths, id) ? paths[id] : null;
+  const propertyId = propertyIds.has(id) && typeof path === 'string' &&
+    /^\/[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(path) && location.pathname === path ? id : 'none';
   let viewed = false;
   const lastClicks = new Map();
   function propertyView() {
