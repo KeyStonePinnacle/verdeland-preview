@@ -19,7 +19,7 @@
   document.addEventListener('click', event => {
     if (event.isTrusted === false || event.defaultPrevented) return;
     const href = event.target.closest?.('a[href]')?.getAttribute('href');
-    const method = href === 'tel:+15168076127' ? 'phone' :
+    const method = href === 'tel:+15167036942' ? 'phone' :
       href === 'mailto:info@verdelandhomebuilders.com' ? 'email' : null;
     if (!method) return;
     const now = Date.now(), previous = lastClicks.get(method);
