@@ -42,7 +42,27 @@
       paths && typeof paths === 'object' && !Array.isArray(paths) && Object.hasOwn(paths, id) ? paths[id] : null;
     return [id, typeof path === 'string' && /^\/[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(path) ? path : null];
   }));
-  const pagePaths = new Set(['/', '/index.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...[...propertyPaths.values()].filter(Boolean)]);
+  const modelPaths = [
+    '/nassau-county-new-construction.html',
+    '/model-elmont-r-street-model-a.html',
+    '/model-elmont-r-street-model-b.html',
+    '/model-elmont-hillsboro-ave.html',
+    '/model-west-hempstead-cleveland-st.html',
+    '/model-roosevelt-horace-ave.html',
+    '/model-west-hempstead-mahopac-ave-building-a.html',
+    '/model-west-hempstead-mahopac-ave-building-b.html'
+  ];
+  const pagePaths = new Set(['/', '/index.html', '/homes.html', '/why-verdeland.html', '/house-models.html', '/sell-your-property.html', '/contact.html', '/guides/new-construction-nassau-county.html', '/guides/new-home-warranties-new-york.html', ...modelPaths, ...[...propertyPaths.values()].filter(Boolean)]);
+  function referralOrigin() {
+    try {
+      const referrer = new URL(document.referrer);
+      if (!['https:', 'http:'].includes(referrer.protocol)) return '';
+      const host = referrer.hostname.replace(/\.$/, '');
+      if (host === 'verdelandhomebuilders.com' || host.endsWith('.verdelandhomebuilders.com')) return '';
+      // URL.origin excludes credentials, paths, query strings and fragments.
+      return referrer.origin + '/';
+    } catch { return ''; }
+  }
   function safeGeneralContext() {
     return config.allowedHosts?.includes(location.hostname) && pagePaths.has(location.pathname) &&
       !location.search && (!location.hash || location.pathname === '/contact.html' && location.hash === '#meeting-location') &&
@@ -149,8 +169,10 @@
       window.gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
       window.gtag('consent', 'update', {analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
       window.gtag('js', new Date());
-      window.gtag('config', config.gaId, {send_page_view:false, allow_google_signals:false, allow_ad_personalization_signals:false, cookie_expires:15552000, cookie_update:false, page_location:'https://www.verdelandhomebuilders.com' + (location.pathname === '/' ? '/index.html' : location.pathname), page_referrer:''});
-      window.gtag('event', 'page_view', {page_location:'https://www.verdelandhomebuilders.com' + (location.pathname === '/' ? '/index.html' : location.pathname), page_referrer:'', page_title:document.title});
+      const pageLocation = 'https://www.verdelandhomebuilders.com' + (location.pathname === '/' ? '/index.html' : location.pathname);
+      const pageReferrer = referralOrigin();
+      window.gtag('config', config.gaId, {send_page_view:false, allow_google_signals:false, allow_ad_personalization_signals:false, cookie_expires:15552000, cookie_update:false, page_location:pageLocation, page_referrer:pageReferrer});
+      window.gtag('event', 'page_view', {page_location:pageLocation, page_referrer:pageReferrer, page_title:document.title});
       script('https://www.googletagmanager.com/gtag/js?id=' + config.gaId);
     }
     if (analytics && gaLoaded) window.dispatchEvent(new Event('verdeland:analytics-ready'));
