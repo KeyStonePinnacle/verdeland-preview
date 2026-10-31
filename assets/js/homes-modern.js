@@ -568,12 +568,12 @@ const homes = [
     ],
     "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
     "cover": {
-      "alt": "Kitchen at Roosevelt, New York",
-      "width": 1800,
-      "height": 1200,
-      "thumbnail": "assets/media/e661b0c53e51b01d06b058e9.webp",
-      "thumbnailWidth": 760,
-      "src": "assets/media/158629e698b727ac92c81922.webp"
+      "src": "assets/media/580a658e082739874559fbb7.webp",
+      "alt": "Front view of Roosevelt, New York",
+      "width": 1200,
+      "height": 800,
+      "thumbnail": "assets/media/dc3c4a5c3c687663724ac4a4.webp",
+      "thumbnailWidth": 760
     },
     "searchTitle": "Horace Ave — Roosevelt NY Homes | Verdeland",
     "subtitle": "Nassau County · Roosevelt, New York",
