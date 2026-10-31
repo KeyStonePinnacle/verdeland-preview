@@ -28,7 +28,7 @@
  if (home.walkthroughOnRequest) {
   const el=make('section','section property-media');el.id='walkthrough';
   const heading=make('h2','','Ask about a walkthrough.');
-  const link=make('a','text-link','Contact us');link.href='contact.html#property-inquiry-section';
+  const link=make('a','text-link','Contact us');link.href='contact.html?property='+encodeURIComponent(home.id)+'#property-inquiry-section';
   el.append(heading,link);mount.append(el);
  }
  if (home.walkthrough?.embedUrl) {

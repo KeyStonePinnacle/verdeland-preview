@@ -68,11 +68,13 @@
       !location.search && (!location.hash || location.pathname === '/contact.html' && location.hash === '#meeting-location') &&
       !document.querySelector('form,[data-no-tracking]');
   }
+  const inquiryProjectIds = new Set(["project-01", "project-02", "project-03", "project-04", "project-05", "project-06", "project-07", "project-08", "project-09", "project-nassau"]);
+  const inquirySellerTypes = new Set(["estate_property", "foreclosure_sale", "selling_bungalow", "selling_land", "selling_older_home", "selling_oversized_lot", "selling_property", "selling_vacant_property", "short_sale"]);
   function safeInquiryContext() {
     if (!config.allowedHosts?.includes(location.hostname) || location.pathname !== '/contact.html' ||
         !['', '#property-inquiry-section', '#meeting-location'].includes(location.hash)) return false;
     const query = new URLSearchParams(location.search), entries = [...query];
-    if (entries.length && (entries.length !== 1 || entries[0][0] !== 'property' || !propertyIds.has(entries[0][1]))) return false;
+    if (entries.length && (entries.length !== 1 || !(entries[0][0] === 'property' && inquiryProjectIds.has(entries[0][1]) || entries[0][0] === 'inquiry' && inquirySellerTypes.has(entries[0][1])))) return false;
     const form = document.querySelector('#property-inquiry');
     return !!form && document.querySelectorAll('form').length === 1 &&
       [...document.querySelectorAll('[data-no-tracking]')].every(el => el.id === 'property-inquiry-section' && el.contains(form));
@@ -84,7 +86,7 @@
   }
   function inquiryProperty() {
     const id = document.querySelector('#property-inquiry')?.elements.property.value;
-    return id === '' ? 'none' : propertyIds.has(id) ? id : null;
+    return id === '' || inquiryProjectIds.has(id) ? 'none' : null;
   }
   function canMeasure() {
     return reconcileCollectors() && gaLoaded && config.gaEnabled === true && !window['ga-disable-' + config.gaId] &&

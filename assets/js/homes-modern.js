@@ -1,10 +1,33 @@
-// Approved public portfolio names; stable nonpersonal project identifiers.
+// Owner-approved collection names; neutral project IDs.
 const homes = [
   {
+    "id": "project-nassau",
+    "title": "Nassau County",
+    "featuredTitle": "Nassau County",
+    "town": "Nassau County",
+    "url": "nassau-county-coming-soon.html",
+    "label": "Coming soon",
+    "status": "coming-soon",
+    "images": [
+      "assets/nassau-coming-soon/profile.jpg"
+    ],
+    "cover": {
+      "src": "assets/nassau-coming-soon/profile.jpg",
+      "alt": "Nassau County — artist’s rendering",
+      "width": 1280,
+      "height": 853,
+      "thumbnail": "assets/nassau-coming-soon/profile.jpg",
+      "thumbnailWidth": 1280
+    },
+    "subtitle": "Spring 2027 anticipated · Artist’s rendering",
+    "searchTitle": "Nassau County Coming Home · Spring 2027 | Verdeland",
+    "rendering": true
+  },
+  {
     "id": "project-01",
-    "title": "Elmont Modern Gables",
+    "title": "R Street · Grand Gables",
     "town": "Elmont",
-    "label": "Available · confirmed Aug 2, 2026",
+    "label": "Availability awaiting confirmation",
     "url": "elmont-ny-modern-gables.html",
     "images": [
       "assets/media/1522755d9dae8cdd464a5e14.webp",
@@ -12,7 +35,7 @@ const homes = [
       "assets/media/1421eee432791d88794673b2.webp"
     ],
     "plans": [],
-    "description": "A Verdeland Homes project in Elmont. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
+    "description": "Explore Elmont R Street · Grand Gables: property photographs and the linked Elmont Modern Gables model, with a five-bedroom layout, first-floor bedroom and upstairs laundry. Ask for current property details.",
     "photoDetails": [
       {
         "alt": "Front exterior of Elmont, New York",
@@ -45,14 +68,17 @@ const homes = [
       "thumbnail": "assets/media/6b12812ff9dbbf2b2d2ca3b5.webp",
       "thumbnailWidth": 760
     },
-    "searchTitle": "Elmont NY New Construction Home: Modern Gables | Verdeland",
-    "subtitle": "A new-construction project in Elmont, New York."
+    "searchTitle": "R Street · Grand Gables — Elmont NY Homes | Verdeland",
+    "subtitle": "Nassau County · Elmont, New York",
+    "featuredTitle": "Elmont Modern Gables",
+    "modelUrl": "model-elmont-r-street-model-b.html",
+    "modelName": "Elmont Modern Gables"
   },
   {
     "id": "project-02",
-    "title": "Elmont Stone & Gable",
+    "title": "R Street · Stonefront Colonial",
     "town": "Elmont",
-    "label": "Available · confirmed Aug 2, 2026",
+    "label": "Availability awaiting confirmation",
     "url": "elmont-ny-stone-gable.html",
     "images": [
       "assets/media/1d19ab0ee0bf133a0cf2c3ba.webp",
@@ -60,7 +86,7 @@ const homes = [
       "assets/media/ed48870f193a8d87e83bee3b.webp"
     ],
     "plans": [],
-    "description": "A Verdeland Homes project in Elmont. Contact us for current availability, pricing, and specifications. The displayed status was last confirmed on August 2, 2026.",
+    "description": "Explore Elmont R Street · Stonefront Colonial: property photographs and the linked Elmont Stone & Gable model, with a four-bedroom layout, attached garage and upstairs laundry. Ask for current property details.",
     "photoNote": "Exterior views of Elmont, New York. Contact us for current project details.",
     "photoDetails": [
       {
@@ -93,8 +119,11 @@ const homes = [
       "thumbnail": "assets/media/43fdcc3d4f49236482148edc.webp",
       "thumbnailWidth": 760
     },
-    "searchTitle": "Elmont NY New Construction Home: Stone & Gable | Verdeland",
-    "subtitle": "A new-construction project in Elmont, New York."
+    "searchTitle": "R Street · Stonefront Colonial — Elmont NY Homes | Verdeland",
+    "subtitle": "Nassau County · Elmont, New York",
+    "featuredTitle": "Elmont Stone & Gable",
+    "modelUrl": "model-elmont-r-street-model-a.html",
+    "modelName": "Elmont Stone & Gable"
   },
   {
     "id": "project-03",
@@ -230,11 +259,12 @@ const homes = [
       "thumbnailWidth": 760
     },
     "searchTitle": "West Hempstead NY New Construction Home: Twin Gables | Verdeland",
-    "subtitle": "A new-construction project in West Hempstead, New York."
+    "subtitle": "Nassau County · West Hempstead, New York",
+    "featuredTitle": "West Hempstead Twin Gables"
   },
   {
     "id": "project-04",
-    "title": "West Hempstead Modern Classic",
+    "title": "Cleveland St",
     "town": "West Hempstead",
     "label": "Completed home",
     "url": "west-hempstead-ny-modern-classic.html",
@@ -386,12 +416,15 @@ const homes = [
       "thumbnailWidth": 760
     },
     "walkthroughOnRequest": true,
-    "searchTitle": "West Hempstead NY New Construction Home: Modern Classic | Verdeland",
-    "subtitle": "A new-construction project in West Hempstead, New York."
+    "searchTitle": "Cleveland St — West Hempstead NY Homes | Verdeland",
+    "subtitle": "Nassau County · West Hempstead, New York",
+    "featuredTitle": "West Hempstead Modern Classic",
+    "modelUrl": "model-west-hempstead-cleveland-st.html",
+    "modelName": "West Hempstead Modern Classic"
   },
   {
     "id": "project-05",
-    "title": "Roosevelt Sage & Stone",
+    "title": "Horace Ave",
     "town": "Roosevelt",
     "label": "Completed home",
     "url": "roosevelt-ny-sage-stone.html",
@@ -535,19 +568,22 @@ const homes = [
     ],
     "photoNote": "Photographs show the property when taken. Contact us for its current condition and availability.",
     "cover": {
-      "src": "assets/media/580a658e082739874559fbb7.webp",
-      "alt": "Front view of Roosevelt, New York",
-      "width": 1200,
-      "height": 800,
-      "thumbnail": "assets/media/dc3c4a5c3c687663724ac4a4.webp",
-      "thumbnailWidth": 760
+      "alt": "Kitchen at Roosevelt, New York",
+      "width": 1800,
+      "height": 1200,
+      "thumbnail": "assets/media/e661b0c53e51b01d06b058e9.webp",
+      "thumbnailWidth": 760,
+      "src": "assets/media/158629e698b727ac92c81922.webp"
     },
-    "searchTitle": "Roosevelt NY New Construction Home: Sage & Stone | Verdeland",
-    "subtitle": "A new-construction project in Roosevelt, New York."
+    "searchTitle": "Horace Ave — Roosevelt NY Homes | Verdeland",
+    "subtitle": "Nassau County · Roosevelt, New York",
+    "featuredTitle": "Roosevelt Sage & Stone",
+    "modelUrl": "model-roosevelt-horace-ave.html",
+    "modelName": "Roosevelt Sage & Stone"
   },
   {
     "id": "project-06",
-    "title": "Elmont Stonefront Residence",
+    "title": "Hillsboro Ave",
     "town": "Elmont",
     "label": "Completed home",
     "url": "elmont-ny-stonefront-residence.html",
@@ -682,12 +718,15 @@ const homes = [
       "thumbnail": "assets/media/5980b313e428d86508c00172.webp",
       "thumbnailWidth": 760
     },
-    "searchTitle": "Elmont NY New Construction Home: Stonefront Residence | Verdeland",
-    "subtitle": "A new-construction project in Elmont, New York."
+    "searchTitle": "Hillsboro Ave — Elmont NY Homes | Verdeland",
+    "subtitle": "Nassau County · Elmont, New York",
+    "featuredTitle": "Elmont Stonefront Residence",
+    "modelUrl": "model-elmont-hillsboro-ave.html",
+    "modelName": "Elmont Stonefront Residence"
   },
   {
     "id": "project-07",
-    "title": "West Hempstead Porchside Home",
+    "title": "Mahopac · White Gable Colonial",
     "town": "West Hempstead",
     "label": "Completed home",
     "url": "west-hempstead-ny-porchside-home.html",
@@ -830,12 +869,15 @@ const homes = [
       "thumbnail": "assets/media/4e41aef6218dc88ce736b8c4.webp",
       "thumbnailWidth": 760
     },
-    "searchTitle": "West Hempstead NY New Construction Home: Porchside | Verdeland",
-    "subtitle": "A new-construction project in West Hempstead, New York."
+    "searchTitle": "Mahopac · White Gable Colonial — West Hempstead NY Homes | Verdeland",
+    "subtitle": "Nassau County · West Hempstead, New York",
+    "featuredTitle": "West Hempstead Porchside Home",
+    "modelUrl": "model-west-hempstead-mahopac-ave-building-b.html",
+    "modelName": "West Hempstead Porchside Home"
   },
   {
     "id": "project-08",
-    "title": "West Hempstead Stone & Shingle",
+    "title": "Mahopac · Shinglewood Colonial",
     "town": "West Hempstead",
     "label": "Completed home",
     "url": "west-hempstead-ny-stone-shingle.html",
@@ -986,8 +1028,11 @@ const homes = [
       "thumbnail": "assets/media/af20a36a4c62de527eae94d1.webp",
       "thumbnailWidth": 760
     },
-    "searchTitle": "West Hempstead NY New Construction Home: Stone & Shingle | Verdeland",
-    "subtitle": "A new-construction project in West Hempstead, New York."
+    "searchTitle": "Mahopac · Shinglewood Colonial — West Hempstead NY Homes | Verdeland",
+    "subtitle": "Nassau County · West Hempstead, New York",
+    "featuredTitle": "West Hempstead Stone & Shingle",
+    "modelUrl": "model-west-hempstead-mahopac-ave-building-a.html",
+    "modelName": "West Hempstead Stone & Shingle"
   },
   {
     "id": "project-09",
@@ -1135,6 +1180,7 @@ const homes = [
       "thumbnailWidth": 760
     },
     "searchTitle": "Roosevelt NY New Construction Home: Stonefront Classic | Verdeland",
-    "subtitle": "A new-construction project in Roosevelt, New York."
+    "subtitle": "Nassau County · Roosevelt, New York",
+    "featuredTitle": "Roosevelt Stonefront Classic"
   }
 ];

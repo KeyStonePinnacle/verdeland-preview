@@ -7,7 +7,28 @@
   let challenge, pendingChallenge, sending = false, started = false;
   const fields = ['name','email','phone','inquiryType','message'];
   // Exact allowlist is also enforced on the server; never send this choice to analytics.
-  const inquiryTypes = ['general','buying_home','upcoming_projects','selling_land','selling_older_home','selling_bungalow','selling_oversized_lot','selling_vacant_property','estate_property','foreclosure_sale','short_sale'];
+  const inquiryTypes = ['general','selling_property','buying_home','upcoming_projects','selling_land','selling_older_home','selling_bungalow','selling_oversized_lot','selling_vacant_property','estate_property','foreclosure_sale','short_sale'];
+  // Context is an exact public identifier, never a submitted title or address.
+  const projectNames = Object.freeze({"project-01": "R Street · Grand Gables", "project-02": "R Street · Stonefront Colonial", "project-03": "West Hempstead Twin Gables", "project-04": "Cleveland St", "project-05": "Horace Ave", "project-06": "Hillsboro Ave", "project-07": "Mahopac · White Gable Colonial", "project-08": "Mahopac · Shinglewood Colonial", "project-09": "Roosevelt Stonefront Classic", "project-nassau": "Nassau County"});
+  const sellerTypes = new Set(["estate_property", "foreclosure_sale", "selling_bungalow", "selling_land", "selling_older_home", "selling_oversized_lot", "selling_property", "selling_vacant_property", "short_sale"]);
+  const params = new URLSearchParams(location.search);
+  const keys = [...params.keys()];
+  const propertyParam = params.get('property');
+  const inquiryParam = params.get('inquiry');
+  const validProperty = keys.length === 1 && keys[0] === 'property' && Object.hasOwn(projectNames, propertyParam);
+  const validSeller = keys.length === 1 && keys[0] === 'inquiry' && sellerTypes.has(inquiryParam);
+  const selectedProperty = validProperty ? propertyParam : '';
+  const initialType = validProperty ? 'buying_home' : validSeller ? inquiryParam : 'general';
+  const contextLabel = document.querySelector('#inquiry-project-context');
+  function applyContext() {
+    form.elements.property.value = selectedProperty;
+    form.elements.inquiryType.value = initialType;
+    if (contextLabel) {
+      contextLabel.textContent = selectedProperty ? 'Your inquiry is about: ' + projectNames[selectedProperty] : '';
+      contextLabel.hidden = !selectedProperty;
+    }
+  }
+  applyContext();
   // Keep these input rules aligned with lib/inquiry-handler.mjs.
   const fieldLimits = {name:120,email:254,phone:40,inquiryType:40,message:4000};
   const singleLineControl = /[\u0000-\u001f\u007f-\u009f]/;
@@ -83,7 +104,7 @@
     const recordAcceptance = window.VerdeAnalytics?.beginInquirySubmission('none');
     try {
       const session = await getChallenge();
-      const payload = {token:session.token, property:'', website:form.elements.website.value};
+      const payload = {token:session.token, property:selectedProperty, website:form.elements.website.value};
       fields.forEach(name => { payload[name] = form.elements[name].value.trim(); });
       const response = await fetch('/api/inquiry', {method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Verde-Inquiry':'1'},body:JSON.stringify(payload),signal:AbortSignal.timeout(20000)});
       const result = await response.json();
@@ -96,7 +117,7 @@
       }
       status.textContent = 'Your inquiry was accepted by our email service for delivery to info@verdelandhomebuilders.com. Thank you.';
       recordAcceptance?.(result.receipt);
-      form.reset(); challenge = null; started = false;
+      form.reset(); applyContext(); challenge = null; started = false;
       fields.forEach(name => { form.elements[name].removeAttribute('aria-invalid'); document.querySelector('#error-' + name).textContent = ''; });
     } catch (error) {
       status.textContent = error.message === 'unavailable' || error instanceof TypeError || error instanceof SyntaxError || error.name === 'TimeoutError'

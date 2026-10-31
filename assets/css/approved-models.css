@@ -1,0 +1,20 @@
+/* Owner-approved rendering-only model overview. */
+.models-overview-intro{padding:30px 4.5% 26px}
+.models-overview-intro h1{font-size:clamp(46px,5vw,68px);margin:12px 0 16px;line-height:1.08}
+.models-overview-intro>p:last-child{font-size:15px;color:var(--muted);max-width:640px}
+.model-preview-list{padding:0 4.5% 70px}
+.model-preview{display:grid;grid-template-columns:1.12fr 1fr;gap:44px;align-items:center;padding:32px 0 42px;border-bottom:1px solid var(--line)}
+.model-preview:first-child{padding-top:0}
+.model-preview-image{display:block;position:relative;background:#e9ecdf}
+.model-preview-image img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+.model-preview-copy h2{font-size:clamp(32px,3.4vw,48px);margin:14px 0 20px}
+.model-preview-copy>p:not(.eyebrow){font-size:14px;color:var(--muted)}
+.model-preview-actions{display:flex;flex-wrap:wrap;gap:15px 24px;margin-top:24px;align-items:center}
+.model-preview-actions .button{gap:20px;line-height:1.5}
+.model-preview-actions .text-link{gap:20px}
+.model-preview-copy .model-note{margin-top:18px}
+.model-coming-badge{position:absolute;top:16px;left:16px;background:#f6f5ef;color:#18402b;padding:8px 12px;font-size:11px;line-height:1.5}
+.model-profile-return{display:flex;flex-wrap:wrap;gap:12px 28px;margin:0 0 22px}
+.model-profile-return a{display:inline-flex;align-items:center;min-height:44px;border-bottom:1px solid currentColor;font-size:13px;color:#18402b}
+@media(max-width:850px){.model-preview{grid-template-columns:1fr;gap:24px;padding:32px 0}.model-preview-copy h2{font-size:38px}}
+@media(max-width:760px){.intro.models-overview-intro{padding:26px 24px}.intro.models-overview-intro h1{font-size:48px;margin:12px 0 14px}.models-overview-intro>p:last-child{font-size:14px}.model-preview-list{padding:0 24px 45px}.model-preview{gap:22px;padding-bottom:34px}.model-preview-copy h2{font-size:34px;margin:12px 0 16px}.model-preview-actions{display:block;margin-top:20px}.model-preview-actions .button{width:100%}.model-preview-actions .text-link{margin-top:10px}}

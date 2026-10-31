@@ -13,11 +13,12 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="stylesheet" href="assets/css/privacy-inquiry.css?v=20261021">
 <script defer src="assets/js/privacy-config.js?v=20261031-analytics"></script>
-<script defer src="assets/js/privacy.js?v=20261031-analytics"></script>
+<script defer src="assets/js/privacy.js?v=20261031-context"></script>
 <script defer src="assets/js/analytics-events.js?v=20261031-analytics"></script>
 <link rel="stylesheet" href="/assets/css/refined-icons.css?v=20261022-sticky">
 <script defer src="/assets/js/refined-icons.js?v=20261022"></script>
 <link rel="stylesheet" href="/assets/css/property-privacy.css?v=20261022">
+<link rel="stylesheet" href="/assets/css/approved-presentation.css?v=20261031-approved">
 <link rel="canonical" href="https://www.verdelandhomebuilders.com/contact.html">
 <meta name="description" content="Contact Verdeland Homes about buying a home, upcoming projects or a property you’re thinking of selling. Choose an inquiry type and send your question.">
 </head>
@@ -69,6 +70,7 @@
 <div class="inquiry-layout"><div><p class="eyebrow">PROPERTY INQUIRIES</p><h2 id="inquiry-title">How can we help?</h2><p>Ask about a home, an upcoming project or a property you’re thinking of selling. Your inquiry goes to info@verdelandhomebuilders.com.</p><p class="inquiry-note">You can also <a href="mailto:info@verdelandhomebuilders.com">email Verdeland Homes directly</a>.</p></div>
 <form class="inquiry-form" id="property-inquiry" action="/api/inquiry" method="post" novalidate data-clarity-mask="true">
 <input id="inquiry-property" type="hidden" name="property" value="">
+<p class="inquiry-note" id="inquiry-project-context" hidden></p>
 <div class="inquiry-field"><label for="inquiry-name">Name (required)</label><input id="inquiry-name" name="name" autocomplete="name" maxlength="120" required aria-describedby="error-name"><p class="inquiry-error" id="error-name"></p></div>
 <div class="inquiry-field"><label for="inquiry-email">Email (required)</label><input id="inquiry-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="error-email"><p class="inquiry-error" id="error-email"></p></div>
 <div class="inquiry-field"><label for="inquiry-phone">Phone (required)</label><input id="inquiry-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" required aria-describedby="error-phone"><p class="inquiry-error" id="error-phone"></p></div>
@@ -79,6 +81,7 @@
 <option value="upcoming_projects">Upcoming homes and projects</option>
 </optgroup>
 <optgroup label="A property I’m thinking of selling">
+<option value="selling_property">Selling a property</option>
 <option value="selling_land">Selling vacant land</option>
 <option value="selling_older_home">Selling an older home</option>
 <option value="selling_bungalow">Selling a bungalow</option>
@@ -138,10 +141,10 @@
 </div>
 <div class="privacy-links"><a href="privacy.html">Privacy</a><button type="button" data-preferences>Cookie preferences</button></div>
 </footer>
-<script src="assets/js/homes-modern.js?v=20261031-analytics">
+<script src="assets/js/homes-modern.js?v=20261031-approved">
 </script>
-<script src="assets/js/site-modern.js?v=20261031-analytics">
+<script src="assets/js/site-modern.js?v=20261031-approved">
 </script>
-<script src="assets/js/inquiry.js?v=20261022-type"></script>
+<script src="assets/js/inquiry.js?v=20261031-context"></script>
 </body>
 </html>
