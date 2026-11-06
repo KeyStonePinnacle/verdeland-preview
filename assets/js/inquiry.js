@@ -9,7 +9,7 @@
   // Exact allowlist is also enforced on the server; never send this choice to analytics.
   const inquiryTypes = ['general','selling_property','buying_home','upcoming_projects','selling_land','selling_older_home','selling_bungalow','selling_oversized_lot','selling_vacant_property','estate_property','foreclosure_sale','short_sale'];
   // Context is an exact public identifier, never a submitted title or address.
-  const projectNames = Object.freeze({"project-01": "R Street · Grand Gables", "project-02": "R Street · Stonefront Colonial", "project-03": "West Hempstead Twin Gables", "project-04": "Cleveland St", "project-05": "Horace Ave", "project-06": "Hillsboro Ave", "project-07": "Mahopac · White Gable Colonial", "project-08": "Mahopac · Shinglewood Colonial", "project-09": "Roosevelt Stonefront Classic", "project-nassau": "Nassau County"});
+  const projectNames = Object.freeze({"project-01": "R Street · Grand Gables", "project-02": "R Street · Stonefront Colonial", "project-03": "West Hempstead Twin Gables", "project-04": "Cleveland St", "project-05": "Horace Ave", "project-06": "Hillsboro Ave", "project-07": "Mahopac · White Gable Colonial", "project-08": "Mahopac · Shinglewood Colonial", "project-09": "Roosevelt Stonefront Classic", "project-nassau": "Remson - Nassau County", "project-henry": "Henry St - Nassau County"});
   const sellerTypes = new Set(["estate_property", "foreclosure_sale", "selling_bungalow", "selling_land", "selling_older_home", "selling_oversized_lot", "selling_property", "selling_vacant_property", "short_sale"]);
   const params = new URLSearchParams(location.search);
   const keys = [...params.keys()];

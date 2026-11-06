@@ -1,0 +1,8 @@
+/* Owner-approved Henry/Remson release: existing Nassau template. */
+.henry-property .approved-property-intro h1,.henry-model .showcase-intro h1{max-width:22ch;overflow-wrap:break-word}
+.henry-property .approved-property-image img{aspect-ratio:3/2;object-fit:contain}
+.henry-model .showcase-facts dd{overflow-wrap:break-word}
+.henry-model .showcase-plans a,.henry-property .showcase-plans a{min-height:44px}
+.henry-model .showcase-plans img,.henry-property .showcase-plans img{object-fit:contain}
+.approved-henry h2{overflow-wrap:break-word}
+@media(max-width:700px){.henry-model .showcase-facts{grid-template-columns:1fr}.henry-model .showcase-facts>div{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.henry-model .showcase-facts dd{font-size:26px;margin:0}.henry-property .approved-property-intro h1,.henry-model .showcase-intro h1{font-size:44px}}

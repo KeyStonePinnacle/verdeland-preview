@@ -44,6 +44,7 @@
   }));
   const modelPaths = [
     '/nassau-county-new-construction.html',
+    '/model-roosevelt-henry-st.html',
     '/model-elmont-r-street-model-a.html',
     '/model-elmont-r-street-model-b.html',
     '/model-elmont-hillsboro-ave.html',
@@ -68,7 +69,7 @@
       !location.search && (!location.hash || location.pathname === '/contact.html' && location.hash === '#meeting-location') &&
       !document.querySelector('form,[data-no-tracking]');
   }
-  const inquiryProjectIds = new Set(["project-01", "project-02", "project-03", "project-04", "project-05", "project-06", "project-07", "project-08", "project-09", "project-nassau"]);
+  const inquiryProjectIds = new Set(["project-01", "project-02", "project-03", "project-04", "project-05", "project-06", "project-07", "project-08", "project-09", "project-nassau", "project-henry"]);
   const inquirySellerTypes = new Set(["estate_property", "foreclosure_sale", "selling_bungalow", "selling_land", "selling_older_home", "selling_oversized_lot", "selling_property", "selling_vacant_property", "short_sale"]);
   function safeInquiryContext() {
     if (!config.allowedHosts?.includes(location.hostname) || location.pathname !== '/contact.html' ||

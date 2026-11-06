@@ -1,9 +1,34 @@
 // Owner-approved collection names; neutral project IDs.
 const homes = [
   {
+    "id": "project-henry",
+    "title": "Henry St - Nassau County",
+    "featuredTitle": "Henry St - Nassau County",
+    "town": "Roosevelt",
+    "url": "henry-street-coming-soon.html",
+    "label": "Coming soon",
+    "status": "coming-soon",
+    "images": [
+      "assets/henry-street/profile.png?v=eabdfa4825ef"
+    ],
+    "cover": {
+      "src": "assets/henry-street/profile.png?v=eabdfa4825ef",
+      "alt": "Henry St - Nassau County — artist’s rendering",
+      "width": 1536,
+      "height": 1024,
+      "thumbnail": "assets/henry-street/profile.png?v=eabdfa4825ef",
+      "thumbnailWidth": 1536
+    },
+    "subtitle": "Roosevelt, New York · Artist’s rendering",
+    "searchTitle": "Henry St - Nassau County · Coming Soon | Verdeland Homes",
+    "rendering": true,
+    "modelUrl": "model-roosevelt-henry-st.html",
+    "modelName": "Henry St - Nassau County"
+  },
+  {
     "id": "project-nassau",
-    "title": "Nassau County",
-    "featuredTitle": "Nassau County",
+    "title": "Remson - Nassau County",
+    "featuredTitle": "Remson - Nassau County",
     "town": "Nassau County",
     "url": "nassau-county-coming-soon.html",
     "label": "Coming soon",
@@ -13,14 +38,14 @@ const homes = [
     ],
     "cover": {
       "src": "assets/nassau-coming-soon/profile.jpg",
-      "alt": "Nassau County — artist’s rendering",
+      "alt": "Remson - Nassau County — artist’s rendering",
       "width": 1280,
       "height": 853,
       "thumbnail": "assets/nassau-coming-soon/profile.jpg",
       "thumbnailWidth": 1280
     },
     "subtitle": "Spring 2027 anticipated · Artist’s rendering",
-    "searchTitle": "Nassau County Coming Home · Spring 2027 | Verdeland",
+    "searchTitle": "Remson - Nassau County · Coming Soon | Verdeland Homes",
     "rendering": true
   },
   {
